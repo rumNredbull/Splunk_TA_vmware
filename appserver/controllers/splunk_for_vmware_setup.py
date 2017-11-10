@@ -1,10 +1,12 @@
-# Copyright (C) 2005-2016 Splunk Inc. All Rights Reserved.
+# Copyright (C) 2005-2017 Splunk Inc. All Rights Reserved.
 #Core Python Imports
 import sys
 import logging, logging.handlers
 import re
 from httplib2 import ServerNotFoundError
 import socket, time
+import cgi
+import json
 
 #CherryPy Web Controller Imports 
 import cherrypy
@@ -25,7 +27,7 @@ from splunk.models.app import App
 sys.path.append(make_splunkhome_path(['etc', 'apps', 'SA-Hydra', 'bin']))
 sys.path.append(make_splunkhome_path(['etc', 'apps', 'Splunk_TA_vmware', 'bin']))
 from hydra.models import HydraNodeStanza, SplunkStoredCredential
-from ta_vmware.models import TAVMwareCollectionStanza, TAVMwareVCenterForwarderStanza, TAVMwareSyslogForwarderStanza
+from ta_vmware.models import TAVMwareCollectionStanza, TAVMwareVCenterForwarderStanza, TAVMwareSyslogForwarderStanza, SSLCertificate
 import ta_vmware.simple_vsphere_utils as vsu
 
 #CONSTANTS
@@ -70,11 +72,14 @@ def isValidAdmin(user=None, session_key=None):
 		logger.info('Current user roles: %s' % roles)
 	
 		if 'splunk_vmware_admin' in roles:
-			logger.info('Current user is a valid admin, returning True')
-			return True
+			logger.info('Current user is a valid vmware admin, returning splunk_vmware_admin role')
+			return "splunk_vmware_admin"
+		elif 'admin' in roles:
+			logger.info('Current user is a Splunk admin, returning admin role')
+			return "admin"
 		else:
-			logger.info('Current user is NOT a valid admin, returning False')
-			return False
+			logger.info('Current user is NOT a valid admin, returning None')
+			return None
 	except Exception as e:
 		logger.error("Failed to get role information, Exception: %s " % e)
 		return False
@@ -172,13 +177,22 @@ def splunk_rest_request(path, sessionKey=None, getargs=None, postargs=None, meth
 		logger.debug('splunk_rest_request > %s %s [%s] sessionSource=%s' % (method, uri, logpayload, sessionSource))
 		t1 = time.time()
 
+	# Certificate validation status from ta_vmware_config_ssl.conf
+	local_session_key = cherrypy.session['sessionKey']
+	stanzas = SSLCertificate.all(sessionKey=local_session_key)
+	cert_validation = not stanzas[0].validate_ssl_certificate
+	if cert_validation:
+		logger.info("SSL certificate validation disabled for collection configuration")
+	else:
+		logger.info("SSL certificate validation enabled for collection configuration")
+
 	# Add wait and tries to check if the HTTP server is up and running
 	tries = 4
 	wait = 10
 	try:
 		import httplib2
 		for aTry in range(tries):
-			h = httplib2.Http(timeout=timeout, disable_ssl_certificate_validation=True)
+			h = httplib2.Http(timeout=timeout, disable_ssl_certificate_validation=cert_validation)
 			serverResponse, serverContent = h.request(uri, method, headers=headers, body=payload)
 			if serverResponse == None:
 				if aTry < tries:
@@ -1556,7 +1570,102 @@ class splunk_for_vmware_setup(controllers.BaseController):
 					logger.error("Could not delete obsolete credential it may linger")
 			if not host_stanza.passive_delete():
 				raise VMwareSetupError(status="500", message="Failed to delete vc collection stanza={0}".format(str(host_stanza)))
-	
+
+	@route('/:app/:action=save_collection')
+	@expose_page(must_login=True, methods=['POST'])
+	def save_collection(self, *args, **kwargs):
+		"""
+		save collection configuration in default stanza of ta_vmware_collection.conf
+		"""
+
+		deployment_type = kwargs.get("deployment_type", "none")
+		task = kwargs.get("task[]", [])
+		interval_dict = json.loads(kwargs.get("interval", ""))
+		expiration_dict = json.loads(kwargs.get("expiration", ""))
+		collection_instance_dict = json.loads(kwargs.get("collection_instance_list", ""))
+
+		local_session_key = cherrypy.session["sessionKey"]
+
+		stanza_dict = {}
+
+		stanza_dict["deployment_type"] = deployment_type
+
+		task_all = ["hostvmperf", "otherperf", "hierarchyinv", "hostinv", "vminv", "clusterinv", "datastoreinv",
+					"rpinv", "task", "event"]
+
+		if type(task) is not list:
+			task = [task]
+
+		stanza_dict['task'] = ', '.join(task)
+
+		for key in interval_dict.keys():
+			stanza_dict[key] = interval_dict[key]
+		for key in expiration_dict.keys():
+			stanza_dict[key] = expiration_dict[key]
+
+		collection_instance_value = {0: "", 1: ".*"}
+
+		for key in collection_instance_dict.keys():
+			stanza_dict[key] = collection_instance_value[collection_instance_dict[key]]
+
+		try:
+			logger.info("Saving collection configuration, new configuration : {0}".format(stanza_dict))
+			r = rest.simpleRequest(
+				"/servicesNS/nobody/Splunk_TA_vmware/properties/ta_vmware_collection/default/?outputmode=json",
+				local_session_key, postargs=stanza_dict, method="POST")
+			logger.info("status of save attempt : {0}".format(r[0].get("status", "unknown")))
+		except Exception as e:
+			logger.error(str(e))
+
+	@route('/:app/:action=get_collection')
+	@expose_page(must_login=True, methods=['GET'])
+	def get_collection(self, *args, **kwargs):
+		"""
+		get collection configuration from default stanza of ta_vmware_collection.conf
+		"""
+
+		local_session_key = cherrypy.session["sessionKey"]
+		default_stanza = TAVMwareCollectionStanza("Splunk_TA_vmware", "nobody", "default",
+												  sessionKey=local_session_key, host_path=local_host_path)
+
+		default_dict = {}
+		task_all = ["hostvmperf", "otherperf", "hierarchyinv", "hostinv", "vminv", "clusterinv", "datastoreinv",
+					"rpinv", "task", "event"]
+		interval_list = []
+		expiration_list = []
+
+		collection_instance_dict = {"": "false", ".*": "true"}
+
+		default_dict["deployment_type"] = default_stanza.deployment_type
+		default_dict["task"] = default_stanza.task
+
+		try:
+			error_check = default_stanza.host_instance_whitelist[0]
+		except:
+			default_stanza.host_instance_whitelist = [""]
+
+		try:
+			error_check = default_stanza.vm_instance_whitelist[0]
+		except:
+			default_stanza.vm_instance_whitelist = [""]
+
+		try:
+			for i in range(len(task_all)):
+				interval_list.append(getattr(default_stanza, task_all[i] + "_interval"))
+				expiration_list.append(getattr(default_stanza, task_all[i] + "_expiration"))
+
+			default_dict["collection_instance_list"] = [
+				collection_instance_dict.get(default_stanza.host_instance_whitelist[0], "true"),
+				collection_instance_dict.get(default_stanza.vm_instance_whitelist[0], "true")]
+		except Exception as e:
+			logger.error(str(e))
+
+		default_dict["interval_list"] = interval_list
+		default_dict["expiration_list"] = expiration_list
+
+		return self.render_json(default_dict)
+
+
 	#===========================================================================
 	# UTILITY METHODS
 	#===========================================================================
@@ -1648,6 +1757,12 @@ class splunk_for_vmware_setup(controllers.BaseController):
 		conf_data["vcenters"] = vcenters
 		conf_data["unmanaged_hosts"] = unmanaged_hosts
 		conf_data["parse_errors"] = parse_errors
+		
+		#To prevent Cross-Site Scripting, escaping '<','>' and '&' characters 
+		for node in conf_data["nodes"]:
+			node["username"] = cgi.escape(node["username"])
+		for vcenter in conf_data["vcenters"]:
+			vcenter["username"] = cgi.escape(vcenter["username"])
 		
 		return conf_data
 	

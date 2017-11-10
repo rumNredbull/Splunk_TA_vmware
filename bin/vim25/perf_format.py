@@ -1,4 +1,4 @@
-# Copyright (C) 2005-2016 Splunk Inc. All Rights Reserved.
+# Copyright (C) 2005-2017 Splunk Inc. All Rights Reserved.
 COUNTER_FQNAMES_BY_GROUP = {'clusterServices': ['latest_clusterServices_cpufairness_number',
                      'average_clusterServices_effectivecpu_megaHertz',
                      'average_clusterServices_effectivemem_megaBytes',

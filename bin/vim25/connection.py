@@ -1,4 +1,4 @@
-# Copyright (C) 2005-2016 Splunk Inc. All Rights Reserved.
+# Copyright (C) 2005-2017 Splunk Inc. All Rights Reserved.
 #Core Python imports
 import cookielib
 
@@ -68,9 +68,9 @@ class Connection(object):
 			logger.debug("[Connection] Time returned properly.")
 			return True
 		except Exception as e:
-			logger.error("[Connection] I can't check the time.  Exception below.  Returning False on valid session. Killing all the rebel scum!")
+			logger.error("[Connection] I can't check the time for domain %s.  Exception below.  Returning False on valid session. Killing all the rebel scum!" % (cls.domain))
 			logger.exception(e)
-			logger.info("[Connection] Destroying bad session")
+			logger.info("[Connection] Destroying bad session for domain %s" %(cls.domain))
 			cls._destroy_vim_service()
 			return False
 	
@@ -156,7 +156,7 @@ class Connection(object):
 				cls.vim25client.setServerConnection(cls.svcInstance.getServerConnection())
 				return cls.is_service_instance_valid()
 			except KeyError as e:
-				logger.error("[Connection] cache for domain=%s was missing a required property: %s", e)
+				logger.error("[Connection] cache for domain=%s was missing a required property: %s", new_domain, e)
 				cls._destroy_vim_service()
 				return False
 		else:
@@ -176,8 +176,8 @@ class Connection(object):
 			cls._populate_connection_properties()
 		except Exception as e:
 			#this means that the cookie was invalid
-			msg = "[Connection] something went wrong when trying to create a new connection"
-			logger.exception("%s : %s", msg, e)
+			msg = "[Connection] something went wrong when trying to create a new connection for domain "
+			logger.exception("%s %s: %s", msg, domain, e)
 			if raise_exceptions: raise e
 			
 		
@@ -192,8 +192,8 @@ class Connection(object):
 			cls.svcInstance = cls.vim25client.serviceInstance
 			cls._populate_connection_properties()
 		except Exception as e:
-			msg = "[Connection] something went wrong when trying to create a new connection"
-			logger.exception("%s : %s", msg, e)
+			msg = "[Connection] something went wrong when trying to create a new connection for domain "
+			logger.exception("%s %s: %s", msg, domain, e)
 			if raise_exceptions: raise e
 		
 	@classmethod
@@ -230,8 +230,8 @@ class Connection(object):
 					return cls.is_service_instance_valid()
 				except Exception as e:
 					#this means that the cookie was invalid
-					msg = "[Connection] Cookie invalid. Failing."
-					logger.exception("%s : %s", msg, e)
+					msg = "[Connection] Cookie invalid. Failing for domain"
+					logger.exception("%s %s: %s", msg, domain, e)
 					if raise_exceptions: raise e
 			#if session key failed try the username and password
 			if username is not None and password is not None:
@@ -240,8 +240,8 @@ class Connection(object):
 					cls._create_vim_service_from_username_password(domain, username, password, raise_exceptions=raise_exceptions)
 					return cls.is_service_instance_valid()
 				except Exception as e:
-					msg = "[Connection] something went wrong when trying to create a new vim service"
-					logger.exception("%s : %s", msg, e)
+					msg = "[Connection] something went wrong when trying to create a new vim service for domain "
+					logger.exception("%s %s: %s", msg, domain, e)
 					if raise_exceptions: raise e
 					#username and password were bad, so we return False
 					return False
@@ -282,7 +282,7 @@ class Connection(object):
 		RETURNS True if successful, False if not
 		"""
 		if (username is None or password is None) and cookie is None:
-			raise Exception("Must provide either a username-password and/or a cookie")
+			raise Exception("Must provide either a username-password and/or a cookie for domain : %s" %url)
 		if url.startswith("https://") or url.startswith("http://"):
 			domain = url.lstrip("htps:").lstrip("/")
 		else:
@@ -328,7 +328,7 @@ class Connection(object):
 							logger.info("[Connection] urls are the same, and the session key is the same. returning current session status=%s", session_valid)
 							return session_valid
 			except Exception as e:
-				logger.exception("[Connection] Could not update connection: %s", e)
+				logger.exception("[Connection] Could not update connection for domain: %s %s", url, e)
 				if raise_exceptions:
 					raise e
 				return False
