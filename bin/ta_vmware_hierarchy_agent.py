@@ -1,4 +1,4 @@
-#Copyright (C) 2005-2016 Splunk Inc. All Rights Reserved.
+#Copyright (C) 2005-2017 Splunk Inc. All Rights Reserved.
 
 # Core Python imports
 
@@ -68,9 +68,9 @@ def get_node_adapters(local_host_path, local_session_key):
 			gateway_port = 8008
 		gateway_uri = node_stanza.name.rstrip("/0123456789") + str(gateway_port)
 		
-		node_session_key = getSessionKey(node_stanza.user, password, hostPath=node_stanza.name)
 		
 		try:
+			node_session_key = getSessionKey(node_stanza.user, password, hostPath=node_stanza.name)
 			adapter_list.append(HydraGatewayAdapter(node_stanza.name, node_session_key, gateway_uri))
 		except Exception as e:
 			logger.exception("[get_node_adapters] failed to establish gateway adapter for node=%s due to error=%s", node_stanza.name, str(e))

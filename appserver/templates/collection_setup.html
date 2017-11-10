@@ -61,7 +61,7 @@ ${csrf_hidden_input()}
 </div>
 
 ## Preform the following if the user accessing the page is a valid admin:
-% if validadmin:
+% if validadmin == "splunk_vmware_admin":
 	<div class="layout">
 	<div id="hydra-node-wrapper" class="conf-panel">
 		<h1>
@@ -478,6 +478,390 @@ ${csrf_hidden_input()}
 	<div class ="jmFormactions">
 		<button type="button" id="start_stop_button" class="splButton-primary">Start Scheduler</button>	
 	</div>
+	
+		<div class="conf-panel">
+
+			<div style="font-size : 19px;">Please choose deployment type :  
+			<select id="deploy-dropdown" style="font-size : 15px">
+				<option value="VMware" selected>VMware</option>
+				<option value="ITSI">ITSI</option>
+				<option value="Custom">Custom</option>
+			</select></div><br><br>
+		
+			<h1 style="padding: 0px 0px 0px 0px;font-size : 17px;">Performance parameters</h1>
+			<hr width="50%" align="left" color="#fbfbfb" style="opacity: 0.6;"></hr>
+			
+			<div id="collection-vmware" style="display : block;">
+				
+				<table>
+					<tr>
+						<td style="font-size : 16px;padding-bottom : 10px;padding-top : 5px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Task</td>
+						<td style="font-size : 16px;padding-bottom : 10px;padding-top : 5px;">Interval (In seconds)&nbsp;&nbsp;&nbsp;</td>
+						<td style="font-size : 16px;padding-bottom : 10px;padding-top : 5px;">Expiration (In seconds)</td>
+					</tr>
+					<tr>
+						<td style="cursor: default;"><input id="vmware_hostvmperf" class="task-checkbox config_checkbox" type="checkbox"  checked>hostvmperf<sup class="tooltip">?<span class="tooltip-text">Collects performance data of resources such as cpu, memory, storage for Hosts and VMs</span></sup> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </td>
+						<td>
+							<input id="vmware_hostvmperf_interval" type="text" class="text ui-widget-content ui-corner-all dialog-field vmware-textbox" value="180">&nbsp;&nbsp;
+						</td>
+						<td>
+							<input id="vmware_hostvmperf_expiration" type="text" class="text ui-widget-content ui-corner-all dialog-field vmware-textbox" value="180">
+						</td>			
+					</tr>
+					<tr>
+						<td style="cursor: default;"><input id="vmware_otherperf" class="task-checkbox config_checkbox" type="checkbox"  checked>otherperf<sup class="tooltip">?<span class="tooltip-text">Collects performance data of resources such as cpu, memory, storage for Clusters and Resource-Pools</span></sup> </td>
+						<td>
+							<input id="vmware_otherperf_interval" type="text" class="text ui-widget-content ui-corner-all dialog-field vmware-textbox" value="2000">
+						</td>
+						<td>
+							<input id="vmware_otherperf_expiration" type="text" class="text ui-widget-content ui-corner-all dialog-field vmware-textbox" value="1900">
+						</td>			
+					</tr>
+					<tr>
+						<td style="cursor: default;"><input id="vmware_hierarchyinv" class="task-checkbox config_checkbox" type="checkbox"  checked>hierarchyinv<sup class="tooltip">?<span class="tooltip-text">Collects inventory data related to hierarchy such as root-object, parent, type etc for Hosts, VMs, Clusters, Resource-Pools</span></sup> </td>
+
+						<td>
+							<input id="vmware_hierarchyinv_interval" type="text" class="text ui-widget-content ui-corner-all dialog-field vmware-textbox" value="300">
+						</td>
+						<td>
+							<input id="vmware_hierarchyinv_expiration" type="text" class="text ui-widget-content ui-corner-all dialog-field vmware-textbox" value="300">
+						</td>			
+					</tr>
+					<tr>
+						<td style="cursor: default;"><input id="vmware_hostinv" class="task-checkbox config_checkbox" type="checkbox"  checked>hostinv<sup class="tooltip">?<span class="tooltip-text">Collects inventory data such as hostname, capabilities, datastores etc for Hosts</span></sup> </td>
+						<td>
+							<input id="vmware_hostinv_interval" type="text" class="text ui-widget-content ui-corner-all dialog-field vmware-textbox" value="900">
+						</td>
+						<td>
+							<input id="vmware_hostinv_expiration" type="text" class="text ui-widget-content ui-corner-all dialog-field vmware-textbox" value="900">
+						</td>			
+					</tr>
+					<tr>
+						<td style="cursor: default;"><input id="vmware_vminv" class="task-checkbox config_checkbox" type="checkbox"  checked>vminv<sup class="tooltip">?<span class="tooltip-text">Collects inventory data such as vm-name, datastore, guest-OS etc for VMs</span></sup> </td>
+
+						<td>
+							<input id="vmware_vminv_interval" type="text" class="text ui-widget-content ui-corner-all dialog-field vmware-textbox" value="900">
+						</td>
+						<td>
+							<input id="vmware_vminv_expiration" type="text" class="text ui-widget-content ui-corner-all dialog-field vmware-textbox" value="900">
+						</td>			
+					</tr>
+					<tr>
+						<td style="cursor: default;"><input id="vmware_clusterinv" class="task-checkbox config_checkbox" type="checkbox"  checked>clusterinv<sup class="tooltip">?<span class="tooltip-text">Collects inventory data such as name, host-systems etc for Clusters</span></sup> </td>
+
+						<td>
+							<input id="vmware_clusterinv_interval" type="text" class="text ui-widget-content ui-corner-all dialog-field vmware-textbox" value="1800">
+						</td>
+						<td>
+							<input id="vmware_clusterinv_expiration" type="text" class="text ui-widget-content ui-corner-all dialog-field vmware-textbox" value="1800">
+						</td>			
+					</tr>
+					<tr>
+						<td style="cursor: default;"><input id="vmware_datastoreinv" class="task-checkbox config_checkbox" type="checkbox"  checked>datastoreinv<sup class="tooltip">?<span class="tooltip-text">Collects inventory data such as name, capabilities, storage-capacity etc for Datastore</span></sup> </td>
+
+						<td>
+							<input id="vmware_datastoreinv_interval" type="text" class="text ui-widget-content ui-corner-all dialog-field vmware-textbox" value="900">
+						</td>
+						<td>
+							<input id="vmware_datastoreinv_expiration" type="text" class="text ui-widget-content ui-corner-all dialog-field vmware-textbox" value="900">
+						</td>			
+					</tr>
+					<tr>
+						<td style="cursor: default;"><input id="vmware_rpinv" class="task-checkbox config_checkbox" type="checkbox"  checked>rpinv<sup class="tooltip">?<span class="tooltip-text">Collects inventory data such as name, resource-allocation, entities etc for Resource-Pool</span></sup> </td>
+
+						<td>
+							<input id="vmware_rpinv_interval" type="text" class="text ui-widget-content ui-corner-all dialog-field vmware-textbox" value="900">
+						</td>
+						<td>
+							<input id="vmware_rpinv_expiration" type="text" class="text ui-widget-content ui-corner-all dialog-field vmware-textbox" value="900">
+						</td>			
+					</tr>
+					<tr>
+						<td style="cursor: default;"><input id="vmware_task" class="task-checkbox config_checkbox" type="checkbox"  checked>task<sup class="tooltip">?<span class="tooltip-text">Collects data related to tasks such as VM-creation,start,stop, snapshots etc performed in vCenter</span></sup> </td>
+
+						<td>
+							<input id="vmware_task_interval" type="text" class="text ui-widget-content ui-corner-all dialog-field vmware-textbox" value="300">
+						</td>
+						<td>
+							<input id="vmware_task_expiration" type="text" class="text ui-widget-content ui-corner-all dialog-field vmware-textbox" value="3600">
+						</td>			
+					</tr>
+					<tr>
+						<td style="cursor: default;"><input id="vmware_event" class="task-checkbox config_checkbox" type="checkbox"  checked>event<sup class="tooltip">?<span class="tooltip-text">Collects data related to events such as user-session, alarms, network etc of vCenter</span></sup> </td>
+
+						<td>
+							<input id="vmware_event_interval" type="text" class="text ui-widget-content ui-corner-all dialog-field vmware-textbox" value="300">
+						</td>
+						<td>
+							<input id="vmware_event_expiration" type="text" class="text ui-widget-content ui-corner-all dialog-field vmware-textbox" value="3600">
+						</td>			
+					</tr>
+					</div>
+					
+				</table>
+			
+				<br><br>
+				<h1 style="padding: 0px 0px 0px 0px;font-size : 17px;">Data collection preference</h1>
+				<hr width="50%" align="left" color="#fbfbfb" style="opacity: 0.6;"></hr>
+				<input id="vmware_instance_host" class="task-checkbox config_checkbox" type="checkbox" >Collect instance level data for hosts<sup class="tooltip">?<span class="tooltip-text">Collects performance data of all instances of resources such as cpu, memory, storage for Hosts</span></sup><br>
+				<input id="vmware_instance_vm" class="task-checkbox config_checkbox" type="checkbox" >Collect instance level data for VMs<sup class="tooltip">?<span class="tooltip-text">Collects performance data of all instances of resources such as cpu, memory, storage for VMs</span></sup><br><br><br>
+
+			</div>
+
+
+			<div id="collection-itsi" style="display : none;">
+			
+				<table>
+					<tr>
+						<td style="font-size : 16px;padding-bottom : 10px;padding-top : 5px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Task</td>
+						<td style="font-size : 16px;padding-bottom : 10px;padding-top : 5px;">Interval (In seconds)&nbsp;&nbsp;&nbsp;</td>
+						<td style="font-size : 16px;padding-bottom : 10px;padding-top : 5px;">Expiration (In seconds)</td>
+					</tr>
+					<tr>
+						<td style="cursor: default;"><input id="itsi_hostvmperf" class="task-checkbox config_checkbox" type="checkbox"  checked>hostvmperf<sup class="tooltip">?<span class="tooltip-text">Collects performance data of resources such as cpu, memory, storage for Hosts and VMs</span></sup> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </td>
+						<td>
+							<input id="itsi_hostvmperf_interval" type="text" class="text ui-widget-content ui-corner-all dialog-field itsi-textbox" value="180">&nbsp;&nbsp;
+						</td>
+						<td>
+							<input id="itsi_hostvmperf_expiration" type="text" class="text ui-widget-content ui-corner-all dialog-field itsi-textbox" value="180">
+						</td>			
+					</tr>
+					<tr>
+						<td style="cursor: default;"><input id="itsi_otherperf" class="task-checkbox config_checkbox" type="checkbox" >otherperf<sup class="tooltip">?<span class="tooltip-text">Collects inventory data related to hierarchy such as root-object, parent, type etc for Hosts, VMs, Clusters, Resource-Pools</span></sup> </td>
+						<td>
+							<input id="itsi_otherperf_interval" type="text" class="text ui-widget-content ui-corner-all dialog-field" value="2000">
+						</td>
+						<td>
+							<input id="itsi_otherperf_expiration" type="text" class="text ui-widget-content ui-corner-all dialog-field" value="1900">
+						</td>			
+					</tr>
+					<tr>
+						<td style="cursor: default;"><input id="itsi_hierarchyinv" class="task-checkbox config_checkbox" type="checkbox" >hierarchyinv<sup class="tooltip">?<span class="tooltip-text">Collects inventory data related to hierarchy such as root-object, parent, type etc for Hosts, VMs, Clusters, Resource-Pools</span></sup> </td>
+
+						<td>
+							<input id="itsi_hierarchyinv_interval" type="text" class="text ui-widget-content ui-corner-all dialog-field" value="300">
+						</td>
+						<td>
+							<input id="itsi_hierarchyinv_expiration" type="text" class="text ui-widget-content ui-corner-all dialog-field" value="300">
+						</td>			
+					</tr>
+					<tr>
+						<td style="cursor: default;"><input id="itsi_hostinv" class="task-checkbox config_checkbox" type="checkbox"  checked>hostinv<sup class="tooltip">?<span class="tooltip-text">Collects inventory data such as hostname, capabilities, datastores etc for Hosts</span></sup> </td>
+						<td>
+							<input id="itsi_hostinv_interval" type="text" class="text ui-widget-content ui-corner-all dialog-field itsi-textbox" value="900">
+						</td>
+						<td>
+							<input id="itsi_hostinv_expiration" type="text" class="text ui-widget-content ui-corner-all dialog-field itsi-textbox" value="900">
+						</td>			
+					</tr>
+					<tr>
+						<td style="cursor: default;"><input id="itsi_vminv" class="task-checkbox config_checkbox" type="checkbox"  checked>vminv<sup class="tooltip">?<span class="tooltip-text">Collects inventory data such as vm-name, datastore, guest-OS etc for VMs</span></sup> </td>
+
+						<td>
+							<input id="itsi_vminv_interval" type="text" class="text ui-widget-content ui-corner-all dialog-field itsi-textbox" value="900">
+						</td>
+						<td>
+							<input id="itsi_vminv_expiration" type="text" class="text ui-widget-content ui-corner-all dialog-field itsi-textbox" value="900">
+						</td>			
+					</tr>
+					<tr>
+						<td style="cursor: default;"><input id="itsi_clusterinv" class="task-checkbox config_checkbox" type="checkbox" >clusterinv<sup class="tooltip">?<span class="tooltip-text">Collects inventory data such as name, host-systems etc for Clusters</span></sup> </td>
+
+						<td>
+							<input id="itsi_clusterinv_interval" type="text" class="text ui-widget-content ui-corner-all dialog-field" value="1800">
+						</td>
+						<td>
+							<input id="itsi_clusterinv_expiration" type="text" class="text ui-widget-content ui-corner-all dialog-field" value="1800">
+						</td>			
+					</tr>
+					<tr>
+						<td style="cursor: default;"><input id="itsi_datastoreinv" class="task-checkbox config_checkbox" type="checkbox"  checked>datastoreinv<sup class="tooltip">?<span class="tooltip-text">Collects inventory data such as name, capabilities, storage-capacity etc for Datastore</span></sup> </td>
+
+						<td>
+							<input id="itsi_datastoreinv_interval" type="text" class="text ui-widget-content ui-corner-all dialog-field itsi-textbox" value="900">
+						</td>
+						<td>
+							<input id="itsi_datastoreinv_expiration" type="text" class="text ui-widget-content ui-corner-all dialog-field itsi-textbox" value="900">
+						</td>			
+					</tr>
+					<tr>
+						<td style="cursor: default;"><input id="itsi_rpinv" class="task-checkbox config_checkbox" type="checkbox" >rpinv<sup class="tooltip">?<span class="tooltip-text">Collects inventory data such as name, resource-allocation, entities etc for Resource-Pool</span></sup> </td>
+
+						<td>
+							<input id="itsi_rpinv_interval" type="text" class="text ui-widget-content ui-corner-all dialog-field" value="900">
+						</td>
+						<td>
+							<input id="itsi_rpinv_expiration" type="text" class="text ui-widget-content ui-corner-all dialog-field" value="900">
+						</td>			
+					</tr>
+					<tr>
+						<td style="cursor: default;"><input id="itsi_task" class="task-checkbox config_checkbox" type="checkbox" >task<sup class="tooltip">?<span class="tooltip-text">Collects data related to tasks such as VM-creation,start,stop, snapshots etc performed in vCenter</span></sup> </td>
+
+						<td>
+							<input id="itsi_task_interval" type="text" class="text ui-widget-content ui-corner-all dialog-field" value="300">
+						</td>
+						<td>
+							<input id="itsi_task_expiration" type="text" class="text ui-widget-content ui-corner-all dialog-field" value="3600">
+						</td>			
+					</tr>
+					<tr>
+						<td style="cursor: default;"><input id="itsi_event" class="task-checkbox config_checkbox" type="checkbox" >event<sup class="tooltip">?<span class="tooltip-text">Collects data related to events such as user-session, alarms, network etc of vCenter</span></sup> </td>
+
+						<td>
+							<input id="itsi_event_interval" type="text" class="text ui-widget-content ui-corner-all dialog-field" value="300">
+						</td>
+						<td>
+							<input id="itsi_event_expiration" type="text" class="text ui-widget-content ui-corner-all dialog-field" value="3600">
+						</td>			
+					</tr>
+					</div>
+					
+				</table>
+				<br><br>
+				<h1 style="padding: 0px 0px 0px 0px;font-size : 17px;">Data collection preference</h1>
+				<hr width="50%" align="left" color="#fbfbfb" style="opacity: 0.6;"></hr>
+				<input id="itsi_instance_host" class="task-checkbox config_checkbox" type="checkbox"  checked>Collect instance level data for hosts<sup class="tooltip">?<span class="tooltip-text">Collects performance data of all instances of resources such as cpu, memory, storage for Hosts</span></sup><br>
+				<input id="itsi_instance_vm" class="task-checkbox config_checkbox" type="checkbox"  checked>Collect instance level data for VMs<sup class="tooltip">?<span class="tooltip-text">Collects performance data of all instances of resources such as cpu, memory, storage for VMs</span></sup><br><br><br>
+
+			</div>
+			
+			<div id="collection-custom" style="display : none;">
+			
+				<p id="custom_validation-tip" style="display : none;"><span class="validation-tip">Invalid input</span></p>
+			
+				<table>
+					<tr>
+						<td style="font-size : 16px;padding-bottom : 10px;padding-top : 5px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Task</td>
+						<td style="font-size : 16px;padding-bottom : 10px;padding-top : 5px;">Interval (In seconds)&nbsp;&nbsp;&nbsp;</td>
+						<td style="font-size : 16px;padding-bottom : 10px;padding-top : 5px;">Expiration (In seconds)</td>
+					</tr>
+					<tr>
+						<td style="cursor: default;"><input id="custom_hostvmperf" class="custom-inputs config_checkbox" type="checkbox">hostvmperf<sup class="tooltip">?<span class="tooltip-text">Collects performance data of resources such as cpu, memory, storage for Hosts and VMs</span></sup> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </td>
+						<td>
+							<input id="custom_hostvmperf_interval" type="text" class="text ui-widget-content ui-corner-all dialog-field custom-inputs" value="180">&nbsp;&nbsp;
+						</td>
+						<td>
+							<input id="custom_hostvmperf_expiration" type="text" class="text ui-widget-content ui-corner-all dialog-field custom-inputs" value="180">
+						</td>			
+					</tr>
+					<tr>
+						<td style="cursor: default;"><input id="custom_otherperf" class="custom-inputs config_checkbox" type="checkbox">otherperf<sup class="tooltip">?<span class="tooltip-text">Collects performance data of resources such as cpu, memory, storage for Clusters and Resource-Pools</span></sup> </td>
+						<td>
+							<input id="custom_otherperf_interval" type="text" class="text ui-widget-content ui-corner-all dialog-field custom-inputs" value="2000">
+						</td>
+						<td>
+							<input id="custom_otherperf_expiration" type="text" class="text ui-widget-content ui-corner-all dialog-field custom-inputs" value="1900">
+						</td>			
+					</tr>
+					<tr>
+						<td style="cursor: default;"><input id="custom_hierarchyinv" class="custom-inputs config_checkbox" type="checkbox">hierarchyinv<sup class="tooltip">?<span class="tooltip-text">Collects inventory data related to hierarchy such as root-object, parent, type etc for Hosts, VMs, Clusters, Resource-Pools</span></sup> </td>
+
+						<td>
+							<input id="custom_hierarchyinv_interval" type="text" class="text ui-widget-content ui-corner-all dialog-field custom-inputs" value="300">
+						</td>
+						<td>
+							<input id="custom_hierarchyinv_expiration" type="text" class="text ui-widget-content ui-corner-all dialog-field custom-inputs" value="300">
+						</td>			
+					</tr>
+					<tr>
+						<td style="cursor: default;"><input id="custom_hostinv" class="custom-inputs config_checkbox" type="checkbox">hostinv<sup class="tooltip">?<span class="tooltip-text">Collects inventory data such as hostname, capabilities, datastores etc for Hosts</span></sup> </td>
+						<td>
+							<input id="custom_hostinv_interval" type="text" class="text ui-widget-content ui-corner-all dialog-field custom-inputs" value="900">
+						</td>
+						<td>
+							<input id="custom_hostinv_expiration" type="text" class="text ui-widget-content ui-corner-all dialog-field custom-inputs" value="900">
+						</td>			
+					</tr>
+					<tr>
+						<td style="cursor: default;"><input id="custom_vminv" class="custom-inputs config_checkbox" type="checkbox">vminv<sup class="tooltip">?<span class="tooltip-text">Collects inventory data such as vm-name, datastore, guest-OS etc for VMs</span></sup> </td>
+
+						<td>
+							<input id="custom_vminv_interval" type="text" class="text ui-widget-content ui-corner-all dialog-field custom-inputs" value="900">
+						</td>
+						<td>
+							<input id="custom_vminv_expiration" type="text" class="text ui-widget-content ui-corner-all dialog-field custom-inputs" value="900">
+						</td>			
+					</tr>
+					<tr>
+						<td style="cursor: default;"><input id="custom_clusterinv" class="custom-inputs config_checkbox" type="checkbox">clusterinv<sup class="tooltip">?<span class="tooltip-text">Collects inventory data such as name, host-systems etc for Clusters</span></sup> </td>
+
+						<td>
+							<input id="custom_clusterinv_interval" type="text" class="text ui-widget-content ui-corner-all dialog-field custom-inputs" value="1800">
+						</td>
+						<td>
+							<input id="custom_clusterinv_expiration" type="text" class="text ui-widget-content ui-corner-all dialog-field custom-inputs" value="1800">
+						</td>			
+					</tr>
+					<tr>
+						<td style="cursor: default;"><input id="custom_datastoreinv" class="custom-inputs config_checkbox" type="checkbox">datastoreinv<sup class="tooltip">?<span class="tooltip-text">Collects inventory data such as name, capabilities, storage-capacity etc for Datastore</span></sup> </td>
+
+						<td>
+							<input id="custom_datastoreinv_interval" type="text" class="text ui-widget-content ui-corner-all dialog-field custom-inputs" value="900">
+						</td>
+						<td>
+							<input id="custom_datastoreinv_expiration" type="text" class="text ui-widget-content ui-corner-all dialog-field custom-inputs" value="900">
+						</td>			
+					</tr>
+					<tr>
+						<td style="cursor: default;"><input id="custom_rpinv" class="custom-inputs config_checkbox" type="checkbox">rpinv<sup class="tooltip">?<span class="tooltip-text">Collects inventory data such as name, resource-allocation, entities etc for Resource-Pool</span></sup> </td>
+
+						<td>
+							<input id="custom_rpinv_interval" type="text" class="text ui-widget-content ui-corner-all dialog-field custom-inputs" value="900">
+						</td>
+						<td>
+							<input id="custom_rpinv_expiration" type="text" class="text ui-widget-content ui-corner-all dialog-field custom-inputs" value="900">
+						</td>			
+					</tr>
+					<tr>
+						<td style="cursor: default;"><input id="custom_task" class="custom-inputs config_checkbox" type="checkbox">task<sup class="tooltip">?<span class="tooltip-text">Collects data related to tasks such as VM-creation, VM-start, VM-stop, snapshots etc performed in vCenter</span></sup> </td>
+
+						<td>
+							<input id="custom_task_interval" type="text" class="text ui-widget-content ui-corner-all dialog-field custom-inputs" value="300">
+						</td>
+						<td>
+							<input id="custom_task_expiration" type="text" class="text ui-widget-content ui-corner-all dialog-field custom-inputs" value="3600">
+						</td>			
+					</tr>
+					<tr>
+						<td style="cursor: default;"><input id="custom_event" class="custom-inputs config_checkbox" type="checkbox">event<sup class="tooltip">?<span class="tooltip-text">Collects data related to events such as user-session, alarms, network etc of vCenter</span></sup> </td>
+
+						<td>
+							<input id="custom_event_interval" type="text" class="text ui-widget-content ui-corner-all dialog-field custom-inputs" value="300">
+						</td>
+						<td>
+							<input id="custom_event_expiration" type="text" class="text ui-widget-content ui-corner-all dialog-field custom-inputs" value="3600">
+						</td>			
+					</tr>
+					</div>
+					
+				</table>
+				<br><br>
+				<h1 style="padding: 0px 0px 0px 0px;font-size : 17px;">Data collection preference</h1>
+				<hr width="50%" align="left" color="#fbfbfb" style="opacity: 0.6;"></hr>
+				<input id="custom_instance_host" class="custom-inputs config_checkbox" type="checkbox">Collect instance level data for hosts<sup class="tooltip">?<span class="tooltip-text">Collects performance data of all instances of resources such as cpu, memory, storage for Hosts</span></sup><br>
+				<input id="custom_instance_vm" class="custom-inputs config_checkbox" type="checkbox">Collect instance level data for VMs<sup class="tooltip">?<span class="tooltip-text">Collects performance data of all instances of resources such as cpu, memory, storage for VMs</span></sup><br><br><br>
+
+			</div>
+			
+			<button id="save-collection" type="button" class="splButton-primary">Save</button>
+
+			<div id="confirm-dialog" class="confirm-style">
+				<div class="dialog-content">
+					<span class="dialog-close">&times;</span>
+										
+					<p id="message-text" style="font-size : 14px;"></p>
+					
+					<hr width="95%" align="center" color="#fbfbfb" style="opacity: 0.3;"></hr>
+					
+					<button id="confirm-button" class="splButton-primary">Confirm</button>&nbsp;&nbsp;
+					<button id="cancel-button" class="splButton-primary">Cancel</button>
+				</div>
+
+			</div>
+
+			
+		</div>
+	
 	</div>
 
 	<script>
@@ -496,6 +880,7 @@ ${csrf_hidden_input()}
 			data_json = json.dumps(conf_data)
 		%>
 		var server_data = ${data_json | n};
+		collection_update();
 		var selected_vc_hosts = {"included_hosts": [], "excluded_hosts": []};
 		//Utils
 		var validation_good_html = "<i class='icon-ok icon-large valid'></i>";
@@ -538,6 +923,435 @@ ${csrf_hidden_input()}
 				return true;
 			}
 		};
+		
+		
+		$("#save-collection").on('click', function() {
+			var deployment_type_text = $("#deploy-dropdown").val();
+			
+			var msg_content;
+			var task_array = task_list();
+			deploy_type_text = deployment_type_text.toLowerCase();
+			var dict_interval = interval_dict();
+			var dict_expiration = expiration_dict();
+			for(var i=0;i<task_array.length;i++)
+			{
+				$("#"+deploy_type_text+"_"+task_array[i]+"_interval").removeClass("ui-state-error");
+				$("#"+deploy_type_text+"_"+task_array[i]+"_expiration").removeClass("ui-state-error");
+			}
+			$("#"+deploy_type_text+"_validation-tip").hide();
+			
+			if(time_valid(deployment_type_text)){
+				if(task_array.length>0)
+					msg_content = "You have selected deployment-type : "+deployment_type_text+" configuration. Do you want to continue?";
+				else
+					msg_content = "You have not selected any task. Do you want to continue?";
+				
+				$("#message-text")[0].innerHTML = msg_content;
+				$("#confirm-dialog").show();
+			}
+		});
+		
+		function time_valid(deploy_type_text)
+		{
+			deploy_type_text = deploy_type_text.toLowerCase();
+			
+			var task_array = task_list();
+			if(task_array.length==0)
+				return true;
+				
+			var valid_flag = true;
+				
+			var dict_interval = interval_dict();
+			for(var i=0;i<task_array.length;i++)
+				if(!RegExp("^[1-9][0-9]*$").test(dict_interval[task_array[i]+"_interval"]))
+				{
+					$("#"+deploy_type_text+"_"+task_array[i]+"_interval").addClass("ui-state-error");
+					$("#"+deploy_type_text+"_validation-tip").show();
+					valid_flag = false;
+				}
+			
+			var dict_expiration = expiration_dict();
+			for(var i=0;i<task_array.length;i++)
+				if(!RegExp("^[1-9][0-9]*$").test(dict_expiration[task_array[i]+"_expiration"]))
+				{
+					$("#"+deploy_type_text+"_"+task_array[i]+"_expiration").addClass("ui-state-error");
+					$("#"+deploy_type_text+"_validation-tip").show();
+					valid_flag =  false;
+				}
+			
+			return valid_flag;
+		}
+
+		$(".dialog-close").click(function() {
+				$("#confirm-dialog").hide();
+		});
+		
+		$("#cancel-button").click(function() {
+				$("#confirm-dialog").hide();
+		});
+		
+		$("#confirm-button").click(function() {
+				save_collection_config();
+				$("#confirm-dialog").hide();
+		});
+
+		$("#deploy-dropdown").change(function(){
+			collection_show();			
+		});
+		
+		
+		var task_all = ["hostvmperf", "otherperf", "hierarchyinv", "hostinv", "vminv", "clusterinv", "datastoreinv", "rpinv", "task", "event", "instance_host", "instance_vm"];
+				
+		$(".task-checkbox").change(function()
+		{
+			var dropdown_text = $("#deploy-dropdown").val();				
+			collection_change(dropdown_text);
+			$("#deploy-dropdown").val("Custom");
+			collection_show();
+			this.checked = !(this.checked);
+		});
+		
+		function collection_change(dropdown_text)
+		{
+			var checkboxid;
+			if(dropdown_text==="VMware")
+				checkboxid = "vmware";
+			else
+				checkboxid = "itsi";
+			
+			for(var i=0;i<12;i++)
+				$("#custom_"+task_all[i])[0].checked = $("#"+checkboxid+"_"+task_all[i])[0].checked;
+			
+			for(var i=0;i<10;i++)
+			{
+				$("#custom_"+task_all[i]+"_interval").val($("#"+checkboxid+"_"+task_all[i]+"_interval").val());
+				$("#custom_"+task_all[i]+"_expiration").val($("#"+checkboxid+"_"+task_all[i]+"_expiration").val());
+			}
+			
+			for(var i=0;i<10;i++)
+			{
+				$("#custom_"+task_all[i]+"_interval").removeClass("ui-state-error");
+				$("#custom_"+task_all[i]+"_expiration").removeClass("ui-state-error");
+			}
+			$("#custom_validation-tip").hide();
+		}
+		
+		$(".vmware-textbox").change(function ()
+		{
+			var interval_expiration_dict = {	"vmware_hostvmperf_interval": 180, 
+												"vmware_otherperf_interval": 2000, 
+												"vmware_hierarchyinv_interval": 300, 
+												"vmware_hostinv_interval": 900, 
+												"vmware_vminv_interval": 900, 
+												"vmware_clusterinv_interval": 1800, 
+												"vmware_datastoreinv_interval": 900, 
+												"vmware_rpinv_interval": 900, 
+												"vmware_task_interval": 300, 
+												"vmware_event_interval": 300,
+												"vmware_hostvmperf_expiration": 180, 
+												"vmware_otherperf_expiration": 1900, 
+												"vmware_hierarchyinv_expiration": 300, 
+												"vmware_hostinv_expiration": 900, 
+												"vmware_vminv_expiration": 900, 
+												"vmware_clusterinv_expiration": 1800, 
+												"vmware_datastoreinv_expiration": 900, 
+												"vmware_rpinv_expiration": 900, 
+												"vmware_task_expiration": 3600, 
+												"vmware_event_expiration": 3600
+											};
+			
+			for(var i=0;i<12;i++)
+				$("#custom_"+task_all[i])[0].checked = $("#vmware_"+task_all[i])[0].checked;
+			
+			for(var i=0;i<10;i++)
+			{
+				$("#custom_"+task_all[i]+"_interval").val($("#vmware_"+task_all[i]+"_interval").val());
+				$("#custom_"+task_all[i]+"_expiration").val($("#vmware_"+task_all[i]+"_expiration").val());
+			}
+			
+			for(var i=0;i<10;i++)
+			{
+				$("#custom_"+task_all[i]+"_interval").removeClass("ui-state-error");
+				$("#custom_"+task_all[i]+"_expiration").removeClass("ui-state-error");
+			}
+			$("#custom_validation-tip").hide();
+			
+			$("#deploy-dropdown").val("Custom");
+			collection_show();
+			
+			this.value = interval_expiration_dict[this.id];
+		});
+			
+		$(".itsi-textbox").change(function()
+		{
+			var interval_expiration_dict = {	"itsi_hostvmperf_interval": 180, 
+												"itsi_hostinv_interval": 900, 
+												"itsi_vminv_interval": 900, 
+												"itsi_datastoreinv_interval": 900,
+												"itsi_hostvmperf_expiration": 180, 
+												"itsi_hostinv_expiration": 900, 
+												"itsi_vminv_expiration": 900, 
+												"itsi_datastoreinv_expiration": 900
+											};
+			
+			for(var i=0;i<12;i++)
+				$("#custom_"+task_all[i])[0].checked = $("#itsi_"+task_all[i])[0].checked;
+			
+			for(var i=0;i<10;i++)
+			{
+				$("#custom_"+task_all[i]+"_interval").val($("#itsi_"+task_all[i]+"_interval").val());
+				$("#custom_"+task_all[i]+"_expiration").val($("#itsi_"+task_all[i]+"_expiration").val());
+			}
+			
+			for(var i=0;i<10;i++)
+			{
+				$("#custom_"+task_all[i]+"_interval").removeClass("ui-state-error");
+				$("#custom_"+task_all[i]+"_expiration").removeClass("ui-state-error");
+			}
+			$("#custom_validation-tip").hide();
+			
+			$("#deploy-dropdown").val("Custom");
+			collection_show();
+			
+			this.value = interval_expiration_dict[this.id];
+		});
+			
+		$(".custom-inputs").on('change', function()
+		{
+			var dropdown_text = "Custom";
+			
+			if(is_vmware_collection())
+				dropdown_text = "VMware";
+			else if(is_itsi_collection())
+				dropdown_text = "ITSI";
+			
+			$("#deploy-dropdown").val(dropdown_text);
+			collection_show();
+		});
+		
+		function is_vmware_collection()
+		{
+			
+			for(var i=0;i<12;i++)
+				if($("#vmware_"+task_all[i])[0].checked != $("#custom_"+task_all[i])[0].checked)
+					return false;
+			
+			for(var i=0;i<10;i++)
+			{
+				if($("#vmware_"+task_all[i]+"_interval").val() != $("#custom_"+task_all[i]+"_interval").val())
+					return false;
+				if($("#vmware_"+task_all[i]+"_expiration").val() != $("#custom_"+task_all[i]+"_expiration").val())
+					return false;
+			}			
+			return true;
+		}
+		
+		function is_itsi_collection()
+		{
+			
+			for(var i=0;i<12;i++)
+				if($("#itsi_"+task_all[i])[0].checked != $("#custom_"+task_all[i])[0].checked)
+					return false;
+			
+			for(var i=0;i<10;i++)
+				if(i==0 || i==3 || i==4 || i==6)
+				{
+					if($("#itsi_"+task_all[i]+"_interval").val() != $("#custom_"+task_all[i]+"_interval").val())
+						return false;
+					if($("#itsi_"+task_all[i]+"_expiration").val() != $("#custom_"+task_all[i]+"_expiration").val())
+						return false;
+				}
+					
+			return true;
+		}
+		
+		function task_list(){
+			
+			if ($("#deploy-dropdown").val()==="VMware")
+				return ["hostvmperf", "otherperf", "hierarchyinv", "hostinv", "vminv", "clusterinv", "datastoreinv", "rpinv", "task", "event"];
+			else if($("#deploy-dropdown").val()==="ITSI")
+				return ["hostvmperf", "hostinv", "vminv", "datastoreinv"];
+			else
+			{
+				var task_array =[];
+				for(var i=0;i<10;i++)
+					if ($("#custom"+"_"+task_all[i])[0].checked)
+						task_array.push(task_all[i]);
+				
+				return task_array;
+			}
+		}
+		
+		function interval_dict()
+		{
+			var dict_interval = {};
+			var task_array = task_list();
+				
+			var textbox_id=$("#deploy-dropdown").val();
+			textbox_id = textbox_id.toLowerCase();
+			for(var i=0;i<task_array.length;i++)
+				dict_interval[task_array[i]+"_interval"] = $("#"+textbox_id+"_"+task_array[i]+"_interval").val();
+
+			return dict_interval;
+		}
+		
+		function expiration_dict()
+		{
+			var dict_expiration = {};
+			var task_array = task_list();
+				
+			var textbox_id=$("#deploy-dropdown").val();
+			textbox_id = textbox_id.toLowerCase();
+			for(var i=0;i<task_array.length;i++)
+				dict_expiration[task_array[i]+"_expiration"] = $("#"+textbox_id+"_"+task_array[i]+"_expiration").val();
+
+			return dict_expiration;
+		}
+		
+		function collection_instance_dict()
+		{
+			var dict_collection_instance = {};
+				
+			var checkboxid=$("#deploy-dropdown").val();
+			checkboxid = checkboxid.toLowerCase();
+			
+			if($("#"+checkboxid+"_instance_host")[0].checked===true)
+				dict_collection_instance["host_instance_whitelist"] = 1;
+			else
+				dict_collection_instance["host_instance_whitelist"] = 0;
+			
+			if($("#"+checkboxid+"_instance_vm")[0].checked===true)
+				dict_collection_instance["vm_instance_whitelist"] = 1;
+			else
+				dict_collection_instance["vm_instance_whitelist"] = 0;
+			
+			return dict_collection_instance;
+		}
+		
+		function save_collection_config()
+		{
+			var params = {
+				deployment_type: $("#deploy-dropdown").val(),
+				task: task_list(),
+				interval: JSON.stringify(interval_dict()),
+				expiration: JSON.stringify(expiration_dict()),
+				collection_instance_list: JSON.stringify(collection_instance_dict())
+			};
+			
+			var uri = Splunk.util.make_url('custom', 'Splunk_TA_vmware' , 'splunk_for_vmware_setup', 'Splunk_TA_vmware', 'save_collection');
+			
+			disableUI();
+			
+			$.ajax({
+					type: "POST",
+					url:uri,
+					data:params,
+					beforeSend: function(xhr) {
+						xhr.setRequestHeader('X-Splunk-Form-Key', $('input[name=splunk_form_key]').val());
+					},
+					success: function(rsp) {
+						console.log("[custom UI] SUCCESS on custom config save, updating interface...");
+					},
+					error: function(jqXHR,textStatus,errorThrown) {
+						console.log("[custom UI] AJAX Failure in save of custom config");
+						
+					},
+					complete: function() {
+						console.log("[custom UI] completed save attempt for custom config");
+						console.log("[custom UI] updating to latest from server");
+						collection_update();
+						enableUI();
+					}
+			});
+		}
+		
+		function collection_update()
+		{
+			var uri = Splunk.util.make_url('custom', 'Splunk_TA_vmware' , 'splunk_for_vmware_setup', 'Splunk_TA_vmware', 'get_collection');
+			
+			$.ajax({
+					type: "GET",
+					url:uri,
+					data:{},
+					datatype:'json',
+					beforeSend: function(xhr) {
+						xhr.setRequestHeader('X-Splunk-Form-Key', $('input[name=splunk_form_key]').val());
+					},
+					success: function(rsp) {
+						console.log("[custom UI] SUCCESS on custom config get, updating interface...");
+						collection_ui_update(rsp.deployment_type, rsp.task, rsp.interval_list, rsp.expiration_list, rsp.collection_instance_list);
+					},
+					error: function(jqXHR,textStatus,errorThrown) {
+						console.log("[custom UI] AJAX Failure in getting of custom config");
+						
+					},
+					complete: function() {
+						console.log("[custom UI] completed update attempt for custom config");
+					}
+			});
+		
+		}
+		
+		function collection_ui_update(deployment_type, task, interval_list, expiration_list, collection_instance_list)
+		{
+			task_checkbox_array = [false, false, false, false, false, false, false, false, false, false];
+			task_dict = {hostvmperf: 0, otherperf: 1, hierarchyinv: 2, hostinv: 3, vminv: 4, clusterinv: 5, datastoreinv: 6, rpinv: 7, task: 8, event: 9};
+			
+			for(var i=0;i<task.length;i++)
+				task_checkbox_array[task_dict[task[i]]] = true;
+
+			for(var i=0;i<10;i++)	
+				$("#custom_"+task_all[i])[0].checked = task_checkbox_array[i];
+				
+			for(var i=0;i<10;i++)
+			{
+				$("#custom_"+task_all[i]+"_interval").val(interval_list[i]);
+				$("#custom_"+task_all[i]+"_expiration").val(expiration_list[i]);
+			}
+			
+			$("#custom_instance_host")[0].checked = (collection_instance_list[0]=="true");
+			$("#custom_instance_vm")[0].checked = (collection_instance_list[1]=="true");
+			
+			var dropdown_text = "Custom";
+			
+			if(is_vmware_collection()){
+				dropdown_text = "VMware";
+				custom_reset();
+			}
+			else if(is_itsi_collection()){
+				dropdown_text = "ITSI";
+				custom_reset();
+			}
+			
+			$("#deploy-dropdown").val(dropdown_text);
+			collection_show();
+		}
+		
+		function custom_reset()
+		{
+			for(var i=0;i<12;i++)
+				$("#custom_"+task_all[i])[0].checked = false;
+		}
+		
+		function collection_show(){
+			if( $('#deploy-dropdown').val() === 'VMware' ){
+				$('#collection-vmware').show();
+				$('#collection-itsi').hide();
+				$('#collection-custom').hide();
+			}
+			else if( $('#deploy-dropdown').val() === 'ITSI' ){
+				$('#collection-vmware').hide();
+				$('#collection-itsi').show();
+				$('#collection-custom').hide();
+			}
+			else{
+				$('#collection-vmware').hide();
+				$('#collection-itsi').hide();
+				$('#collection-custom').show();
+			}
+		}
+		
+		
 		function updateConfData(no_info, complete_fun) {
 			/*args:
 			 * no_info - pass true to avoid updating the info box
@@ -1289,7 +2103,7 @@ ${csrf_hidden_input()}
 						$(".dialog-field", $hydra_node_dialog).removeClass( "ui-state-error" );
 						
 						validation = validation && checkRegexp( $('#dialog-node-path', $hydra_node_dialog), /^\s*https?:\/\/[A-Za-z0-9\.\-_]+:\d+\/?\s*$/, "You must specify protocol, address, and port for a management uri", $hydra_node_tips);
-						validation = validation && checkRegexp( $('#dialog-node-username', $hydra_node_dialog), /./, "You must specify a username", $hydra_node_tips) && checkRegexp( $('#dialog-node-username', $hydra_node_dialog), /^[^\r\n\t]*$/, "You must specify a valid username", $hydra_node_tips);
+						validation = validation && checkRegexp( $('#dialog-node-username', $hydra_node_dialog), /./, "You must specify a username", $hydra_node_tips) && checkRegexp( $('#dialog-node-username', $hydra_node_dialog), /^[^\r\n\t\/\s]*$/, "You must specify a valid username", $hydra_node_tips);
 						validation = validation && checkRegexp( $('#dialog-node-password', $hydra_node_dialog), /./, "You must specify a password", $hydra_node_tips);
 						validation = validation && checkRegexp( $('#dialog-node-heads', $hydra_node_dialog), /^(([1-2][0-9])|[1-9]|30)$/, "You must specify a number of worker processes from 1 to 30", $hydra_node_tips);
 						if ( validation ) {
@@ -1320,7 +2134,7 @@ ${csrf_hidden_input()}
 				data = selected_node.data()[0];
 				$("#dialog-node-name", $hydra_node_dialog).val($.trim(data.host_path));
 				$("#dialog-node-path", $hydra_node_dialog).val($.trim(data.host_path));
-				$("#dialog-node-username", $hydra_node_dialog).val($.trim(data.username));
+				$("#dialog-node-username", $hydra_node_dialog).val($('<div/>').html($.trim(data.username)).text());
 				//Set the password to 8 dollar signs to show that this node exists and password can be edited
 				$("#dialog-node-password", $hydra_node_dialog).val("$$$$$$$$");
 				$("#dialog-node-heads", $hydra_node_dialog).val(data.heads);
@@ -1469,7 +2283,7 @@ ${csrf_hidden_input()}
 						$(".dialog-field", $vc_dialog).removeClass( "ui-state-error" );
 						
 						validation = validation && checkRegexp( $('#dialog-vc-path', $vc_dialog), /^[A-Za-z0-9\.\-_]+$/, "You must specify a valid virtual center domain", $vc_tips);
-						validation = validation && checkRegexp( $('#dialog-vc-username', $vc_dialog), /[A-Za-z0-9\.\-_]/, "You must specify a username", $vc_tips) && checkRegexp( $('#dialog-vc-username', $vc_dialog), /^[^\r\n\t]*$/, "You must specify a valid username", $vc_tips);
+						validation = validation && checkRegexp( $('#dialog-vc-username', $vc_dialog), /[A-Za-z0-9\.\-_]/, "You must specify a username", $vc_tips) && checkRegexp( $('#dialog-vc-username', $vc_dialog), /^[^\r\n\t<>&]*$/, "You must specify a valid username", $vc_tips);
 						validation = validation && checkRegexp( $('#dialog-vc-password', $vc_dialog), /./, "You must specify a password", $vc_tips);
 						var vc_splunk_uri;
 						var vc_splunk_username;
@@ -1537,7 +2351,7 @@ ${csrf_hidden_input()}
 				data = selected_node.data()[0];
 				$("#dialog-vc-name", $vc_dialog).val($.trim(data.stanza_name));
 				$("#dialog-vc-path", $vc_dialog).val($.trim(data.target));
-				$("#dialog-vc-username", $vc_dialog).val($.trim(data.username));
+				$("#dialog-vc-username", $vc_dialog).val($('<div/>').html($.trim(data.username)).text());
 				//Set the password to a phoney 8 dollar signs.
 				$("#dialog-vc-password", $vc_dialog).val("$$$$$$$$");
 				//Handle vc log forwarding
@@ -1879,6 +2693,20 @@ ${csrf_hidden_input()}
 	});
 	</script>
 
+## Preform the following if the user accessing the page is a Splunk admin:
+% elif validadmin == "admin":
+	<div class="layout">
+		<div id="hydra-node-wrapper" class="conf-panel">
+			<h1>
+				Insufficient Access
+			<h4>
+				You are attempting to configure the data collection features of this system, but this has not been enabled. To enable this system to be used as a data collection scheduler, add the "splunk_vmware_admin" role to the admin account.
+			</h4>
+			</h1>
+		</div>
+	</div>
+	
+	
 ## Preform the following if the user accessing the page is NOT a valid admin:
 % else:
 	<div class="layout">

@@ -1,4 +1,8 @@
-<!--Copyright (C) 2005-2016 Splunk Inc. All Rights Reserved.-->
+<!--Copyright (C) 2005-2017 Splunk Inc. All Rights Reserved.-->
 <nav color="#9bacc1">
 	<view name="collection_config"/>
+	<collection label="Data Collection Status">
+         <a href="/app/Splunk_TA_vmware/hydra_scheduler_status">Hydra Scheduler Status</a>
+		 <a href="/app/Splunk_TA_vmware/hydra_framework_status">Hydra Framework Status</a>
+	</collection>	
 </nav>
