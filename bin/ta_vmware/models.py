@@ -1,4 +1,4 @@
-# Copyright (C) 2005-2016 Splunk Inc. All Rights Reserved. 
+# Copyright (C) 2005-2017 Splunk Inc. All Rights Reserved. 
 
 #Core Python Imports
 import sys
@@ -108,6 +108,7 @@ class TAVMwareCollectionStanza(SOLNAppObjModel):
 	# This fields are used only for internal purpose only.
 	autoeventgen = BoolField()
 	autoeventgen_poweroff_vmcount = IntField()
+	deployment_type = Field()
 
 ########################################################################
 # CACHE MODEL 
@@ -198,3 +199,17 @@ class TAVMwareCollectionScheduler(SOLNAppObjModel):
 	
 	disabled = BoolField()
 
+
+########################################################################
+# SSL CERTIFICATE MODEL
+########################################################################
+
+class SSLCertificate(SOLNAppObjModel):
+	"""
+	Provides object mapping for the SSL Certificate stanzas
+	Field Meanings:
+		disabled : boolean to store the state of ssl certificate validation
+	"""
+	resource = 'configs/conf-ta_vmware_config_ssl'
+	use_model_as_spec = True
+	validate_ssl_certificate = BoolField()

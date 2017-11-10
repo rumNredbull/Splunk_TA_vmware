@@ -1,4 +1,4 @@
-# Copyright (C) 2005-2016 Splunk Inc. All Rights Reserved. 
+# Copyright (C) 2005-2017 Splunk Inc. All Rights Reserved. 
 
 #Core Python Imports
 import sys
@@ -64,10 +64,14 @@ class BaseInventoryHandler(hydra.HydraHandler):
 		for mor in datastore_mor.ManagedObjectReference:
 			# Create mo from mor
 			mo = Connection.vim25client.createExactManagedObject(mor)
-			accessible = mo.getCurrentProperty("summary.accessible")
-			name = mo.getCurrentProperty("summary.name")
-			url= mo.getCurrentProperty("summary.url")
-			datastore_detail_list.append({'accessible': str(accessible), 'name': str(name), 'url': str(url) })
+			objContent = mo.retrieveObjectProperties(["summary.accessible", "summary.name", "summary.url"])
+			if objContent != None and objContent.propSet != None and len(objContent.propSet) > 0:
+				datastore_detail_dict = {}
+				for dynaprops in objContent.propSet:
+					if dynaprops.name == "summary.accessible": datastore_detail_dict['accessible'] = dynaprops.val
+					if dynaprops.name == "summary.name": datastore_detail_dict['name'] = dynaprops.val
+					if dynaprops.name == "summary.url": datastore_detail_dict['url'] = dynaprops.val
+				datastore_detail_list.append(datastore_detail_dict)
 		return datastore_detail_list
 
 	# Get mor of passing type
@@ -85,6 +89,18 @@ class BaseInventoryHandler(hydra.HydraHandler):
 		parent_mo = Connection.vim25client.createExactManagedObject(parent_mor)
 		parent_name = parent_mo.getCurrentProperty("name")
 		return parent_mor, parent_name
+
+	# Get current properties into dictionary
+	def get_current_properties_into_dict(self, mor, path_dict, entity_dict):
+		mo = Connection.vim25client.createExactManagedObject(mor)
+		objContent = mo.retrieveObjectProperties(path_dict.keys())
+		if objContent != None and objContent.propSet != None and len(objContent.propSet) > 0:
+			for dynaprops in objContent.propSet:
+				if dynaprops.name == "datastore":
+					entity_dict['datastores'] = self.get_datastore_details(dynaprops.val)
+				elif dynaprops.name == "config.network.vnic":
+					entity_dict['ip'] = ','.join(str(i['spec']['ip']['ipAddress']) for i in dynaprops.val.HostVirtualNic)
+				elif dynaprops.name in path_dict.keys(): exec(path_dict[dynaprops.name] + " = dynaprops.val") in locals()
 
 	# Send inventory data to splunk in chunks
 	def send_inv_data(self, hierarchyCollector, last_version, host, sourcetype, sourcename, time, dest_index, config, target_config_object=None):
@@ -119,24 +135,23 @@ class BaseInventoryHandler(hydra.HydraHandler):
 					vm_dict = json.loads(data) if data else {}
 					vm_moid = vm_dict.get('moid', None)
 					if vm_moid is not None:
-						vm_mor = ManagedObjectReference(value=vm_moid, _type="VirtualMachine")
-						vm_mo = Connection.vim25client.createExactManagedObject(vm_mor)
 						try:
-							vm_dict['vm_id'] = str(vm_mo.getCurrentProperty("config.instanceUuid"))
-							vm_dict['vm_name'] = str(vm_mo.getCurrentProperty("config.name"))
-							datastore_list = self.get_datastore_details(vm_mo.getCurrentProperty("datastore"))
-							vm_dict['datastores'] = datastore_list
+							vm_mor = ManagedObjectReference(value=vm_moid, _type="VirtualMachine")
+							path_dict={"config.instanceUuid": "entity_dict['vm_id']",
+										"config.name": "entity_dict['vm_name']",
+										"datastore":""}
+							self.get_current_properties_into_dict(vm_mor, path_dict, vm_dict)
 						except Exception as e:
 							self.logger.warn("Configuration of virtual machine: {0} is not available, Error: {1}.".format(vm_moid, e))
 					runtime_dict = vm_dict.get('changeSet', {}).get('summary', {}).get('runtime', {})
 					host_moid = runtime_dict.get('host', {}).get('moid', None) if isinstance(runtime_dict, dict) else None
 					if host_moid is not None:
-						host_mor = ManagedObjectReference(value=host_moid, _type="HostSystem")
-						host_mo = Connection.vim25client.createExactManagedObject(host_mor)
 						try:
-							vm_dict['hypervisor_os_version'] = str(host_mo.getCurrentProperty("config.product.version"))
-							vm_dict['changeSet']['summary']['runtime']['host']['uuid'] = str(host_mo.getCurrentProperty("hardware.systemInfo.uuid"))
-							vm_dict['changeSet']['summary']['runtime']['host']['name'] = str(host_mo.getCurrentProperty("summary.config.name"))
+							host_mor = ManagedObjectReference(value=host_moid, _type="HostSystem")
+							path_dict={"config.product.version": "entity_dict['hypervisor_os_version']",
+										"hardware.systemInfo.uuid": "entity_dict['changeSet']['summary']['runtime']['host']['uuid']",
+										"summary.config.name": "entity_dict['changeSet']['summary']['runtime']['host']['name']"}
+							self.get_current_properties_into_dict(host_mor, path_dict, vm_dict)
 						except Exception as e:
 							self.logger.warn("Hardware info is not available for parent host: {0}, Error: {1}.".format(host_moid, e))
 						try:
@@ -150,16 +165,13 @@ class BaseInventoryHandler(hydra.HydraHandler):
 					host_dict = json.loads(data) if data else {}
 					host_moid = host_dict.get('moid', None)
 					if host_moid is not None:
-						host_mor = ManagedObjectReference(value=host_moid, _type="HostSystem")
-						host_mo = Connection.vim25client.createExactManagedObject(host_mor)
 						try:
-							host_dict['hypervisor_name'] = str(host_mo.getCurrentProperty("summary.config.name"))
-							host_dict['hypervisor_id'] = str(host_mo.getCurrentProperty("summary.hardware.uuid"))
-							datastore_list =  self.get_datastore_details(host_mo.getCurrentProperty("datastore"))
-							host_dict['datastores'] = datastore_list
-							vnic = host_mo.getCurrentProperty("config.network.vnic")
-							ip = ','.join(str(i['spec']['ip']['ipAddress']) for i in vnic.HostVirtualNic)
-							host_dict['ip'] = ip
+							host_mor = ManagedObjectReference(value=host_moid, _type="HostSystem")
+							path_dict={"summary.config.name": "entity_dict['hypervisor_name']",
+										"summary.hardware.uuid": "entity_dict['hypervisor_id']",
+										"datastore": "",
+										"config.network.vnic": ""}
+							self.get_current_properties_into_dict(host_mor, path_dict, host_dict)
 							datcenter_mor, datcenter_name = self.find_mor_by_type(host_mor, "Datacenter")
 							if datcenter_mor is not None:
 								host_dict['datacenter'] = {"moid": datcenter_mor.value, "type": datcenter_mor._type, "name": str(datcenter_name)}
@@ -177,10 +189,10 @@ class BaseInventoryHandler(hydra.HydraHandler):
 					datastore_moid = datastore_dict.get('moid', None)
 					if datastore_moid is not None:
 						datastore_mor = ManagedObjectReference(value=datastore_moid, _type="Datastore")
-						datastore_mo = Connection.vim25client.createExactManagedObject(datastore_mor)
-						datastore_dict['datastore_name'] = str(datastore_mo.getCurrentProperty("summary.name"))
-						datastore_dict['datastore_url'] = str(datastore_mo.getCurrentProperty("summary.url"))
-					data= json.dumps(datastore_dict)
+						path_dict={"summary.name": "entity_dict['datastore_name']",
+									"summary.url": "entity_dict['datastore_url']"}
+						self.get_current_properties_into_dict(datastore_mor, path_dict, datastore_dict)
+					data = json.dumps(datastore_dict)
 				self.logger.info("[Inventory Handler] Finished creating a json object, processing XML output")
 				self.output.sendData(data, host=host, sourcetype=sourcetype, source=sourcename, time=time, index=dest_index)
 				if config.get('autoeventgen', None) and util.normalizeBoolean(config['autoeventgen']):

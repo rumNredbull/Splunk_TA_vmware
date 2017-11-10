@@ -1,4 +1,4 @@
-# Copyright (C) 2005-2016 Splunk Inc. All Rights Reserved.
+# Copyright (C) 2005-2017 Splunk Inc. All Rights Reserved.
 [ta_vmware_collection_worker://<name>]
 capabilities = <value>
 * this is the comma delimited list of actions that the worker can perform (hostvmperf, otherperf, etc.)
