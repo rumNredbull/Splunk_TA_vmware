@@ -1,0 +1,75 @@
+"_raw",host,index,source,sourcetype,time
+"moid	uuid	instance	samp_int	p_average_hbr_hbrNetTx_kiloBytesPerSecond	p_average_hbr_hbrNetRx_kiloBytesPerSecond	p_average_hbr_hbrNumVms_number
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20	0	0	0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:hbr","2016-06-20 03:35:00.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_hbr_hbrNetTx_kiloBytesPerSecond	p_average_hbr_hbrNetRx_kiloBytesPerSecond	p_average_hbr_hbrNumVms_number
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20	0	0	0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:hbr","2016-06-20 03:33:00.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_hbr_hbrNetTx_kiloBytesPerSecond	p_average_hbr_hbrNetRx_kiloBytesPerSecond	p_average_hbr_hbrNumVms_number
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20	0	0	0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:hbr","2016-06-20 03:30:40.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_hbr_hbrNetTx_kiloBytesPerSecond	p_average_hbr_hbrNetRx_kiloBytesPerSecond	p_average_hbr_hbrNumVms_number
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20	0	0	0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:hbr","2016-06-20 03:30:20.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_hbr_hbrNetTx_kiloBytesPerSecond	p_average_hbr_hbrNetRx_kiloBytesPerSecond	p_average_hbr_hbrNumVms_number
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20	0	0	0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:hbr","2016-06-20 03:31:40.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_hbr_hbrNetTx_kiloBytesPerSecond	p_average_hbr_hbrNetRx_kiloBytesPerSecond	p_average_hbr_hbrNumVms_number
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20	0	0	0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:hbr","2016-06-20 03:31:20.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_hbr_hbrNetTx_kiloBytesPerSecond	p_average_hbr_hbrNetRx_kiloBytesPerSecond	p_average_hbr_hbrNumVms_number
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20	0	0	0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:hbr","2016-06-20 03:32:20.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_hbr_hbrNetTx_kiloBytesPerSecond	p_average_hbr_hbrNetRx_kiloBytesPerSecond	p_average_hbr_hbrNumVms_number
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20	0	0	0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:hbr","2016-06-20 03:30:00.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_hbr_hbrNetTx_kiloBytesPerSecond	p_average_hbr_hbrNetRx_kiloBytesPerSecond	p_average_hbr_hbrNumVms_number
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20	0	0	0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:hbr","2016-06-20 03:31:00.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_hbr_hbrNetTx_kiloBytesPerSecond	p_average_hbr_hbrNetRx_kiloBytesPerSecond	p_average_hbr_hbrNumVms_number
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20	0	0	0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:hbr","2016-06-20 03:32:40.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_hbr_hbrNetTx_kiloBytesPerSecond	p_average_hbr_hbrNetRx_kiloBytesPerSecond	p_average_hbr_hbrNumVms_number
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20	0	0	0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:hbr","2016-06-20 03:32:00.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_hbr_hbrNetRx_kiloBytesPerSecond	p_average_hbr_hbrNumVms_number	p_average_hbr_hbrNetTx_kiloBytesPerSecond
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20	0	0	0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:hbr","2016-06-20 03:28:40.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_hbr_hbrNetRx_kiloBytesPerSecond	p_average_hbr_hbrNumVms_number	p_average_hbr_hbrNetTx_kiloBytesPerSecond
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20	0	0	0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:hbr","2016-06-20 03:29:00.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_hbr_hbrNetRx_kiloBytesPerSecond	p_average_hbr_hbrNumVms_number	p_average_hbr_hbrNetTx_kiloBytesPerSecond
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20	0	0	0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:hbr","2016-06-20 03:28:00.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_hbr_hbrNetRx_kiloBytesPerSecond	p_average_hbr_hbrNumVms_number	p_average_hbr_hbrNetTx_kiloBytesPerSecond
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20	0	0	0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:hbr","2016-06-20 03:27:40.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_hbr_hbrNetRx_kiloBytesPerSecond	p_average_hbr_hbrNumVms_number	p_average_hbr_hbrNetTx_kiloBytesPerSecond
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20	0	0	0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:hbr","2016-06-20 03:29:20.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_hbr_hbrNetRx_kiloBytesPerSecond	p_average_hbr_hbrNumVms_number	p_average_hbr_hbrNetTx_kiloBytesPerSecond
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20	0	0	0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:hbr","2016-06-20 03:28:20.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_hbr_hbrNetRx_kiloBytesPerSecond	p_average_hbr_hbrNumVms_number	p_average_hbr_hbrNetTx_kiloBytesPerSecond
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20	0	0	0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:hbr","2016-06-20 03:29:40.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_hbr_hbrNetRx_kiloBytesPerSecond	p_average_hbr_hbrNumVms_number	p_average_hbr_hbrNetTx_kiloBytesPerSecond
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20	0	0	0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:hbr","2016-06-20 03:27:20.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_hbr_hbrNetRx_kiloBytesPerSecond	p_average_hbr_hbrNumVms_number	p_average_hbr_hbrNetTx_kiloBytesPerSecond
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20	0	0	0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:hbr","2016-06-20 03:27:00.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_hbr_hbrNetRx_kiloBytesPerSecond	p_average_hbr_hbrNumVms_number	p_average_hbr_hbrNetTx_kiloBytesPerSecond
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20	0	0	0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:hbr","2016-06-20 03:26:00.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_hbr_hbrNetRx_kiloBytesPerSecond	p_average_hbr_hbrNumVms_number	p_average_hbr_hbrNetTx_kiloBytesPerSecond
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20	0	0	0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:hbr","2016-06-20 03:26:20.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_hbr_hbrNetRx_kiloBytesPerSecond	p_average_hbr_hbrNumVms_number	p_average_hbr_hbrNetTx_kiloBytesPerSecond
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20	0	0	0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:hbr","2016-06-20 03:25:20.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_hbr_hbrNetRx_kiloBytesPerSecond	p_average_hbr_hbrNumVms_number	p_average_hbr_hbrNetTx_kiloBytesPerSecond
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20	0	0	0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:hbr","2016-06-20 03:26:40.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_hbr_hbrNetRx_kiloBytesPerSecond	p_average_hbr_hbrNumVms_number	p_average_hbr_hbrNetTx_kiloBytesPerSecond
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20	0	0	0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:hbr","2016-06-20 03:24:40.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_hbr_hbrNetRx_kiloBytesPerSecond	p_average_hbr_hbrNumVms_number	p_average_hbr_hbrNetTx_kiloBytesPerSecond
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20	0	0	0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:hbr","2016-06-20 03:25:00.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_hbr_hbrNetRx_kiloBytesPerSecond	p_average_hbr_hbrNumVms_number	p_average_hbr_hbrNetTx_kiloBytesPerSecond
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20	0	0	0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:hbr","2016-06-20 03:25:40.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_hbr_hbrNetRx_kiloBytesPerSecond	p_average_hbr_hbrNumVms_number	p_average_hbr_hbrNetTx_kiloBytesPerSecond
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20	0	0	0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:hbr","2016-06-20 03:24:20.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_hbr_hbrNetRx_kiloBytesPerSecond	p_average_hbr_hbrNumVms_number	p_average_hbr_hbrNetTx_kiloBytesPerSecond
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20	0	0	0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:hbr","2016-06-20 03:24:00.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_hbr_hbrNetTx_kiloBytesPerSecond	p_average_hbr_hbrNetRx_kiloBytesPerSecond	p_average_hbr_hbrNumVms_number
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20	0	0	0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:hbr","2016-06-20 03:23:20.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_hbr_hbrNetTx_kiloBytesPerSecond	p_average_hbr_hbrNetRx_kiloBytesPerSecond	p_average_hbr_hbrNumVms_number
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20	0	0	0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:hbr","2016-06-20 03:22:40.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_hbr_hbrNetTx_kiloBytesPerSecond	p_average_hbr_hbrNetRx_kiloBytesPerSecond	p_average_hbr_hbrNumVms_number
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20	0	0	0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:hbr","2016-06-20 03:22:00.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_hbr_hbrNetTx_kiloBytesPerSecond	p_average_hbr_hbrNetRx_kiloBytesPerSecond	p_average_hbr_hbrNumVms_number
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20	0	0	0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:hbr","2016-06-20 03:23:00.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_hbr_hbrNetTx_kiloBytesPerSecond	p_average_hbr_hbrNetRx_kiloBytesPerSecond	p_average_hbr_hbrNumVms_number
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20	0	0	0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:hbr","2016-06-20 03:22:20.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_hbr_hbrNetTx_kiloBytesPerSecond	p_average_hbr_hbrNetRx_kiloBytesPerSecond	p_average_hbr_hbrNumVms_number
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20	0	0	0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:hbr","2016-06-20 03:21:20.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_hbr_hbrNetTx_kiloBytesPerSecond	p_average_hbr_hbrNetRx_kiloBytesPerSecond	p_average_hbr_hbrNumVms_number
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20	0	0	0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:hbr","2016-06-20 03:21:40.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_hbr_hbrNetTx_kiloBytesPerSecond	p_average_hbr_hbrNetRx_kiloBytesPerSecond	p_average_hbr_hbrNumVms_number
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20	0	0	0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:hbr","2016-06-20 03:23:40.000000 PDT"

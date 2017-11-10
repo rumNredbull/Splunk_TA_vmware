@@ -1,0 +1,989 @@
+"_raw",host,index,source,sourcetype,time
+"moid	uuid	instance	samp_int	p_average_disk_totalLatency_millisecond	p_average_disk_deviceLatency_millisecond	p_average_disk_queueLatency_millisecond	p_average_disk_totalReadLatency_millisecond	p_summation_disk_busResets_number	p_summation_disk_commandsAborted_number	p_average_disk_totalWriteLatency_millisecond	p_average_disk_kernelLatency_millisecond	p_average_disk_write_kiloBytesPerSecond	p_average_disk_maxQueueDepth_number	p_summation_disk_numberWrite_number	p_summation_disk_commands_number	p_average_disk_kernelWriteLatency_millisecond	p_average_disk_read_kiloBytesPerSecond	p_average_disk_kernelReadLatency_millisecond	p_average_disk_queueReadLatency_millisecond	p_average_disk_commandsAveraged_number	p_average_disk_usage_kiloBytesPerSecond	p_latest_disk_maxTotalLatency_millisecond	p_average_disk_queueWriteLatency_millisecond	p_average_disk_numberWriteAveraged_number	p_average_disk_numberReadAveraged_number	p_summation_disk_numberRead_number	p_average_disk_deviceWriteLatency_millisecond	p_average_disk_deviceReadLatency_millisecond
+host-10	00000000-0000-0000-0000-002590d3fca0	t10.FreeBSD_iSCSI_Disk______002590d0fed0050_________________	20	0	0	0	0	0	0	0	0	0	128	0	0	0	0	0	0	0			0	0	0	0	0	0
+host-10	00000000-0000-0000-0000-002590d3fca0	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0	0	0	0	0	0	0	0	31	10	24	0	0	0	0	1			0	0	0	12	0	0
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20									0					0				0	0						","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:disk","2016-06-20 03:34:20.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_disk_totalLatency_millisecond	p_average_disk_deviceLatency_millisecond	p_average_disk_queueLatency_millisecond	p_average_disk_totalReadLatency_millisecond	p_summation_disk_busResets_number	p_summation_disk_commandsAborted_number	p_average_disk_totalWriteLatency_millisecond	p_average_disk_kernelLatency_millisecond	p_average_disk_write_kiloBytesPerSecond	p_average_disk_maxQueueDepth_number	p_summation_disk_numberWrite_number	p_summation_disk_commands_number	p_average_disk_kernelWriteLatency_millisecond	p_average_disk_read_kiloBytesPerSecond	p_average_disk_kernelReadLatency_millisecond	p_average_disk_queueReadLatency_millisecond	p_average_disk_commandsAveraged_number	p_average_disk_usage_kiloBytesPerSecond	p_latest_disk_maxTotalLatency_millisecond	p_average_disk_queueWriteLatency_millisecond	p_average_disk_numberWriteAveraged_number	p_average_disk_numberReadAveraged_number	p_summation_disk_numberRead_number	p_average_disk_deviceWriteLatency_millisecond	p_average_disk_deviceReadLatency_millisecond
+host-10	00000000-0000-0000-0000-002590d3fca0	t10.FreeBSD_iSCSI_Disk______002590d0fed0050_________________	20	0	0	0	0	0	0	0	0	0	128	0	0	0	0	0	0	0			0	0	0	0	0	0
+host-10	00000000-0000-0000-0000-002590d3fca0	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0	0	0	0	0	0	0	0	31	11	104	0	105	0	0	5			0	0	4	91	0	0
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20									0					105				105	0						","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:disk","2016-06-20 03:33:20.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_disk_totalLatency_millisecond	p_average_disk_deviceLatency_millisecond	p_average_disk_queueLatency_millisecond	p_average_disk_totalReadLatency_millisecond	p_summation_disk_busResets_number	p_summation_disk_commandsAborted_number	p_average_disk_totalWriteLatency_millisecond	p_average_disk_kernelLatency_millisecond	p_average_disk_write_kiloBytesPerSecond	p_average_disk_maxQueueDepth_number	p_summation_disk_numberWrite_number	p_summation_disk_commands_number	p_average_disk_kernelWriteLatency_millisecond	p_average_disk_read_kiloBytesPerSecond	p_average_disk_kernelReadLatency_millisecond	p_average_disk_queueReadLatency_millisecond	p_average_disk_commandsAveraged_number	p_average_disk_usage_kiloBytesPerSecond	p_latest_disk_maxTotalLatency_millisecond	p_average_disk_queueWriteLatency_millisecond	p_average_disk_numberWriteAveraged_number	p_average_disk_numberReadAveraged_number	p_summation_disk_numberRead_number	p_average_disk_deviceWriteLatency_millisecond	p_average_disk_deviceReadLatency_millisecond
+host-10	00000000-0000-0000-0000-002590d3fca0	t10.FreeBSD_iSCSI_Disk______002590d0fed0050_________________	20	0	0	0	0	0	0	0	0	0	128	0	0	0	0	0	0	0			0	0	0	0	0	0
+host-10	00000000-0000-0000-0000-002590d3fca0	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0	0	0	0	0	0	0	0	31	10	24	0	0	0	0	1			0	0	0	12	0	0
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20									0					0				0	0						","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:disk","2016-06-20 03:35:20.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_disk_numberWriteAveraged_number	p_summation_disk_commands_number	p_latest_disk_maxTotalLatency_millisecond	p_average_disk_read_kiloBytesPerSecond	p_average_disk_write_kiloBytesPerSecond	p_summation_disk_commandsAborted_number	p_summation_disk_numberWrite_number	p_average_disk_numberReadAveraged_number	p_summation_disk_numberRead_number	p_summation_disk_busResets_number	p_average_disk_commandsAveraged_number	p_average_disk_usage_kiloBytesPerSecond
+vm-16	5010d5e0-116d-cc1b-93ad-c1926428df1d	aggregated	20			0									
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	aggregated	20			0	0	0							0
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	aggregated	20			0									
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	aggregated	20			0									
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	aggregated	20			0	0	0							0
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	aggregated	20			0	0	0							0
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	aggregated	20			0									
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	aggregated	20			0	0	0							0
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	aggregated	20			0									
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	aggregated	20			0	0	0							0
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	2		0	0	0	2	0	0	0	0	
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	aggregated	20			0	0	0							0
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	aggregated	20			0	0	0							0
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	aggregated	20			0	0	0							0
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:VirtualMachine","vmware:perf:disk","2016-06-20 03:35:40.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_disk_totalLatency_millisecond	p_average_disk_deviceLatency_millisecond	p_average_disk_queueLatency_millisecond	p_average_disk_totalReadLatency_millisecond	p_summation_disk_busResets_number	p_summation_disk_commandsAborted_number	p_average_disk_totalWriteLatency_millisecond	p_average_disk_kernelLatency_millisecond	p_average_disk_write_kiloBytesPerSecond	p_average_disk_maxQueueDepth_number	p_summation_disk_numberWrite_number	p_summation_disk_commands_number	p_average_disk_kernelWriteLatency_millisecond	p_average_disk_read_kiloBytesPerSecond	p_average_disk_kernelReadLatency_millisecond	p_average_disk_queueReadLatency_millisecond	p_average_disk_commandsAveraged_number	p_average_disk_usage_kiloBytesPerSecond	p_latest_disk_maxTotalLatency_millisecond	p_average_disk_queueWriteLatency_millisecond	p_average_disk_numberWriteAveraged_number	p_average_disk_numberReadAveraged_number	p_summation_disk_numberRead_number	p_average_disk_deviceWriteLatency_millisecond	p_average_disk_deviceReadLatency_millisecond
+host-10	00000000-0000-0000-0000-002590d3fca0	t10.FreeBSD_iSCSI_Disk______002590d0fed0050_________________	20	0	0	0	0	0	0	0	0	0	128	0	0	0	0	0	0	0			0	0	0	0	0	0
+host-10	00000000-0000-0000-0000-002590d3fca0	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0	0	0	0	0	0	0	35	31	33	134	0	136	0	0	6			0	1	5	101	0	0
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20									35					136				171	0						","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:disk","2016-06-20 03:34:00.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_disk_totalLatency_millisecond	p_average_disk_deviceLatency_millisecond	p_average_disk_queueLatency_millisecond	p_average_disk_totalReadLatency_millisecond	p_summation_disk_busResets_number	p_summation_disk_commandsAborted_number	p_average_disk_totalWriteLatency_millisecond	p_average_disk_kernelLatency_millisecond	p_average_disk_write_kiloBytesPerSecond	p_average_disk_maxQueueDepth_number	p_summation_disk_numberWrite_number	p_summation_disk_commands_number	p_average_disk_kernelWriteLatency_millisecond	p_average_disk_read_kiloBytesPerSecond	p_average_disk_kernelReadLatency_millisecond	p_average_disk_queueReadLatency_millisecond	p_average_disk_commandsAveraged_number	p_average_disk_usage_kiloBytesPerSecond	p_latest_disk_maxTotalLatency_millisecond	p_average_disk_queueWriteLatency_millisecond	p_average_disk_numberWriteAveraged_number	p_average_disk_numberReadAveraged_number	p_summation_disk_numberRead_number	p_average_disk_deviceWriteLatency_millisecond	p_average_disk_deviceReadLatency_millisecond
+host-10	00000000-0000-0000-0000-002590d3fca0	t10.FreeBSD_iSCSI_Disk______002590d0fed0050_________________	20	0	0	0	0	0	0	0	0	0	128	0	0	0	0	0	0	0			0	0	0	0	0	0
+host-10	00000000-0000-0000-0000-002590d3fca0	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0	0	0	0	0	0	0	53	31	36	71	0	51	0	0	3			0	1	1	35	0	0
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20									53					51				105	0						","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:disk","2016-06-20 03:33:40.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_disk_totalLatency_millisecond	p_average_disk_deviceLatency_millisecond	p_average_disk_queueLatency_millisecond	p_average_disk_totalReadLatency_millisecond	p_summation_disk_busResets_number	p_summation_disk_commandsAborted_number	p_average_disk_totalWriteLatency_millisecond	p_average_disk_kernelLatency_millisecond	p_average_disk_write_kiloBytesPerSecond	p_average_disk_maxQueueDepth_number	p_summation_disk_numberWrite_number	p_summation_disk_commands_number	p_average_disk_kernelWriteLatency_millisecond	p_average_disk_read_kiloBytesPerSecond	p_average_disk_kernelReadLatency_millisecond	p_average_disk_queueReadLatency_millisecond	p_average_disk_commandsAveraged_number	p_average_disk_usage_kiloBytesPerSecond	p_latest_disk_maxTotalLatency_millisecond	p_average_disk_queueWriteLatency_millisecond	p_average_disk_numberWriteAveraged_number	p_average_disk_numberReadAveraged_number	p_summation_disk_numberRead_number	p_average_disk_deviceWriteLatency_millisecond	p_average_disk_deviceReadLatency_millisecond
+host-10	00000000-0000-0000-0000-002590d3fca0	t10.FreeBSD_iSCSI_Disk______002590d0fed0050_________________	20	0	0	0	0	0	0	0	0	0	128	0	0	0	0	0	0	0			0	0	0	0	0	0
+host-10	00000000-0000-0000-0000-002590d3fca0	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0	0	0	0	0	0	0	56	31	39	75	0	51	0	0	3			0	1	1	34	0	0
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20									56					51				108	0						","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:disk","2016-06-20 03:35:40.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_disk_numberWriteAveraged_number	p_summation_disk_commands_number	p_latest_disk_maxTotalLatency_millisecond	p_average_disk_read_kiloBytesPerSecond	p_average_disk_write_kiloBytesPerSecond	p_summation_disk_commandsAborted_number	p_summation_disk_numberWrite_number	p_average_disk_numberReadAveraged_number	p_summation_disk_numberRead_number	p_summation_disk_busResets_number	p_average_disk_commandsAveraged_number	p_average_disk_usage_kiloBytesPerSecond
+vm-16	5010d5e0-116d-cc1b-93ad-c1926428df1d	aggregated	20			0									
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	aggregated	20			0	0	0							0
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	aggregated	20			0									
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	aggregated	20			0									
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	aggregated	20			0	0	0							0
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	aggregated	20			0	0	0							0
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	aggregated	20			0									
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	aggregated	20			0	0	0							0
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	aggregated	20			0									
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	aggregated	20			0	0	0							0
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	aggregated	20			0	0	0							0
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	aggregated	20			0	0	0							0
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	aggregated	20			0	0	0							0
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:VirtualMachine","vmware:perf:disk","2016-06-20 03:33:20.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_disk_numberWriteAveraged_number	p_summation_disk_commands_number	p_latest_disk_maxTotalLatency_millisecond	p_average_disk_read_kiloBytesPerSecond	p_average_disk_write_kiloBytesPerSecond	p_summation_disk_commandsAborted_number	p_summation_disk_numberWrite_number	p_average_disk_numberReadAveraged_number	p_summation_disk_numberRead_number	p_summation_disk_busResets_number	p_average_disk_commandsAveraged_number	p_average_disk_usage_kiloBytesPerSecond
+vm-16	5010d5e0-116d-cc1b-93ad-c1926428df1d	aggregated	20			0									
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	aggregated	20			0	0	0							0
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	aggregated	20			0									
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	aggregated	20			0									
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	aggregated	20			0	0	0							0
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	aggregated	20			0	0	0							0
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	aggregated	20			0									
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	aggregated	20			0	0	0							0
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	aggregated	20			0									
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	aggregated	20			0	0	1							1
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	7		0	1	0	7	0	0	0	0	
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	aggregated	20			0	0	0							0
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	aggregated	20			0	0	0							0
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	aggregated	20			0	0	0							0
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:VirtualMachine","vmware:perf:disk","2016-06-20 03:34:00.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_disk_numberWriteAveraged_number	p_summation_disk_commands_number	p_latest_disk_maxTotalLatency_millisecond	p_average_disk_read_kiloBytesPerSecond	p_average_disk_write_kiloBytesPerSecond	p_summation_disk_commandsAborted_number	p_summation_disk_numberWrite_number	p_average_disk_numberReadAveraged_number	p_summation_disk_numberRead_number	p_summation_disk_busResets_number	p_average_disk_commandsAveraged_number	p_average_disk_usage_kiloBytesPerSecond
+vm-16	5010d5e0-116d-cc1b-93ad-c1926428df1d	aggregated	20			0									
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	aggregated	20			0	0	0							0
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	aggregated	20			0									
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	aggregated	20			0									
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	aggregated	20			0	0	0							0
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	aggregated	20			0	0	0							0
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	aggregated	20			0									
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	aggregated	20			0	0	0							0
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	aggregated	20			0									
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	aggregated	20			0	0	0							0
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	aggregated	20			0	0	0							0
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	aggregated	20			0	0	0							0
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	aggregated	20			0	0	0							0
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:VirtualMachine","vmware:perf:disk","2016-06-20 03:35:20.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_disk_numberWriteAveraged_number	p_summation_disk_commands_number	p_latest_disk_maxTotalLatency_millisecond	p_average_disk_read_kiloBytesPerSecond	p_average_disk_write_kiloBytesPerSecond	p_summation_disk_commandsAborted_number	p_summation_disk_numberWrite_number	p_average_disk_numberReadAveraged_number	p_summation_disk_numberRead_number	p_summation_disk_busResets_number	p_average_disk_commandsAveraged_number	p_average_disk_usage_kiloBytesPerSecond
+vm-16	5010d5e0-116d-cc1b-93ad-c1926428df1d	aggregated	20			0									
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	aggregated	20			0	0	0							0
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	aggregated	20			0									
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	aggregated	20			0									
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	aggregated	20			0	0	0							0
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	aggregated	20			0	0	0							0
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	aggregated	20			0									
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	aggregated	20			0	0	0							0
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	aggregated	20			0									
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	aggregated	20			0	0	0							0
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	aggregated	20			0	0	0							0
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	aggregated	20			0	0	0							0
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	aggregated	20			0	0	0							0
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:VirtualMachine","vmware:perf:disk","2016-06-20 03:33:00.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_disk_numberWriteAveraged_number	p_summation_disk_commands_number	p_latest_disk_maxTotalLatency_millisecond	p_average_disk_read_kiloBytesPerSecond	p_average_disk_write_kiloBytesPerSecond	p_summation_disk_commandsAborted_number	p_summation_disk_numberWrite_number	p_average_disk_numberReadAveraged_number	p_summation_disk_numberRead_number	p_summation_disk_busResets_number	p_average_disk_commandsAveraged_number	p_average_disk_usage_kiloBytesPerSecond
+vm-16	5010d5e0-116d-cc1b-93ad-c1926428df1d	aggregated	20			0									
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	aggregated	20			0	0	0							0
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	aggregated	20			0									
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	aggregated	20			0									
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	aggregated	20			0	0	0							0
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	aggregated	20			0	0	0							0
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	aggregated	20			0									
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	aggregated	20			0	0	0							0
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	aggregated	20			0									
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	aggregated	20			0	0	0							0
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	3		0	0	0	3	0	0	0	0	
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	aggregated	20			0	0	0							0
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	aggregated	20			0	0	0							0
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	aggregated	20			0	0	0							0
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:VirtualMachine","vmware:perf:disk","2016-06-20 03:33:40.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_disk_totalLatency_millisecond	p_average_disk_deviceLatency_millisecond	p_average_disk_queueLatency_millisecond	p_average_disk_totalReadLatency_millisecond	p_summation_disk_busResets_number	p_summation_disk_commandsAborted_number	p_average_disk_totalWriteLatency_millisecond	p_average_disk_kernelLatency_millisecond	p_average_disk_write_kiloBytesPerSecond	p_average_disk_maxQueueDepth_number	p_summation_disk_numberWrite_number	p_summation_disk_commands_number	p_average_disk_kernelWriteLatency_millisecond	p_average_disk_read_kiloBytesPerSecond	p_average_disk_kernelReadLatency_millisecond	p_average_disk_queueReadLatency_millisecond	p_average_disk_commandsAveraged_number	p_average_disk_usage_kiloBytesPerSecond	p_latest_disk_maxTotalLatency_millisecond	p_average_disk_queueWriteLatency_millisecond	p_average_disk_numberWriteAveraged_number	p_average_disk_numberReadAveraged_number	p_summation_disk_numberRead_number	p_average_disk_deviceWriteLatency_millisecond	p_average_disk_deviceReadLatency_millisecond
+host-10	00000000-0000-0000-0000-002590d3fca0	t10.FreeBSD_iSCSI_Disk______002590d0fed0050_________________	20	0	0	0	0	0	0	0	0	0	128	0	0	0	0	0	0	0			0	0	0	0	0	0
+host-10	00000000-0000-0000-0000-002590d3fca0	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0	0	0	0	0	0	0	0	31	14	29	0	0	0	0	1			0	0	0	13	0	0
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20									0					0				1	0						","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:disk","2016-06-20 03:31:20.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_disk_totalLatency_millisecond	p_average_disk_deviceLatency_millisecond	p_average_disk_queueLatency_millisecond	p_average_disk_totalReadLatency_millisecond	p_summation_disk_busResets_number	p_summation_disk_commandsAborted_number	p_average_disk_totalWriteLatency_millisecond	p_average_disk_kernelLatency_millisecond	p_average_disk_write_kiloBytesPerSecond	p_average_disk_maxQueueDepth_number	p_summation_disk_numberWrite_number	p_summation_disk_commands_number	p_average_disk_kernelWriteLatency_millisecond	p_average_disk_read_kiloBytesPerSecond	p_average_disk_kernelReadLatency_millisecond	p_average_disk_queueReadLatency_millisecond	p_average_disk_commandsAveraged_number	p_average_disk_usage_kiloBytesPerSecond	p_latest_disk_maxTotalLatency_millisecond	p_average_disk_queueWriteLatency_millisecond	p_average_disk_numberWriteAveraged_number	p_average_disk_numberReadAveraged_number	p_summation_disk_numberRead_number	p_average_disk_deviceWriteLatency_millisecond	p_average_disk_deviceReadLatency_millisecond
+host-10	00000000-0000-0000-0000-002590d3fca0	t10.FreeBSD_iSCSI_Disk______002590d0fed0050_________________	20	0	0	0	0	0	0	0	0	0	128	0	0	0	0	0	0	0			0	0	0	0	0	0
+host-10	00000000-0000-0000-0000-002590d3fca0	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0	0	0	0	0	0	0	46	31	33	142	0	149	0	0	7			0	1	5	109	0	0
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20									46					149				196	0						","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:disk","2016-06-20 03:31:40.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_disk_numberWriteAveraged_number	p_summation_disk_commands_number	p_latest_disk_maxTotalLatency_millisecond	p_average_disk_read_kiloBytesPerSecond	p_average_disk_write_kiloBytesPerSecond	p_summation_disk_commandsAborted_number	p_summation_disk_numberWrite_number	p_average_disk_numberReadAveraged_number	p_summation_disk_numberRead_number	p_summation_disk_busResets_number	p_average_disk_commandsAveraged_number	p_average_disk_usage_kiloBytesPerSecond
+vm-16	5010d5e0-116d-cc1b-93ad-c1926428df1d	aggregated	20			0									
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	aggregated	20			0	0	0							0
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	aggregated	20			0									
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	aggregated	20			0									
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	aggregated	20			0	0	0							0
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	aggregated	20			0	0	0							0
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	aggregated	20			0									
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	aggregated	20			0	0	0							0
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	aggregated	20			0									
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	aggregated	20			0	0	0							0
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	aggregated	20			0	0	0							0
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	aggregated	20			0	0	0							0
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	aggregated	20			0	0	0							0
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:VirtualMachine","vmware:perf:disk","2016-06-20 03:32:00.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_disk_numberWriteAveraged_number	p_summation_disk_commands_number	p_latest_disk_maxTotalLatency_millisecond	p_average_disk_read_kiloBytesPerSecond	p_average_disk_write_kiloBytesPerSecond	p_summation_disk_commandsAborted_number	p_summation_disk_numberWrite_number	p_average_disk_numberReadAveraged_number	p_summation_disk_numberRead_number	p_summation_disk_busResets_number	p_average_disk_commandsAveraged_number	p_average_disk_usage_kiloBytesPerSecond
+vm-16	5010d5e0-116d-cc1b-93ad-c1926428df1d	aggregated	20			0									
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	aggregated	20			0	0	0							0
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	aggregated	20			0									
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	aggregated	20			0									
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	aggregated	20			0	0	0							0
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	aggregated	20			0	0	0							0
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	aggregated	20			0									
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	aggregated	20			0	0	0							0
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	4		0	0	0	4	0	0	0	0	
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	aggregated	20			0									
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	aggregated	20			0	0	0							0
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	aggregated	20			0	0	0							0
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	aggregated	20			0	0	0							0
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	aggregated	20			0	0	0							0
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:VirtualMachine","vmware:perf:disk","2016-06-20 03:30:20.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_disk_numberWriteAveraged_number	p_summation_disk_commands_number	p_latest_disk_maxTotalLatency_millisecond	p_average_disk_read_kiloBytesPerSecond	p_average_disk_write_kiloBytesPerSecond	p_summation_disk_commandsAborted_number	p_summation_disk_numberWrite_number	p_average_disk_numberReadAveraged_number	p_summation_disk_numberRead_number	p_summation_disk_busResets_number	p_average_disk_commandsAveraged_number	p_average_disk_usage_kiloBytesPerSecond
+vm-16	5010d5e0-116d-cc1b-93ad-c1926428df1d	aggregated	20			0									
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	aggregated	20			0	0	0							0
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	aggregated	20			0									
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	aggregated	20			0									
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	aggregated	20			0	0	0							0
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	aggregated	20			0	0	0							0
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	aggregated	20			0									
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	aggregated	20			0	0	0							0
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	aggregated	20			0									
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	aggregated	20			0	0	0							0
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	aggregated	20			0	0	0							0
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	aggregated	20			0	0	0							0
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	aggregated	20			0	0	0							0
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:VirtualMachine","vmware:perf:disk","2016-06-20 03:32:20.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_disk_numberWriteAveraged_number	p_summation_disk_commands_number	p_latest_disk_maxTotalLatency_millisecond	p_average_disk_read_kiloBytesPerSecond	p_average_disk_write_kiloBytesPerSecond	p_summation_disk_commandsAborted_number	p_summation_disk_numberWrite_number	p_average_disk_numberReadAveraged_number	p_summation_disk_numberRead_number	p_summation_disk_busResets_number	p_average_disk_commandsAveraged_number	p_average_disk_usage_kiloBytesPerSecond
+vm-16	5010d5e0-116d-cc1b-93ad-c1926428df1d	aggregated	20			0									
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	aggregated	20			0	0	0							0
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	aggregated	20			0									
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	aggregated	20			0									
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	aggregated	20			0	0	0							0
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	aggregated	20			0	0	0							0
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	aggregated	20			0									
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	aggregated	20			0	0	2							2
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	9		0	2	0	9	0	0	0	0	
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	aggregated	20			0									
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	aggregated	20			0	0	0							0
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	aggregated	20			0	0	0							0
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	aggregated	20			0	0	0							0
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	aggregated	20			0	0	0							0
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:VirtualMachine","vmware:perf:disk","2016-06-20 03:30:40.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_disk_totalLatency_millisecond	p_average_disk_deviceLatency_millisecond	p_average_disk_queueLatency_millisecond	p_average_disk_totalReadLatency_millisecond	p_summation_disk_busResets_number	p_summation_disk_commandsAborted_number	p_average_disk_totalWriteLatency_millisecond	p_average_disk_kernelLatency_millisecond	p_average_disk_write_kiloBytesPerSecond	p_average_disk_maxQueueDepth_number	p_summation_disk_numberWrite_number	p_summation_disk_commands_number	p_average_disk_kernelWriteLatency_millisecond	p_average_disk_read_kiloBytesPerSecond	p_average_disk_kernelReadLatency_millisecond	p_average_disk_queueReadLatency_millisecond	p_average_disk_commandsAveraged_number	p_average_disk_usage_kiloBytesPerSecond	p_latest_disk_maxTotalLatency_millisecond	p_average_disk_queueWriteLatency_millisecond	p_average_disk_numberWriteAveraged_number	p_average_disk_numberReadAveraged_number	p_summation_disk_numberRead_number	p_average_disk_deviceWriteLatency_millisecond	p_average_disk_deviceReadLatency_millisecond
+host-10	00000000-0000-0000-0000-002590d3fca0	t10.FreeBSD_iSCSI_Disk______002590d0fed0050_________________	20	0	0	0	0	0	0	0	0	0	128	0	0	0	0	0	0	0			0	0	0	0	0	0
+host-10	00000000-0000-0000-0000-002590d3fca0	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0	0	0	0	0	0	0	46	31	29	59	0	45	0	0	2			0	1	1	30	0	0
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20									46					45				92	0						","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:disk","2016-06-20 03:32:40.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_disk_numberWriteAveraged_number	p_summation_disk_commands_number	p_latest_disk_maxTotalLatency_millisecond	p_average_disk_read_kiloBytesPerSecond	p_average_disk_write_kiloBytesPerSecond	p_summation_disk_commandsAborted_number	p_summation_disk_numberWrite_number	p_average_disk_numberReadAveraged_number	p_summation_disk_numberRead_number	p_summation_disk_busResets_number	p_average_disk_commandsAveraged_number	p_average_disk_usage_kiloBytesPerSecond
+vm-16	5010d5e0-116d-cc1b-93ad-c1926428df1d	aggregated	20			0									
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	aggregated	20			0	0	0							0
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	aggregated	20			0									
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	aggregated	20			0									
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	aggregated	20			0	0	0							0
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	aggregated	20			0	0	0							0
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	aggregated	20			0									
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	aggregated	20			0	0	0							0
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	2		0	0	0	2	0	0	0	0	
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	aggregated	20			0									
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	aggregated	20			0	0	0							0
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	aggregated	20			0	0	0							0
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	aggregated	20			0	0	0							0
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	aggregated	20			0	0	0							0
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:VirtualMachine","vmware:perf:disk","2016-06-20 03:31:20.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_disk_totalLatency_millisecond	p_average_disk_deviceLatency_millisecond	p_average_disk_queueLatency_millisecond	p_average_disk_totalReadLatency_millisecond	p_summation_disk_busResets_number	p_summation_disk_commandsAborted_number	p_average_disk_totalWriteLatency_millisecond	p_average_disk_kernelLatency_millisecond	p_average_disk_write_kiloBytesPerSecond	p_average_disk_maxQueueDepth_number	p_summation_disk_numberWrite_number	p_summation_disk_commands_number	p_average_disk_kernelWriteLatency_millisecond	p_average_disk_read_kiloBytesPerSecond	p_average_disk_kernelReadLatency_millisecond	p_average_disk_queueReadLatency_millisecond	p_average_disk_commandsAveraged_number	p_average_disk_usage_kiloBytesPerSecond	p_latest_disk_maxTotalLatency_millisecond	p_average_disk_queueWriteLatency_millisecond	p_average_disk_numberWriteAveraged_number	p_average_disk_numberReadAveraged_number	p_summation_disk_numberRead_number	p_average_disk_deviceWriteLatency_millisecond	p_average_disk_deviceReadLatency_millisecond
+host-10	00000000-0000-0000-0000-002590d3fca0	t10.FreeBSD_iSCSI_Disk______002590d0fed0050_________________	20	0	0	0	0	0	0	0	0	0	128	0	0	0	0	0	0	0			0	0	0	0	0	0
+host-10	00000000-0000-0000-0000-002590d3fca0	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0	0	0	0	0	0	0	46	31	33	155	0	150	0	0	7			0	1	6	120	0	0
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20									46					150				197	0						","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:disk","2016-06-20 03:30:00.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_disk_numberWriteAveraged_number	p_summation_disk_commands_number	p_latest_disk_maxTotalLatency_millisecond	p_average_disk_read_kiloBytesPerSecond	p_average_disk_write_kiloBytesPerSecond	p_summation_disk_commandsAborted_number	p_summation_disk_numberWrite_number	p_average_disk_numberReadAveraged_number	p_summation_disk_numberRead_number	p_summation_disk_busResets_number	p_average_disk_commandsAveraged_number	p_average_disk_usage_kiloBytesPerSecond
+vm-16	5010d5e0-116d-cc1b-93ad-c1926428df1d	aggregated	20			0									
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	aggregated	20			0	0	0							0
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	aggregated	20			0									
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	aggregated	20			0									
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	aggregated	20			0	0	0							0
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	aggregated	20			0	0	0							0
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	aggregated	20			0									
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	aggregated	20			0	0	0							0
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	2		0	0	0	2	0	0	0	0	
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	aggregated	20			0									
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	aggregated	20			0	0	0							0
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	aggregated	20			0	0	0							0
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	aggregated	20			0	0	0							0
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	aggregated	20			0	0	0							0
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:VirtualMachine","vmware:perf:disk","2016-06-20 03:31:40.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_disk_totalLatency_millisecond	p_average_disk_deviceLatency_millisecond	p_average_disk_queueLatency_millisecond	p_average_disk_totalReadLatency_millisecond	p_summation_disk_busResets_number	p_summation_disk_commandsAborted_number	p_average_disk_totalWriteLatency_millisecond	p_average_disk_kernelLatency_millisecond	p_average_disk_write_kiloBytesPerSecond	p_average_disk_maxQueueDepth_number	p_summation_disk_numberWrite_number	p_summation_disk_commands_number	p_average_disk_kernelWriteLatency_millisecond	p_average_disk_read_kiloBytesPerSecond	p_average_disk_kernelReadLatency_millisecond	p_average_disk_queueReadLatency_millisecond	p_average_disk_commandsAveraged_number	p_average_disk_usage_kiloBytesPerSecond	p_latest_disk_maxTotalLatency_millisecond	p_average_disk_queueWriteLatency_millisecond	p_average_disk_numberWriteAveraged_number	p_average_disk_numberReadAveraged_number	p_summation_disk_numberRead_number	p_average_disk_deviceWriteLatency_millisecond	p_average_disk_deviceReadLatency_millisecond
+host-10	00000000-0000-0000-0000-002590d3fca0	t10.FreeBSD_iSCSI_Disk______002590d0fed0050_________________	20	0	0	0	0	0	0	0	0	0	128	0	0	0	0	0	0	0			0	0	0	0	0	0
+host-10	00000000-0000-0000-0000-002590d3fca0	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0	0	0	0	0	0	0	0	31	11	25	0	0	0	0	1			0	0	0	12	0	0
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20									0					0				0	0						","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:disk","2016-06-20 03:32:20.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_disk_numberWriteAveraged_number	p_summation_disk_commands_number	p_latest_disk_maxTotalLatency_millisecond	p_average_disk_read_kiloBytesPerSecond	p_average_disk_write_kiloBytesPerSecond	p_summation_disk_commandsAborted_number	p_summation_disk_numberWrite_number	p_average_disk_numberReadAveraged_number	p_summation_disk_numberRead_number	p_summation_disk_busResets_number	p_average_disk_commandsAveraged_number	p_average_disk_usage_kiloBytesPerSecond
+vm-16	5010d5e0-116d-cc1b-93ad-c1926428df1d	aggregated	20			0									
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	aggregated	20			0	0	0							0
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	aggregated	20			0									
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	aggregated	20			0									
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	aggregated	20			0	0	0							0
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	aggregated	20			0	0	0							0
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	aggregated	20			0									
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	aggregated	20			0	0	0							0
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	aggregated	20			0									
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	aggregated	20			0	0	0							0
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	aggregated	20			0	0	0							0
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	aggregated	20			0	0	0							0
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	aggregated	20			0	0	0							0
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:VirtualMachine","vmware:perf:disk","2016-06-20 03:31:00.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_disk_totalLatency_millisecond	p_average_disk_deviceLatency_millisecond	p_average_disk_queueLatency_millisecond	p_average_disk_totalReadLatency_millisecond	p_summation_disk_busResets_number	p_summation_disk_commandsAborted_number	p_average_disk_totalWriteLatency_millisecond	p_average_disk_kernelLatency_millisecond	p_average_disk_write_kiloBytesPerSecond	p_average_disk_maxQueueDepth_number	p_summation_disk_numberWrite_number	p_summation_disk_commands_number	p_average_disk_kernelWriteLatency_millisecond	p_average_disk_read_kiloBytesPerSecond	p_average_disk_kernelReadLatency_millisecond	p_average_disk_queueReadLatency_millisecond	p_average_disk_commandsAveraged_number	p_average_disk_usage_kiloBytesPerSecond	p_latest_disk_maxTotalLatency_millisecond	p_average_disk_queueWriteLatency_millisecond	p_average_disk_numberWriteAveraged_number	p_average_disk_numberReadAveraged_number	p_summation_disk_numberRead_number	p_average_disk_deviceWriteLatency_millisecond	p_average_disk_deviceReadLatency_millisecond
+host-10	00000000-0000-0000-0000-002590d3fca0	t10.FreeBSD_iSCSI_Disk______002590d0fed0050_________________	20	0	0	0	0	0	0	0	0	0	128	0	0	0	0	0	0	0			0	0	0	0	0	0
+host-10	00000000-0000-0000-0000-002590d3fca0	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0	0	0	0	0	0	0	1	31	15	96	0	104	0	0	4			0	0	4	81	0	0
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20									1					104				105	0						","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:disk","2016-06-20 03:30:20.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_disk_totalLatency_millisecond	p_average_disk_deviceLatency_millisecond	p_average_disk_queueLatency_millisecond	p_average_disk_totalReadLatency_millisecond	p_summation_disk_busResets_number	p_summation_disk_commandsAborted_number	p_average_disk_totalWriteLatency_millisecond	p_average_disk_kernelLatency_millisecond	p_average_disk_write_kiloBytesPerSecond	p_average_disk_maxQueueDepth_number	p_summation_disk_numberWrite_number	p_summation_disk_commands_number	p_average_disk_kernelWriteLatency_millisecond	p_average_disk_read_kiloBytesPerSecond	p_average_disk_kernelReadLatency_millisecond	p_average_disk_queueReadLatency_millisecond	p_average_disk_commandsAveraged_number	p_average_disk_usage_kiloBytesPerSecond	p_latest_disk_maxTotalLatency_millisecond	p_average_disk_queueWriteLatency_millisecond	p_average_disk_numberWriteAveraged_number	p_average_disk_numberReadAveraged_number	p_summation_disk_numberRead_number	p_average_disk_deviceWriteLatency_millisecond	p_average_disk_deviceReadLatency_millisecond
+host-10	00000000-0000-0000-0000-002590d3fca0	t10.FreeBSD_iSCSI_Disk______002590d0fed0050_________________	20	0	0	0	0	0	0	0	0	0	128	0	0	0	0	0	0	0			0	0	0	0	0	0
+host-10	00000000-0000-0000-0000-002590d3fca0	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0	0	0	0	0	0	0	72	31	52	97	0	64	0	0	4			0	2	2	43	0	0
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20									72					64				137	0						","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:disk","2016-06-20 03:30:40.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_disk_numberWriteAveraged_number	p_summation_disk_commands_number	p_latest_disk_maxTotalLatency_millisecond	p_average_disk_read_kiloBytesPerSecond	p_average_disk_write_kiloBytesPerSecond	p_summation_disk_commandsAborted_number	p_summation_disk_numberWrite_number	p_average_disk_numberReadAveraged_number	p_summation_disk_numberRead_number	p_summation_disk_busResets_number	p_average_disk_commandsAveraged_number	p_average_disk_usage_kiloBytesPerSecond
+vm-16	5010d5e0-116d-cc1b-93ad-c1926428df1d	aggregated	20			0									
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	aggregated	20			0	0	0							0
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	aggregated	20			0									
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	aggregated	20			0									
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	aggregated	20			0	0	0							0
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	aggregated	20			0	0	0							0
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	aggregated	20			0									
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	aggregated	20			0	0	0							0
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	aggregated	20			0									
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	aggregated	20			0	0	0							0
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	aggregated	20			0	0	0							0
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	aggregated	20			0	0	0							0
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	aggregated	20			0	0	0							0
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:VirtualMachine","vmware:perf:disk","2016-06-20 03:32:40.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_disk_numberWriteAveraged_number	p_summation_disk_commands_number	p_latest_disk_maxTotalLatency_millisecond	p_average_disk_read_kiloBytesPerSecond	p_average_disk_write_kiloBytesPerSecond	p_summation_disk_commandsAborted_number	p_summation_disk_numberWrite_number	p_average_disk_numberReadAveraged_number	p_summation_disk_numberRead_number	p_summation_disk_busResets_number	p_average_disk_commandsAveraged_number	p_average_disk_usage_kiloBytesPerSecond
+vm-16	5010d5e0-116d-cc1b-93ad-c1926428df1d	aggregated	20			0									
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	aggregated	20			0	0	0							0
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	aggregated	20			0									
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	aggregated	20			0									
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	aggregated	20			0	0	0							0
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	aggregated	20			0	0	0							0
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	aggregated	20			0									
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	aggregated	20			0	0	0							0
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	aggregated	20			0									
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	aggregated	20			0	0	0							0
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	aggregated	20			0	0	0							0
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	aggregated	20			0	0	0							0
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	aggregated	20			0	0	0							0
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:VirtualMachine","vmware:perf:disk","2016-06-20 03:30:00.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_disk_totalLatency_millisecond	p_average_disk_deviceLatency_millisecond	p_average_disk_queueLatency_millisecond	p_average_disk_totalReadLatency_millisecond	p_summation_disk_busResets_number	p_summation_disk_commandsAborted_number	p_average_disk_totalWriteLatency_millisecond	p_average_disk_kernelLatency_millisecond	p_average_disk_write_kiloBytesPerSecond	p_average_disk_maxQueueDepth_number	p_summation_disk_numberWrite_number	p_summation_disk_commands_number	p_average_disk_kernelWriteLatency_millisecond	p_average_disk_read_kiloBytesPerSecond	p_average_disk_kernelReadLatency_millisecond	p_average_disk_queueReadLatency_millisecond	p_average_disk_commandsAveraged_number	p_average_disk_usage_kiloBytesPerSecond	p_latest_disk_maxTotalLatency_millisecond	p_average_disk_queueWriteLatency_millisecond	p_average_disk_numberWriteAveraged_number	p_average_disk_numberReadAveraged_number	p_summation_disk_numberRead_number	p_average_disk_deviceWriteLatency_millisecond	p_average_disk_deviceReadLatency_millisecond
+host-10	00000000-0000-0000-0000-002590d3fca0	t10.FreeBSD_iSCSI_Disk______002590d0fed0050_________________	20	0	0	0	0	0	0	0	0	0	128	0	0	0	0	0	0	0			0	0	0	0	0	0
+host-10	00000000-0000-0000-0000-002590d3fca0	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0	0	0	0	0	0	0	40	31	27	53	0	38	0	0	2			0	1	1	26	0	0
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20									40					38				78	0						","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:disk","2016-06-20 03:31:00.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_disk_totalLatency_millisecond	p_average_disk_deviceLatency_millisecond	p_average_disk_queueLatency_millisecond	p_average_disk_totalReadLatency_millisecond	p_summation_disk_busResets_number	p_summation_disk_commandsAborted_number	p_average_disk_totalWriteLatency_millisecond	p_average_disk_kernelLatency_millisecond	p_average_disk_write_kiloBytesPerSecond	p_average_disk_maxQueueDepth_number	p_summation_disk_numberWrite_number	p_summation_disk_commands_number	p_average_disk_kernelWriteLatency_millisecond	p_average_disk_read_kiloBytesPerSecond	p_average_disk_kernelReadLatency_millisecond	p_average_disk_queueReadLatency_millisecond	p_average_disk_commandsAveraged_number	p_average_disk_usage_kiloBytesPerSecond	p_latest_disk_maxTotalLatency_millisecond	p_average_disk_queueWriteLatency_millisecond	p_average_disk_numberWriteAveraged_number	p_average_disk_numberReadAveraged_number	p_summation_disk_numberRead_number	p_average_disk_deviceWriteLatency_millisecond	p_average_disk_deviceReadLatency_millisecond
+host-10	00000000-0000-0000-0000-002590d3fca0	t10.FreeBSD_iSCSI_Disk______002590d0fed0050_________________	20	0	0	0	0	0	0	0	0	0	128	0	0	0	0	0	0	0			0	0	0	0	0	0
+host-10	00000000-0000-0000-0000-002590d3fca0	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0	0	0	0	0	0	0	40	31	28	133	0	143	0	0	6			0	1	5	105	0	0
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20									40					143				183	0						","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:disk","2016-06-20 03:32:00.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_disk_numberReadAveraged_number	p_average_disk_queueWriteLatency_millisecond	p_average_disk_queueReadLatency_millisecond	p_average_disk_deviceLatency_millisecond	p_average_disk_deviceReadLatency_millisecond	p_average_disk_kernelLatency_millisecond	p_summation_disk_numberWrite_number	p_summation_disk_busResets_number	p_average_disk_write_kiloBytesPerSecond	p_average_disk_read_kiloBytesPerSecond	p_average_disk_numberWriteAveraged_number	p_average_disk_totalWriteLatency_millisecond	p_average_disk_kernelWriteLatency_millisecond	p_average_disk_commandsAveraged_number	p_average_disk_maxQueueDepth_number	p_summation_disk_commandsAborted_number	p_average_disk_totalLatency_millisecond	p_average_disk_usage_kiloBytesPerSecond	p_average_disk_totalReadLatency_millisecond	p_average_disk_queueLatency_millisecond	p_average_disk_kernelReadLatency_millisecond	p_summation_disk_commands_number	p_latest_disk_maxTotalLatency_millisecond	p_average_disk_deviceWriteLatency_millisecond	p_summation_disk_numberRead_number
+host-10	00000000-0000-0000-0000-002590d3fca0	t10.FreeBSD_iSCSI_Disk______002590d0fed0050_________________	20	0	0	0	0	0	0	0	0	0	0	0	0	0	0	128	0	0		0	0	0	0		0	0
+host-10	00000000-0000-0000-0000-002590d3fca0	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	5	0	0	0	0	0	29	0	33	137	1	0	0	7	31	0	0		0	0	0	144		0	113
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20									33	137								170					0		","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:disk","2016-06-20 03:28:00.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_disk_numberReadAveraged_number	p_average_disk_queueWriteLatency_millisecond	p_average_disk_queueReadLatency_millisecond	p_average_disk_deviceLatency_millisecond	p_average_disk_deviceReadLatency_millisecond	p_average_disk_kernelLatency_millisecond	p_summation_disk_numberWrite_number	p_summation_disk_busResets_number	p_average_disk_write_kiloBytesPerSecond	p_average_disk_read_kiloBytesPerSecond	p_average_disk_numberWriteAveraged_number	p_average_disk_totalWriteLatency_millisecond	p_average_disk_kernelWriteLatency_millisecond	p_average_disk_commandsAveraged_number	p_average_disk_maxQueueDepth_number	p_summation_disk_commandsAborted_number	p_average_disk_totalLatency_millisecond	p_average_disk_usage_kiloBytesPerSecond	p_average_disk_totalReadLatency_millisecond	p_average_disk_queueLatency_millisecond	p_average_disk_kernelReadLatency_millisecond	p_summation_disk_commands_number	p_latest_disk_maxTotalLatency_millisecond	p_average_disk_deviceWriteLatency_millisecond	p_summation_disk_numberRead_number
+host-10	00000000-0000-0000-0000-002590d3fca0	t10.FreeBSD_iSCSI_Disk______002590d0fed0050_________________	20	0	0	0	0	0	0	0	0	0	0	0	0	0	0	128	0	0		0	0	0	0		0	0
+host-10	00000000-0000-0000-0000-002590d3fca0	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	1	0	0	0	0	0	26	0	40	38	1	0	0	2	31	0	0		0	0	0	52		0	26
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20									40	38								78					0		","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:disk","2016-06-20 03:27:40.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_disk_numberReadAveraged_number	p_average_disk_queueWriteLatency_millisecond	p_average_disk_queueReadLatency_millisecond	p_average_disk_deviceLatency_millisecond	p_average_disk_deviceReadLatency_millisecond	p_average_disk_kernelLatency_millisecond	p_summation_disk_numberWrite_number	p_summation_disk_busResets_number	p_average_disk_write_kiloBytesPerSecond	p_average_disk_read_kiloBytesPerSecond	p_average_disk_numberWriteAveraged_number	p_average_disk_totalWriteLatency_millisecond	p_average_disk_kernelWriteLatency_millisecond	p_average_disk_commandsAveraged_number	p_average_disk_maxQueueDepth_number	p_summation_disk_commandsAborted_number	p_average_disk_totalLatency_millisecond	p_average_disk_usage_kiloBytesPerSecond	p_average_disk_totalReadLatency_millisecond	p_average_disk_queueLatency_millisecond	p_average_disk_kernelReadLatency_millisecond	p_summation_disk_commands_number	p_latest_disk_maxTotalLatency_millisecond	p_average_disk_deviceWriteLatency_millisecond	p_summation_disk_numberRead_number
+host-10	00000000-0000-0000-0000-002590d3fca0	t10.FreeBSD_iSCSI_Disk______002590d0fed0050_________________	20	0	0	0	0	0	0	0	0	0	0	0	0	0	0	128	0	0		0	0	0	0		0	0
+host-10	00000000-0000-0000-0000-002590d3fca0	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	90	0	0	0	0	0	312	0	111	485	15	0	0	106	31	0	0		0	0	0	2123		0	1811
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20									111	485								597					0		","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:disk","2016-06-20 03:29:20.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_disk_numberReadAveraged_number	p_average_disk_queueWriteLatency_millisecond	p_average_disk_queueReadLatency_millisecond	p_average_disk_deviceLatency_millisecond	p_average_disk_deviceReadLatency_millisecond	p_average_disk_kernelLatency_millisecond	p_summation_disk_numberWrite_number	p_summation_disk_busResets_number	p_average_disk_write_kiloBytesPerSecond	p_average_disk_read_kiloBytesPerSecond	p_average_disk_numberWriteAveraged_number	p_average_disk_totalWriteLatency_millisecond	p_average_disk_kernelWriteLatency_millisecond	p_average_disk_commandsAveraged_number	p_average_disk_maxQueueDepth_number	p_summation_disk_commandsAborted_number	p_average_disk_totalLatency_millisecond	p_average_disk_usage_kiloBytesPerSecond	p_average_disk_totalReadLatency_millisecond	p_average_disk_queueLatency_millisecond	p_average_disk_kernelReadLatency_millisecond	p_summation_disk_commands_number	p_latest_disk_maxTotalLatency_millisecond	p_average_disk_deviceWriteLatency_millisecond	p_summation_disk_numberRead_number
+host-10	00000000-0000-0000-0000-002590d3fca0	t10.FreeBSD_iSCSI_Disk______002590d0fed0050_________________	20	0	0	0	0	0	0	0	0	0	0	0	0	0	0	128	0	0		0	0	0	0		0	0
+host-10	00000000-0000-0000-0000-002590d3fca0	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	1	0	0	0	0	0	27	0	33	33	1	0	0	3	31	0	0		0	0	0	63		0	34
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20									33	33								66					0		","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:disk","2016-06-20 03:27:00.000000 PDT"
+"moid	uuid	instance	samp_int	p_latest_disk_maxTotalLatency_millisecond	p_summation_disk_busResets_number	p_average_disk_write_kiloBytesPerSecond	p_summation_disk_commandsAborted_number	p_average_disk_numberReadAveraged_number	p_summation_disk_commands_number	p_average_disk_commandsAveraged_number	p_average_disk_numberWriteAveraged_number	p_average_disk_read_kiloBytesPerSecond	p_summation_disk_numberRead_number	p_average_disk_usage_kiloBytesPerSecond	p_summation_disk_numberWrite_number
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	aggregated	20	0		0						0		0	
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-16	5010d5e0-116d-cc1b-93ad-c1926428df1d	aggregated	20	0											
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	aggregated	20	0											
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	aggregated	20	0		0						0		0	
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	aggregated	20	0											
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	aggregated	20	0		0						0		0	
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	aggregated	20	0		0						0		0	
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	aggregated	20	0											
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	aggregated	20	0		0						0		0	
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	aggregated	20	0		0						0		0	
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	aggregated	20	0		0						0		0	
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	aggregated	20	0		0						0		0	
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	aggregated	20	0											","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:VirtualMachine","vmware:perf:disk","2016-06-20 03:29:00.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_disk_numberReadAveraged_number	p_average_disk_queueWriteLatency_millisecond	p_average_disk_queueReadLatency_millisecond	p_average_disk_deviceLatency_millisecond	p_average_disk_deviceReadLatency_millisecond	p_average_disk_kernelLatency_millisecond	p_summation_disk_numberWrite_number	p_summation_disk_busResets_number	p_average_disk_write_kiloBytesPerSecond	p_average_disk_read_kiloBytesPerSecond	p_average_disk_numberWriteAveraged_number	p_average_disk_totalWriteLatency_millisecond	p_average_disk_kernelWriteLatency_millisecond	p_average_disk_commandsAveraged_number	p_average_disk_maxQueueDepth_number	p_summation_disk_commandsAborted_number	p_average_disk_totalLatency_millisecond	p_average_disk_usage_kiloBytesPerSecond	p_average_disk_totalReadLatency_millisecond	p_average_disk_queueLatency_millisecond	p_average_disk_kernelReadLatency_millisecond	p_summation_disk_commands_number	p_latest_disk_maxTotalLatency_millisecond	p_average_disk_deviceWriteLatency_millisecond	p_summation_disk_numberRead_number
+host-10	00000000-0000-0000-0000-002590d3fca0	t10.FreeBSD_iSCSI_Disk______002590d0fed0050_________________	20	0	0	0	0	0	0	0	0	0	0	0	0	0	0	128	0	0		0	0	0	0		0	0
+host-10	00000000-0000-0000-0000-002590d3fca0	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	1	0	0	0	0	0	30	0	39	39	1	0	0	3	31	0	0		0	0	0	70		0	38
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20									39	39								79					0		","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:disk","2016-06-20 03:29:00.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_disk_numberReadAveraged_number	p_average_disk_queueWriteLatency_millisecond	p_average_disk_queueReadLatency_millisecond	p_average_disk_deviceLatency_millisecond	p_average_disk_deviceReadLatency_millisecond	p_average_disk_kernelLatency_millisecond	p_summation_disk_numberWrite_number	p_summation_disk_busResets_number	p_average_disk_write_kiloBytesPerSecond	p_average_disk_read_kiloBytesPerSecond	p_average_disk_numberWriteAveraged_number	p_average_disk_totalWriteLatency_millisecond	p_average_disk_kernelWriteLatency_millisecond	p_average_disk_commandsAveraged_number	p_average_disk_maxQueueDepth_number	p_summation_disk_commandsAborted_number	p_average_disk_totalLatency_millisecond	p_average_disk_usage_kiloBytesPerSecond	p_average_disk_totalReadLatency_millisecond	p_average_disk_queueLatency_millisecond	p_average_disk_kernelReadLatency_millisecond	p_summation_disk_commands_number	p_latest_disk_maxTotalLatency_millisecond	p_average_disk_deviceWriteLatency_millisecond	p_summation_disk_numberRead_number
+host-10	00000000-0000-0000-0000-002590d3fca0	t10.FreeBSD_iSCSI_Disk______002590d0fed0050_________________	20	0	0	0	0	0	0	0	0	0	0	0	0	0	0	128	0	0		0	0	0	0		0	0
+host-10	00000000-0000-0000-0000-002590d3fca0	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	5	0	0	0	0	0	30	0	46	149	1	0	0	6	31	0	0		0	0	0	139		0	109
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20									46	149								195					0		","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:disk","2016-06-20 03:28:40.000000 PDT"
+"moid	uuid	instance	samp_int	p_latest_disk_maxTotalLatency_millisecond	p_summation_disk_busResets_number	p_average_disk_write_kiloBytesPerSecond	p_summation_disk_commandsAborted_number	p_average_disk_numberReadAveraged_number	p_summation_disk_commands_number	p_average_disk_commandsAveraged_number	p_average_disk_numberWriteAveraged_number	p_average_disk_read_kiloBytesPerSecond	p_summation_disk_numberRead_number	p_average_disk_usage_kiloBytesPerSecond	p_summation_disk_numberWrite_number
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	aggregated	20	0		0						0		0	
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-16	5010d5e0-116d-cc1b-93ad-c1926428df1d	aggregated	20	0											
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	aggregated	20	0											
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	aggregated	20	0		0						0		0	
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	aggregated	20	0											
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	aggregated	20	0		0						0		0	
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	aggregated	20	0		111						485		597	
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	111	0	90	2112	105	15	485	1809		303
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	aggregated	20	0											
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	aggregated	20	0		0						0		0	
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	aggregated	20	0		0						0		0	
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	aggregated	20	0		0						0		0	
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	aggregated	20	0		0						0		0	
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	aggregated	20	0											","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:VirtualMachine","vmware:perf:disk","2016-06-20 03:29:20.000000 PDT"
+"moid	uuid	instance	samp_int	p_latest_disk_maxTotalLatency_millisecond	p_summation_disk_busResets_number	p_average_disk_write_kiloBytesPerSecond	p_summation_disk_commandsAborted_number	p_average_disk_numberReadAveraged_number	p_summation_disk_commands_number	p_average_disk_commandsAveraged_number	p_average_disk_numberWriteAveraged_number	p_average_disk_read_kiloBytesPerSecond	p_summation_disk_numberRead_number	p_average_disk_usage_kiloBytesPerSecond	p_summation_disk_numberWrite_number
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	aggregated	20	0		0						0		0	
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-16	5010d5e0-116d-cc1b-93ad-c1926428df1d	aggregated	20	0											
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	aggregated	20	0											
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	aggregated	20	0		0						0		0	
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	aggregated	20	0											
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	aggregated	20	0		0						0		0	
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	aggregated	20	0		0						0		0	
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	aggregated	20	0											
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	aggregated	20	0		0						0		0	
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	aggregated	20	0		0						0		0	
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	aggregated	20	0		0						0		0	
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	aggregated	20	0		0						0		0	
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	aggregated	20	0											","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:VirtualMachine","vmware:perf:disk","2016-06-20 03:27:00.000000 PDT"
+"moid	uuid	instance	samp_int	p_latest_disk_maxTotalLatency_millisecond	p_summation_disk_busResets_number	p_average_disk_write_kiloBytesPerSecond	p_summation_disk_commandsAborted_number	p_average_disk_numberReadAveraged_number	p_summation_disk_commands_number	p_average_disk_commandsAveraged_number	p_average_disk_numberWriteAveraged_number	p_average_disk_read_kiloBytesPerSecond	p_summation_disk_numberRead_number	p_average_disk_usage_kiloBytesPerSecond	p_summation_disk_numberWrite_number
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	aggregated	20	0		0						0		0	
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-16	5010d5e0-116d-cc1b-93ad-c1926428df1d	aggregated	20	0											
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	aggregated	20	0											
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	aggregated	20	0		0						0		0	
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	aggregated	20	0											
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	aggregated	20	0		0						0		0	
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	2	0	0	0	0		2
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	aggregated	20	0		0						0		0	
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	aggregated	20	0											
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	aggregated	20	0		0						0		0	
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	aggregated	20	0		0						0		0	
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	aggregated	20	0		0						0		0	
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	aggregated	20	0		0						0		0	
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	aggregated	20	0											","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:VirtualMachine","vmware:perf:disk","2016-06-20 03:27:20.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_disk_numberReadAveraged_number	p_average_disk_queueWriteLatency_millisecond	p_average_disk_queueReadLatency_millisecond	p_average_disk_deviceLatency_millisecond	p_average_disk_deviceReadLatency_millisecond	p_average_disk_kernelLatency_millisecond	p_summation_disk_numberWrite_number	p_summation_disk_busResets_number	p_average_disk_write_kiloBytesPerSecond	p_average_disk_read_kiloBytesPerSecond	p_average_disk_numberWriteAveraged_number	p_average_disk_totalWriteLatency_millisecond	p_average_disk_kernelWriteLatency_millisecond	p_average_disk_commandsAveraged_number	p_average_disk_maxQueueDepth_number	p_summation_disk_commandsAborted_number	p_average_disk_totalLatency_millisecond	p_average_disk_usage_kiloBytesPerSecond	p_average_disk_totalReadLatency_millisecond	p_average_disk_queueLatency_millisecond	p_average_disk_kernelReadLatency_millisecond	p_summation_disk_commands_number	p_latest_disk_maxTotalLatency_millisecond	p_average_disk_deviceWriteLatency_millisecond	p_summation_disk_numberRead_number
+host-10	00000000-0000-0000-0000-002590d3fca0	t10.FreeBSD_iSCSI_Disk______002590d0fed0050_________________	20	0	0	0	0	0	0	0	0	0	0	0	0	0	0	128	0	0		0	0	0	0		0	0
+host-10	00000000-0000-0000-0000-002590d3fca0	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0	0	0	0	0	7	0	0	0	0	0	0	0	31	0	0		0	0	0	7		0	0
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20									0	0								0					0		","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:disk","2016-06-20 03:28:20.000000 PDT"
+"moid	uuid	instance	samp_int	p_latest_disk_maxTotalLatency_millisecond	p_summation_disk_busResets_number	p_average_disk_write_kiloBytesPerSecond	p_summation_disk_commandsAborted_number	p_average_disk_numberReadAveraged_number	p_summation_disk_commands_number	p_average_disk_commandsAveraged_number	p_average_disk_numberWriteAveraged_number	p_average_disk_read_kiloBytesPerSecond	p_summation_disk_numberRead_number	p_average_disk_usage_kiloBytesPerSecond	p_summation_disk_numberWrite_number
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	aggregated	20	0		0						0		0	
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-16	5010d5e0-116d-cc1b-93ad-c1926428df1d	aggregated	20	0											
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	aggregated	20	0											
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	aggregated	20	0		0						0		0	
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	aggregated	20	0											
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	aggregated	20	0		0						0		0	
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	aggregated	20	0		67						0		67	
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	67	0	0	108	5	5	0	0		108
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	aggregated	20	0											
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	aggregated	20	0		0						0		0	
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	aggregated	20	0		0						0		0	
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	aggregated	20	0		0						0		0	
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	aggregated	20	0		0						0		0	
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	aggregated	20	0											","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:VirtualMachine","vmware:perf:disk","2016-06-20 03:29:40.000000 PDT"
+"moid	uuid	instance	samp_int	p_latest_disk_maxTotalLatency_millisecond	p_summation_disk_busResets_number	p_average_disk_write_kiloBytesPerSecond	p_summation_disk_commandsAborted_number	p_average_disk_numberReadAveraged_number	p_summation_disk_commands_number	p_average_disk_commandsAveraged_number	p_average_disk_numberWriteAveraged_number	p_average_disk_read_kiloBytesPerSecond	p_summation_disk_numberRead_number	p_average_disk_usage_kiloBytesPerSecond	p_summation_disk_numberWrite_number
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	aggregated	20	0		0						0		0	
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-16	5010d5e0-116d-cc1b-93ad-c1926428df1d	aggregated	20	0											
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	aggregated	20	0											
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	aggregated	20	0		0						0		0	
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	aggregated	20	0											
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	aggregated	20	0		0						0		0	
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	aggregated	20	0		0						0		0	
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	aggregated	20	0											
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	aggregated	20	0		0						0		0	
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	aggregated	20	0		0						0		0	
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	aggregated	20	0		0						0		0	
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	aggregated	20	0		0						0		0	
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	aggregated	20	0											","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:VirtualMachine","vmware:perf:disk","2016-06-20 03:28:20.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_disk_numberReadAveraged_number	p_average_disk_queueWriteLatency_millisecond	p_average_disk_queueReadLatency_millisecond	p_average_disk_deviceLatency_millisecond	p_average_disk_deviceReadLatency_millisecond	p_average_disk_kernelLatency_millisecond	p_summation_disk_numberWrite_number	p_summation_disk_busResets_number	p_average_disk_write_kiloBytesPerSecond	p_average_disk_read_kiloBytesPerSecond	p_average_disk_numberWriteAveraged_number	p_average_disk_totalWriteLatency_millisecond	p_average_disk_kernelWriteLatency_millisecond	p_average_disk_commandsAveraged_number	p_average_disk_maxQueueDepth_number	p_summation_disk_commandsAborted_number	p_average_disk_totalLatency_millisecond	p_average_disk_usage_kiloBytesPerSecond	p_average_disk_totalReadLatency_millisecond	p_average_disk_queueLatency_millisecond	p_average_disk_kernelReadLatency_millisecond	p_summation_disk_commands_number	p_latest_disk_maxTotalLatency_millisecond	p_average_disk_deviceWriteLatency_millisecond	p_summation_disk_numberRead_number
+host-10	00000000-0000-0000-0000-002590d3fca0	t10.FreeBSD_iSCSI_Disk______002590d0fed0050_________________	20	0	0	0	0	0	0	0	0	0	0	0	0	0	0	128	0	0		0	0	0	0		0	0
+host-10	00000000-0000-0000-0000-002590d3fca0	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	4	0	0	0	0	0	16	0	6	110	0	0	0	5	31	0	0		0	0	0	101		0	85
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20									6	110								117					0		","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:disk","2016-06-20 03:27:20.000000 PDT"
+"moid	uuid	instance	samp_int	p_latest_disk_maxTotalLatency_millisecond	p_summation_disk_busResets_number	p_average_disk_write_kiloBytesPerSecond	p_summation_disk_commandsAborted_number	p_average_disk_numberReadAveraged_number	p_summation_disk_commands_number	p_average_disk_commandsAveraged_number	p_average_disk_numberWriteAveraged_number	p_average_disk_read_kiloBytesPerSecond	p_summation_disk_numberRead_number	p_average_disk_usage_kiloBytesPerSecond	p_summation_disk_numberWrite_number
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	aggregated	20	0		0						0		0	
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-16	5010d5e0-116d-cc1b-93ad-c1926428df1d	aggregated	20	0											
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	aggregated	20	0											
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	aggregated	20	0		0						0		0	
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	aggregated	20	0											
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	aggregated	20	0		0						0		0	
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	aggregated	20	0		0						0		0	
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	aggregated	20	0											
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	aggregated	20	0		0						0		0	
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	aggregated	20	0		0						0		0	
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	aggregated	20	0		0						0		0	
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	aggregated	20	0		0						0		0	
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	aggregated	20	0											","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:VirtualMachine","vmware:perf:disk","2016-06-20 03:28:40.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_disk_numberReadAveraged_number	p_average_disk_queueWriteLatency_millisecond	p_average_disk_queueReadLatency_millisecond	p_average_disk_deviceLatency_millisecond	p_average_disk_deviceReadLatency_millisecond	p_average_disk_kernelLatency_millisecond	p_summation_disk_numberWrite_number	p_summation_disk_busResets_number	p_average_disk_write_kiloBytesPerSecond	p_average_disk_read_kiloBytesPerSecond	p_average_disk_numberWriteAveraged_number	p_average_disk_totalWriteLatency_millisecond	p_average_disk_kernelWriteLatency_millisecond	p_average_disk_commandsAveraged_number	p_average_disk_maxQueueDepth_number	p_summation_disk_commandsAborted_number	p_average_disk_totalLatency_millisecond	p_average_disk_usage_kiloBytesPerSecond	p_average_disk_totalReadLatency_millisecond	p_average_disk_queueLatency_millisecond	p_average_disk_kernelReadLatency_millisecond	p_summation_disk_commands_number	p_latest_disk_maxTotalLatency_millisecond	p_average_disk_deviceWriteLatency_millisecond	p_summation_disk_numberRead_number
+host-10	00000000-0000-0000-0000-002590d3fca0	t10.FreeBSD_iSCSI_Disk______002590d0fed0050_________________	20	0	0	0	0	0	0	0	0	0	0	0	0	0	0	128	0	0		0	0	0	0		0	0
+host-10	00000000-0000-0000-0000-002590d3fca0	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	1	0	0	0	0	0	140	0	114	45	7	0	0	8	31	0	0		0	0	0	172		0	32
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20									114	45								159					0		","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:disk","2016-06-20 03:29:40.000000 PDT"
+"moid	uuid	instance	samp_int	p_latest_disk_maxTotalLatency_millisecond	p_summation_disk_busResets_number	p_average_disk_write_kiloBytesPerSecond	p_summation_disk_commandsAborted_number	p_average_disk_numberReadAveraged_number	p_summation_disk_commands_number	p_average_disk_commandsAveraged_number	p_average_disk_numberWriteAveraged_number	p_average_disk_read_kiloBytesPerSecond	p_summation_disk_numberRead_number	p_average_disk_usage_kiloBytesPerSecond	p_summation_disk_numberWrite_number
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	aggregated	20	0		0						0		0	
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-16	5010d5e0-116d-cc1b-93ad-c1926428df1d	aggregated	20	0											
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	aggregated	20	0											
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	aggregated	20	0		0						0		0	
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	aggregated	20	0											
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	aggregated	20	0		0						0		0	
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	aggregated	20	0		0						0		0	
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	aggregated	20	0											
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	aggregated	20	0		0						0		0	
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	aggregated	20	0		0						0		0	
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	aggregated	20	0		0						0		0	
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	aggregated	20	0		0						0		0	
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	aggregated	20	0											","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:VirtualMachine","vmware:perf:disk","2016-06-20 03:27:40.000000 PDT"
+"moid	uuid	instance	samp_int	p_latest_disk_maxTotalLatency_millisecond	p_summation_disk_busResets_number	p_average_disk_write_kiloBytesPerSecond	p_summation_disk_commandsAborted_number	p_average_disk_numberReadAveraged_number	p_summation_disk_commands_number	p_average_disk_commandsAveraged_number	p_average_disk_numberWriteAveraged_number	p_average_disk_read_kiloBytesPerSecond	p_summation_disk_numberRead_number	p_average_disk_usage_kiloBytesPerSecond	p_summation_disk_numberWrite_number
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	aggregated	20	0		0						0		0	
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-16	5010d5e0-116d-cc1b-93ad-c1926428df1d	aggregated	20	0											
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	aggregated	20	0											
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	aggregated	20	0		0						0		0	
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	aggregated	20	0											
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	aggregated	20	0		0						0		0	
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	aggregated	20	0		0						0		0	
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	aggregated	20	0											
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	aggregated	20	0		0						0		0	
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	aggregated	20	0		0						0		0	
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	aggregated	20	0		0						0		0	
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	aggregated	20	0		0						0		0	
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	aggregated	20	0											","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:VirtualMachine","vmware:perf:disk","2016-06-20 03:28:00.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_disk_numberReadAveraged_number	p_average_disk_queueWriteLatency_millisecond	p_average_disk_queueReadLatency_millisecond	p_average_disk_deviceLatency_millisecond	p_average_disk_deviceReadLatency_millisecond	p_average_disk_kernelLatency_millisecond	p_summation_disk_numberWrite_number	p_summation_disk_busResets_number	p_average_disk_write_kiloBytesPerSecond	p_average_disk_read_kiloBytesPerSecond	p_average_disk_numberWriteAveraged_number	p_average_disk_totalWriteLatency_millisecond	p_average_disk_kernelWriteLatency_millisecond	p_average_disk_commandsAveraged_number	p_average_disk_maxQueueDepth_number	p_summation_disk_commandsAborted_number	p_average_disk_totalLatency_millisecond	p_average_disk_usage_kiloBytesPerSecond	p_average_disk_totalReadLatency_millisecond	p_average_disk_queueLatency_millisecond	p_average_disk_kernelReadLatency_millisecond	p_summation_disk_commands_number	p_latest_disk_maxTotalLatency_millisecond	p_average_disk_deviceWriteLatency_millisecond	p_summation_disk_numberRead_number
+host-10	00000000-0000-0000-0000-002590d3fca0	t10.FreeBSD_iSCSI_Disk______002590d0fed0050_________________	20	0	0	0	0	0	0	0	0	0	0	0	0	0	0	128	0	0		0	0	0	0		0	0
+host-10	00000000-0000-0000-0000-002590d3fca0	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	1	0	0	0	0	0	29	0	40	39	1	0	0	3	31	0	0		0	0	0	69		0	38
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20									40	39								80					0		","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:disk","2016-06-20 03:24:40.000000 PDT"
+"moid	uuid	instance	samp_int	p_latest_disk_maxTotalLatency_millisecond	p_summation_disk_busResets_number	p_average_disk_write_kiloBytesPerSecond	p_summation_disk_commandsAborted_number	p_average_disk_numberReadAveraged_number	p_summation_disk_commands_number	p_average_disk_commandsAveraged_number	p_average_disk_numberWriteAveraged_number	p_average_disk_read_kiloBytesPerSecond	p_summation_disk_numberRead_number	p_average_disk_usage_kiloBytesPerSecond	p_summation_disk_numberWrite_number
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	aggregated	20	0		0						0		0	
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-16	5010d5e0-116d-cc1b-93ad-c1926428df1d	aggregated	20	0											
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	aggregated	20	0											
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	aggregated	20	0		0						0		0	
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	aggregated	20	0											
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	aggregated	20	0		0						0		0	
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	aggregated	20	0		0						0		0	
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	aggregated	20	0											
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	aggregated	20	0		0						0		0	
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	aggregated	20	0		0						0		0	
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	aggregated	20	0		0						0		0	
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	aggregated	20	0		0						0		0	
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	aggregated	20	0											","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:VirtualMachine","vmware:perf:disk","2016-06-20 03:24:40.000000 PDT"
+"moid	uuid	instance	samp_int	p_latest_disk_maxTotalLatency_millisecond	p_summation_disk_busResets_number	p_average_disk_write_kiloBytesPerSecond	p_summation_disk_commandsAborted_number	p_average_disk_numberReadAveraged_number	p_summation_disk_commands_number	p_average_disk_commandsAveraged_number	p_average_disk_numberWriteAveraged_number	p_average_disk_read_kiloBytesPerSecond	p_summation_disk_numberRead_number	p_average_disk_usage_kiloBytesPerSecond	p_summation_disk_numberWrite_number
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	aggregated	20	0		0						0		0	
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-16	5010d5e0-116d-cc1b-93ad-c1926428df1d	aggregated	20	0											
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	aggregated	20	0											
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	aggregated	20	0		0						0		0	
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	aggregated	20	0											
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	aggregated	20	0		0						0		0	
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	aggregated	20	0		0						0		0	
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	aggregated	20	0											
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	aggregated	20	0		0						0		0	
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	aggregated	20	0		0						0		0	
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	aggregated	20	0		0						0		0	
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	aggregated	20	0		0						0		0	
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	aggregated	20	0											","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:VirtualMachine","vmware:perf:disk","2016-06-20 03:25:00.000000 PDT"
+"moid	uuid	instance	samp_int	p_latest_disk_maxTotalLatency_millisecond	p_summation_disk_busResets_number	p_average_disk_write_kiloBytesPerSecond	p_summation_disk_commandsAborted_number	p_average_disk_numberReadAveraged_number	p_summation_disk_commands_number	p_average_disk_commandsAveraged_number	p_average_disk_numberWriteAveraged_number	p_average_disk_read_kiloBytesPerSecond	p_summation_disk_numberRead_number	p_average_disk_usage_kiloBytesPerSecond	p_summation_disk_numberWrite_number
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	aggregated	20	0		0						0		0	
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-16	5010d5e0-116d-cc1b-93ad-c1926428df1d	aggregated	20	0											
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	aggregated	20	0											
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	aggregated	20	0		0						0		0	
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	aggregated	20	0											
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	aggregated	20	0		169						485		654	
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	169	0	90	2188	109	18	485	1809		379
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	aggregated	20	0		0						0		0	
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	aggregated	20	0											
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	aggregated	20	0		0						0		0	
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	aggregated	20	0		0						0		0	
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	aggregated	20	0		0						0		0	
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	aggregated	20	0		0						0		0	
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	aggregated	20	0											","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:VirtualMachine","vmware:perf:disk","2016-06-20 03:25:20.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_disk_numberReadAveraged_number	p_average_disk_queueWriteLatency_millisecond	p_average_disk_queueReadLatency_millisecond	p_average_disk_deviceLatency_millisecond	p_average_disk_deviceReadLatency_millisecond	p_average_disk_kernelLatency_millisecond	p_summation_disk_numberWrite_number	p_summation_disk_busResets_number	p_average_disk_write_kiloBytesPerSecond	p_average_disk_read_kiloBytesPerSecond	p_average_disk_numberWriteAveraged_number	p_average_disk_totalWriteLatency_millisecond	p_average_disk_kernelWriteLatency_millisecond	p_average_disk_commandsAveraged_number	p_average_disk_maxQueueDepth_number	p_summation_disk_commandsAborted_number	p_average_disk_totalLatency_millisecond	p_average_disk_usage_kiloBytesPerSecond	p_average_disk_totalReadLatency_millisecond	p_average_disk_queueLatency_millisecond	p_average_disk_kernelReadLatency_millisecond	p_summation_disk_commands_number	p_latest_disk_maxTotalLatency_millisecond	p_average_disk_deviceWriteLatency_millisecond	p_summation_disk_numberRead_number
+host-10	00000000-0000-0000-0000-002590d3fca0	t10.FreeBSD_iSCSI_Disk______002590d0fed0050_________________	20	0	0	0	0	0	0	0	0	0	0	0	0	0	0	128	0	0		0	0	0	0		0	0
+host-10	00000000-0000-0000-0000-002590d3fca0	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	1	0	0	0	0	0	30	0	47	45	1	0	0	3	31	0	0		0	0	0	60		0	30
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20									47	45								92					0		","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:disk","2016-06-20 03:25:00.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_disk_numberReadAveraged_number	p_average_disk_queueWriteLatency_millisecond	p_average_disk_queueReadLatency_millisecond	p_average_disk_deviceLatency_millisecond	p_average_disk_deviceReadLatency_millisecond	p_average_disk_kernelLatency_millisecond	p_summation_disk_numberWrite_number	p_summation_disk_busResets_number	p_average_disk_write_kiloBytesPerSecond	p_average_disk_read_kiloBytesPerSecond	p_average_disk_numberWriteAveraged_number	p_average_disk_totalWriteLatency_millisecond	p_average_disk_kernelWriteLatency_millisecond	p_average_disk_commandsAveraged_number	p_average_disk_maxQueueDepth_number	p_summation_disk_commandsAborted_number	p_average_disk_totalLatency_millisecond	p_average_disk_usage_kiloBytesPerSecond	p_average_disk_totalReadLatency_millisecond	p_average_disk_queueLatency_millisecond	p_average_disk_kernelReadLatency_millisecond	p_summation_disk_commands_number	p_latest_disk_maxTotalLatency_millisecond	p_average_disk_deviceWriteLatency_millisecond	p_summation_disk_numberRead_number
+host-10	00000000-0000-0000-0000-002590d3fca0	t10.FreeBSD_iSCSI_Disk______002590d0fed0050_________________	20	0	0	0	0	0	0	0	0	0	0	0	0	0	0	128	0	0		0	0	0	0		0	0
+host-10	00000000-0000-0000-0000-002590d3fca0	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	3	0	0	0	0	0	8	0	0	104	0	0	0	4	31	0	0		0	0	0	87		0	79
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20									0	104								104					0		","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:disk","2016-06-20 03:24:20.000000 PDT"
+"moid	uuid	instance	samp_int	p_latest_disk_maxTotalLatency_millisecond	p_summation_disk_busResets_number	p_average_disk_write_kiloBytesPerSecond	p_summation_disk_commandsAborted_number	p_average_disk_numberReadAveraged_number	p_summation_disk_commands_number	p_average_disk_commandsAveraged_number	p_average_disk_numberWriteAveraged_number	p_average_disk_read_kiloBytesPerSecond	p_summation_disk_numberRead_number	p_average_disk_usage_kiloBytesPerSecond	p_summation_disk_numberWrite_number
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	aggregated	20	0		0						0		0	
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-16	5010d5e0-116d-cc1b-93ad-c1926428df1d	aggregated	20	0											
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	aggregated	20	0											
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	aggregated	20	0		0						0		0	
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	aggregated	20	0											
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	aggregated	20	0		2						0		2	
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	2	0	0	12	0	0	0	0		12
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	aggregated	20	0		0						0		0	
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	aggregated	20	0											
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	aggregated	20	0		0						0		0	
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	aggregated	20	0		0						0		0	
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	aggregated	20	0		0						0		0	
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	aggregated	20	0		0						0		0	
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	aggregated	20	0											","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:VirtualMachine","vmware:perf:disk","2016-06-20 03:25:40.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_disk_numberReadAveraged_number	p_average_disk_queueWriteLatency_millisecond	p_average_disk_queueReadLatency_millisecond	p_average_disk_deviceLatency_millisecond	p_average_disk_deviceReadLatency_millisecond	p_average_disk_kernelLatency_millisecond	p_summation_disk_numberWrite_number	p_summation_disk_busResets_number	p_average_disk_write_kiloBytesPerSecond	p_average_disk_read_kiloBytesPerSecond	p_average_disk_numberWriteAveraged_number	p_average_disk_totalWriteLatency_millisecond	p_average_disk_kernelWriteLatency_millisecond	p_average_disk_commandsAveraged_number	p_average_disk_maxQueueDepth_number	p_summation_disk_commandsAborted_number	p_average_disk_totalLatency_millisecond	p_average_disk_usage_kiloBytesPerSecond	p_average_disk_totalReadLatency_millisecond	p_average_disk_queueLatency_millisecond	p_average_disk_kernelReadLatency_millisecond	p_summation_disk_commands_number	p_latest_disk_maxTotalLatency_millisecond	p_average_disk_deviceWriteLatency_millisecond	p_summation_disk_numberRead_number
+host-10	00000000-0000-0000-0000-002590d3fca0	t10.FreeBSD_iSCSI_Disk______002590d0fed0050_________________	20	0	0	0	0	0	0	0	0	0	0	0	0	0	0	128	0	0		0	0	0	0		0	0
+host-10	00000000-0000-0000-0000-002590d3fca0	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	6	0	0	0	0	0	49	0	56	187	2	0	0	9	31	0	0		0	0	0	183		0	130
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20									56	187								243					0		","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:disk","2016-06-20 03:25:40.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_disk_numberReadAveraged_number	p_average_disk_queueWriteLatency_millisecond	p_average_disk_queueReadLatency_millisecond	p_average_disk_deviceLatency_millisecond	p_average_disk_deviceReadLatency_millisecond	p_average_disk_kernelLatency_millisecond	p_summation_disk_numberWrite_number	p_summation_disk_busResets_number	p_average_disk_write_kiloBytesPerSecond	p_average_disk_read_kiloBytesPerSecond	p_average_disk_numberWriteAveraged_number	p_average_disk_totalWriteLatency_millisecond	p_average_disk_kernelWriteLatency_millisecond	p_average_disk_commandsAveraged_number	p_average_disk_maxQueueDepth_number	p_summation_disk_commandsAborted_number	p_average_disk_totalLatency_millisecond	p_average_disk_usage_kiloBytesPerSecond	p_average_disk_totalReadLatency_millisecond	p_average_disk_queueLatency_millisecond	p_average_disk_kernelReadLatency_millisecond	p_summation_disk_commands_number	p_latest_disk_maxTotalLatency_millisecond	p_average_disk_deviceWriteLatency_millisecond	p_summation_disk_numberRead_number
+host-10	00000000-0000-0000-0000-002590d3fca0	t10.FreeBSD_iSCSI_Disk______002590d0fed0050_________________	20	0	0	0	0	0	0	0	0	0	0	0	0	0	0	128	0	0		0	0	0	0		0	0
+host-10	00000000-0000-0000-0000-002590d3fca0	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	90	0	0	0	0	0	389	0	169	485	19	0	0	110	31	0	0		0	0	0	2201		0	1812
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20									169	485								655					0		","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:disk","2016-06-20 03:25:20.000000 PDT"
+"moid	uuid	instance	samp_int	p_latest_disk_maxTotalLatency_millisecond	p_summation_disk_busResets_number	p_average_disk_write_kiloBytesPerSecond	p_summation_disk_commandsAborted_number	p_average_disk_numberReadAveraged_number	p_summation_disk_commands_number	p_average_disk_commandsAveraged_number	p_average_disk_numberWriteAveraged_number	p_average_disk_read_kiloBytesPerSecond	p_summation_disk_numberRead_number	p_average_disk_usage_kiloBytesPerSecond	p_summation_disk_numberWrite_number
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	aggregated	20	0		0						0		0	
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-16	5010d5e0-116d-cc1b-93ad-c1926428df1d	aggregated	20	0											
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	aggregated	20	0											
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	aggregated	20	0		0						0		0	
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	aggregated	20	0											
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	aggregated	20	0		0						0		0	
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	2	0	0	0	0		2
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	aggregated	20	0		0						0		0	
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	aggregated	20	0											
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	aggregated	20	0		0						0		0	
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	aggregated	20	0		0						0		0	
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	aggregated	20	0		0						0		0	
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	aggregated	20	0		0						0		0	
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	aggregated	20	0											","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:VirtualMachine","vmware:perf:disk","2016-06-20 03:26:40.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_disk_numberReadAveraged_number	p_average_disk_queueWriteLatency_millisecond	p_average_disk_queueReadLatency_millisecond	p_average_disk_deviceLatency_millisecond	p_average_disk_deviceReadLatency_millisecond	p_average_disk_kernelLatency_millisecond	p_summation_disk_numberWrite_number	p_summation_disk_busResets_number	p_average_disk_write_kiloBytesPerSecond	p_average_disk_read_kiloBytesPerSecond	p_average_disk_numberWriteAveraged_number	p_average_disk_totalWriteLatency_millisecond	p_average_disk_kernelWriteLatency_millisecond	p_average_disk_commandsAveraged_number	p_average_disk_maxQueueDepth_number	p_summation_disk_commandsAborted_number	p_average_disk_totalLatency_millisecond	p_average_disk_usage_kiloBytesPerSecond	p_average_disk_totalReadLatency_millisecond	p_average_disk_queueLatency_millisecond	p_average_disk_kernelReadLatency_millisecond	p_summation_disk_commands_number	p_latest_disk_maxTotalLatency_millisecond	p_average_disk_deviceWriteLatency_millisecond	p_summation_disk_numberRead_number
+host-10	00000000-0000-0000-0000-002590d3fca0	t10.FreeBSD_iSCSI_Disk______002590d0fed0050_________________	20	0	0	0	0	0	0	0	0	0	0	0	0	0	0	128	0	0		0	0	0	0		0	0
+host-10	00000000-0000-0000-0000-002590d3fca0	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	5	0	0	0	0	0	28	0	40	143	1	0	0	6	31	0	0		0	0	0	133		0	105
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20									40	143								183					0		","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:disk","2016-06-20 03:24:00.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_disk_numberReadAveraged_number	p_average_disk_queueWriteLatency_millisecond	p_average_disk_queueReadLatency_millisecond	p_average_disk_deviceLatency_millisecond	p_average_disk_deviceReadLatency_millisecond	p_average_disk_kernelLatency_millisecond	p_summation_disk_numberWrite_number	p_summation_disk_busResets_number	p_average_disk_write_kiloBytesPerSecond	p_average_disk_read_kiloBytesPerSecond	p_average_disk_numberWriteAveraged_number	p_average_disk_totalWriteLatency_millisecond	p_average_disk_kernelWriteLatency_millisecond	p_average_disk_commandsAveraged_number	p_average_disk_maxQueueDepth_number	p_summation_disk_commandsAborted_number	p_average_disk_totalLatency_millisecond	p_average_disk_usage_kiloBytesPerSecond	p_average_disk_totalReadLatency_millisecond	p_average_disk_queueLatency_millisecond	p_average_disk_kernelReadLatency_millisecond	p_summation_disk_commands_number	p_latest_disk_maxTotalLatency_millisecond	p_average_disk_deviceWriteLatency_millisecond	p_summation_disk_numberRead_number
+host-10	00000000-0000-0000-0000-002590d3fca0	t10.FreeBSD_iSCSI_Disk______002590d0fed0050_________________	20	0	0	0	0	0	0	0	0	0	0	0	0	0	0	128	0	0		0	0	0	0		0	0
+host-10	00000000-0000-0000-0000-002590d3fca0	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	5	0	0	0	0	0	38	0	56	156	1	0	0	7	31	0	0		0	0	0	151		0	113
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20									56	156								212					0		","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:disk","2016-06-20 03:26:00.000000 PDT"
+"moid	uuid	instance	samp_int	p_latest_disk_maxTotalLatency_millisecond	p_summation_disk_busResets_number	p_average_disk_write_kiloBytesPerSecond	p_summation_disk_commandsAborted_number	p_average_disk_numberReadAveraged_number	p_summation_disk_commands_number	p_average_disk_commandsAveraged_number	p_average_disk_numberWriteAveraged_number	p_average_disk_read_kiloBytesPerSecond	p_summation_disk_numberRead_number	p_average_disk_usage_kiloBytesPerSecond	p_summation_disk_numberWrite_number
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	aggregated	20	0		0						0		0	
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-16	5010d5e0-116d-cc1b-93ad-c1926428df1d	aggregated	20	0											
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	aggregated	20	0											
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	aggregated	20	0		0						0		0	
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	aggregated	20	0											
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	aggregated	20	0		0						0		0	
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	aggregated	20	0		0						0		0	
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	aggregated	20	0											
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	aggregated	20	0		0						0		0	
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	aggregated	20	0		0						0		0	
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	aggregated	20	0		0						0		0	
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	aggregated	20	0		0						0		0	
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	aggregated	20	0											","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:VirtualMachine","vmware:perf:disk","2016-06-20 03:26:00.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_disk_numberReadAveraged_number	p_average_disk_queueWriteLatency_millisecond	p_average_disk_queueReadLatency_millisecond	p_average_disk_deviceLatency_millisecond	p_average_disk_deviceReadLatency_millisecond	p_average_disk_kernelLatency_millisecond	p_summation_disk_numberWrite_number	p_summation_disk_busResets_number	p_average_disk_write_kiloBytesPerSecond	p_average_disk_read_kiloBytesPerSecond	p_average_disk_numberWriteAveraged_number	p_average_disk_totalWriteLatency_millisecond	p_average_disk_kernelWriteLatency_millisecond	p_average_disk_commandsAveraged_number	p_average_disk_maxQueueDepth_number	p_summation_disk_commandsAborted_number	p_average_disk_totalLatency_millisecond	p_average_disk_usage_kiloBytesPerSecond	p_average_disk_totalReadLatency_millisecond	p_average_disk_queueLatency_millisecond	p_average_disk_kernelReadLatency_millisecond	p_summation_disk_commands_number	p_latest_disk_maxTotalLatency_millisecond	p_average_disk_deviceWriteLatency_millisecond	p_summation_disk_numberRead_number
+host-10	00000000-0000-0000-0000-002590d3fca0	t10.FreeBSD_iSCSI_Disk______002590d0fed0050_________________	20	0	0	0	0	0	0	0	0	0	0	0	0	0	0	128	0	0		0	0	0	0		0	0
+host-10	00000000-0000-0000-0000-002590d3fca0	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0	0	0	0	0	19	0	2	0	0	0	0	1	31	0	0		0	0	0	21		0	2
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20									2	0								2					0		","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:disk","2016-06-20 03:26:20.000000 PDT"
+"moid	uuid	instance	samp_int	p_latest_disk_maxTotalLatency_millisecond	p_summation_disk_busResets_number	p_average_disk_write_kiloBytesPerSecond	p_summation_disk_commandsAborted_number	p_average_disk_numberReadAveraged_number	p_summation_disk_commands_number	p_average_disk_commandsAveraged_number	p_average_disk_numberWriteAveraged_number	p_average_disk_read_kiloBytesPerSecond	p_summation_disk_numberRead_number	p_average_disk_usage_kiloBytesPerSecond	p_summation_disk_numberWrite_number
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	aggregated	20	0		0						0		0	
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-16	5010d5e0-116d-cc1b-93ad-c1926428df1d	aggregated	20	0											
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	aggregated	20	0											
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	aggregated	20	0		0						0		0	
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	aggregated	20	1											
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	aggregated	20	0		2						0		2	
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	2	0	0	9	0	0	0	0		9
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	aggregated	20	0		0						0		0	
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	aggregated	20	0											
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	aggregated	20	0		0						0		0	
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	aggregated	20	0		0						0		0	
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	aggregated	20	0		0						0		0	
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	aggregated	20	0		0						0		0	
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	aggregated	20	0											","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:VirtualMachine","vmware:perf:disk","2016-06-20 03:26:20.000000 PDT"
+"moid	uuid	instance	samp_int	p_latest_disk_maxTotalLatency_millisecond	p_summation_disk_busResets_number	p_average_disk_write_kiloBytesPerSecond	p_summation_disk_commandsAborted_number	p_average_disk_numberReadAveraged_number	p_summation_disk_commands_number	p_average_disk_commandsAveraged_number	p_average_disk_numberWriteAveraged_number	p_average_disk_read_kiloBytesPerSecond	p_summation_disk_numberRead_number	p_average_disk_usage_kiloBytesPerSecond	p_summation_disk_numberWrite_number
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	aggregated	20	0		0						0		0	
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-16	5010d5e0-116d-cc1b-93ad-c1926428df1d	aggregated	20	0											
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	aggregated	20	0											
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	aggregated	20	0		0						0		0	
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	aggregated	20	0											
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	aggregated	20	0		0						0		0	
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	aggregated	20	0		0						0		0	
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	aggregated	20	0											
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	aggregated	20	0		0						0		0	
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	aggregated	20	0		0						0		0	
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	aggregated	20	0		0						0		0	
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	aggregated	20	0		0						0		0	
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	aggregated	20	0											","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:VirtualMachine","vmware:perf:disk","2016-06-20 03:24:00.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_disk_numberReadAveraged_number	p_average_disk_queueWriteLatency_millisecond	p_average_disk_queueReadLatency_millisecond	p_average_disk_deviceLatency_millisecond	p_average_disk_deviceReadLatency_millisecond	p_average_disk_kernelLatency_millisecond	p_summation_disk_numberWrite_number	p_summation_disk_busResets_number	p_average_disk_write_kiloBytesPerSecond	p_average_disk_read_kiloBytesPerSecond	p_average_disk_numberWriteAveraged_number	p_average_disk_totalWriteLatency_millisecond	p_average_disk_kernelWriteLatency_millisecond	p_average_disk_commandsAveraged_number	p_average_disk_maxQueueDepth_number	p_summation_disk_commandsAborted_number	p_average_disk_totalLatency_millisecond	p_average_disk_usage_kiloBytesPerSecond	p_average_disk_totalReadLatency_millisecond	p_average_disk_queueLatency_millisecond	p_average_disk_kernelReadLatency_millisecond	p_summation_disk_commands_number	p_latest_disk_maxTotalLatency_millisecond	p_average_disk_deviceWriteLatency_millisecond	p_summation_disk_numberRead_number
+host-10	00000000-0000-0000-0000-002590d3fca0	t10.FreeBSD_iSCSI_Disk______002590d0fed0050_________________	20	0	0	0	0	0	0	0	0	0	0	0	0	0	0	128	0	0		0	0	0	0		0	0
+host-10	00000000-0000-0000-0000-002590d3fca0	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	1	0	0	0	0	0	29	0	40	38	1	0	0	2	31	0	0		0	0	0	55		0	26
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20									40	38								79					0		","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:disk","2016-06-20 03:26:40.000000 PDT"
+"moid	uuid	instance	samp_int	p_latest_disk_maxTotalLatency_millisecond	p_summation_disk_busResets_number	p_average_disk_write_kiloBytesPerSecond	p_summation_disk_commandsAborted_number	p_average_disk_numberReadAveraged_number	p_summation_disk_commands_number	p_average_disk_commandsAveraged_number	p_average_disk_numberWriteAveraged_number	p_average_disk_read_kiloBytesPerSecond	p_summation_disk_numberRead_number	p_average_disk_usage_kiloBytesPerSecond	p_summation_disk_numberWrite_number
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	aggregated	20	0		0						0		0	
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-16	5010d5e0-116d-cc1b-93ad-c1926428df1d	aggregated	20	0											
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	aggregated	20	0											
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	aggregated	20	0		0						0		0	
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	aggregated	20	0											
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	aggregated	20	0		0						0		0	
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	aggregated	20	0		0						0		0	
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	aggregated	20	0											
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	aggregated	20	0		0						0		0	
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	aggregated	20	0		0						0		0	
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	aggregated	20	0		0						0		0	
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	aggregated	20	0		0						0		0	
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20		0	0	0	0	0	0	0	0	0		0
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	aggregated	20	0											","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:VirtualMachine","vmware:perf:disk","2016-06-20 03:24:20.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_disk_commandsAveraged_number	p_average_disk_totalReadLatency_millisecond	p_average_disk_deviceLatency_millisecond	p_average_disk_numberReadAveraged_number	p_average_disk_kernelWriteLatency_millisecond	p_summation_disk_commandsAborted_number	p_summation_disk_commands_number	p_latest_disk_maxTotalLatency_millisecond	p_average_disk_write_kiloBytesPerSecond	p_summation_disk_numberWrite_number	p_summation_disk_busResets_number	p_average_disk_kernelReadLatency_millisecond	p_average_disk_queueLatency_millisecond	p_average_disk_totalWriteLatency_millisecond	p_average_disk_usage_kiloBytesPerSecond	p_average_disk_numberWriteAveraged_number	p_average_disk_queueWriteLatency_millisecond	p_average_disk_maxQueueDepth_number	p_average_disk_deviceReadLatency_millisecond	p_average_disk_read_kiloBytesPerSecond	p_average_disk_deviceWriteLatency_millisecond	p_average_disk_kernelLatency_millisecond	p_summation_disk_numberRead_number	p_average_disk_totalLatency_millisecond	p_average_disk_queueReadLatency_millisecond
+host-10	00000000-0000-0000-0000-002590d3fca0	t10.FreeBSD_iSCSI_Disk______002590d0fed0050_________________	20	0	0	0	0	0	0	0		0	0	0	0	0	0		0	0	128	0	0	0	0	0	0	0
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20								0	6						13					6					
+host-10	00000000-0000-0000-0000-002590d3fca0	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0	0	0	0	0	16		6	11	0	0	0	0		0	0	31	0	6	0	0	5	0	0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:disk","2016-06-20 03:23:20.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_disk_commandsAveraged_number	p_average_disk_totalReadLatency_millisecond	p_average_disk_deviceLatency_millisecond	p_average_disk_numberReadAveraged_number	p_average_disk_kernelWriteLatency_millisecond	p_summation_disk_commandsAborted_number	p_summation_disk_commands_number	p_latest_disk_maxTotalLatency_millisecond	p_average_disk_write_kiloBytesPerSecond	p_summation_disk_numberWrite_number	p_summation_disk_busResets_number	p_average_disk_kernelReadLatency_millisecond	p_average_disk_queueLatency_millisecond	p_average_disk_totalWriteLatency_millisecond	p_average_disk_usage_kiloBytesPerSecond	p_average_disk_numberWriteAveraged_number	p_average_disk_queueWriteLatency_millisecond	p_average_disk_maxQueueDepth_number	p_average_disk_deviceReadLatency_millisecond	p_average_disk_read_kiloBytesPerSecond	p_average_disk_deviceWriteLatency_millisecond	p_average_disk_kernelLatency_millisecond	p_summation_disk_numberRead_number	p_average_disk_totalLatency_millisecond	p_average_disk_queueReadLatency_millisecond
+host-10	00000000-0000-0000-0000-002590d3fca0	t10.FreeBSD_iSCSI_Disk______002590d0fed0050_________________	20	0	0	0	0	0	0	0		0	0	0	0	0	0		0	0	128	0	0	0	0	0	0	0
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20								0	47						92					45					
+host-10	00000000-0000-0000-0000-002590d3fca0	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	3	0	0	1	0	0	61		47	31	0	0	0	0		1	0	31	0	45	0	0	30	0	0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:disk","2016-06-20 03:23:00.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_disk_read_kiloBytesPerSecond	p_average_disk_commandsAveraged_number	p_average_disk_usage_kiloBytesPerSecond	p_average_disk_numberWriteAveraged_number	p_summation_disk_numberWrite_number	p_average_disk_numberReadAveraged_number	p_summation_disk_numberRead_number	p_summation_disk_commandsAborted_number	p_average_disk_write_kiloBytesPerSecond	p_summation_disk_commands_number	p_summation_disk_busResets_number	p_latest_disk_maxTotalLatency_millisecond
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	aggregated	20	0		0						0			0
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	aggregated	20	0		0						0			0
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	aggregated	20												0
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	aggregated	20	0		0						0			0
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	aggregated	20	0		0						0			0
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	aggregated	20	0		0						0			0
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	aggregated	20												0
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	aggregated	20												0
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	aggregated	20	0		0						0			0
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	aggregated	20	0		0						0			0
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	aggregated	20												0
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	aggregated	20	0		0						0			0
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-16	5010d5e0-116d-cc1b-93ad-c1926428df1d	aggregated	20												0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:VirtualMachine","vmware:perf:disk","2016-06-20 03:23:00.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_disk_read_kiloBytesPerSecond	p_average_disk_commandsAveraged_number	p_average_disk_usage_kiloBytesPerSecond	p_average_disk_numberWriteAveraged_number	p_summation_disk_numberWrite_number	p_average_disk_numberReadAveraged_number	p_summation_disk_numberRead_number	p_summation_disk_commandsAborted_number	p_average_disk_write_kiloBytesPerSecond	p_summation_disk_commands_number	p_summation_disk_busResets_number	p_latest_disk_maxTotalLatency_millisecond
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	aggregated	20	0		0						0			0
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	aggregated	20	0		0						0			0
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	aggregated	20												0
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	aggregated	20	0		0						0			0
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	aggregated	20	0		0						0			0
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	aggregated	20	0		0						0			0
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	aggregated	20												0
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	aggregated	20												0
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	aggregated	20	0		0						0			0
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	aggregated	20	0		0						0			0
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	aggregated	20												0
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	aggregated	20	0		0						0			0
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-16	5010d5e0-116d-cc1b-93ad-c1926428df1d	aggregated	20												0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:VirtualMachine","vmware:perf:disk","2016-06-20 03:23:40.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_disk_read_kiloBytesPerSecond	p_average_disk_commandsAveraged_number	p_average_disk_usage_kiloBytesPerSecond	p_average_disk_numberWriteAveraged_number	p_summation_disk_numberWrite_number	p_average_disk_numberReadAveraged_number	p_summation_disk_numberRead_number	p_summation_disk_commandsAborted_number	p_average_disk_write_kiloBytesPerSecond	p_summation_disk_commands_number	p_summation_disk_busResets_number	p_latest_disk_maxTotalLatency_millisecond
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	aggregated	20	0		0						0			0
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	aggregated	20	0		0						0			0
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	aggregated	20												0
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	aggregated	20	0		0						0			0
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	aggregated	20	0		0						0			0
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	aggregated	20	0		0						0			0
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	aggregated	20												0
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	aggregated	20												0
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	aggregated	20	0		0						0			0
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	aggregated	20	0		0						0			0
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	aggregated	20												0
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	aggregated	20	0		0						0			0
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-16	5010d5e0-116d-cc1b-93ad-c1926428df1d	aggregated	20												0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:VirtualMachine","vmware:perf:disk","2016-06-20 03:22:40.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_disk_commandsAveraged_number	p_average_disk_totalReadLatency_millisecond	p_average_disk_deviceLatency_millisecond	p_average_disk_numberReadAveraged_number	p_average_disk_kernelWriteLatency_millisecond	p_summation_disk_commandsAborted_number	p_summation_disk_commands_number	p_latest_disk_maxTotalLatency_millisecond	p_average_disk_write_kiloBytesPerSecond	p_summation_disk_numberWrite_number	p_summation_disk_busResets_number	p_average_disk_kernelReadLatency_millisecond	p_average_disk_queueLatency_millisecond	p_average_disk_totalWriteLatency_millisecond	p_average_disk_usage_kiloBytesPerSecond	p_average_disk_numberWriteAveraged_number	p_average_disk_queueWriteLatency_millisecond	p_average_disk_maxQueueDepth_number	p_average_disk_deviceReadLatency_millisecond	p_average_disk_read_kiloBytesPerSecond	p_average_disk_deviceWriteLatency_millisecond	p_average_disk_kernelLatency_millisecond	p_summation_disk_numberRead_number	p_average_disk_totalLatency_millisecond	p_average_disk_queueReadLatency_millisecond
+host-10	00000000-0000-0000-0000-002590d3fca0	t10.FreeBSD_iSCSI_Disk______002590d0fed0050_________________	20	0	0	0	0	0	0	0		0	0	0	0	0	0		0	0	128	0	0	0	0	0	0	0
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20								0	40						80					39					
+host-10	00000000-0000-0000-0000-002590d3fca0	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	3	0	0	1	0	0	69		40	29	0	0	0	0		1	0	31	0	39	0	0	38	0	0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:disk","2016-06-20 03:23:40.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_disk_commandsAveraged_number	p_average_disk_totalReadLatency_millisecond	p_average_disk_deviceLatency_millisecond	p_average_disk_numberReadAveraged_number	p_average_disk_kernelWriteLatency_millisecond	p_summation_disk_commandsAborted_number	p_summation_disk_commands_number	p_latest_disk_maxTotalLatency_millisecond	p_average_disk_write_kiloBytesPerSecond	p_summation_disk_numberWrite_number	p_summation_disk_busResets_number	p_average_disk_kernelReadLatency_millisecond	p_average_disk_queueLatency_millisecond	p_average_disk_totalWriteLatency_millisecond	p_average_disk_usage_kiloBytesPerSecond	p_average_disk_numberWriteAveraged_number	p_average_disk_queueWriteLatency_millisecond	p_average_disk_maxQueueDepth_number	p_average_disk_deviceReadLatency_millisecond	p_average_disk_read_kiloBytesPerSecond	p_average_disk_deviceWriteLatency_millisecond	p_average_disk_kernelLatency_millisecond	p_summation_disk_numberRead_number	p_average_disk_totalLatency_millisecond	p_average_disk_queueReadLatency_millisecond
+host-10	00000000-0000-0000-0000-002590d3fca0	t10.FreeBSD_iSCSI_Disk______002590d0fed0050_________________	20	0	0	0	0	0	0	0		0	0	0	0	0	0		0	0	128	0	0	0	0	0	0	0
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20								0	7						13					6					
+host-10	00000000-0000-0000-0000-002590d3fca0	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	1	0	0	0	0	0	21		7	15	0	0	0	0		0	0	31	0	6	0	0	6	0	0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:disk","2016-06-20 03:22:20.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_disk_commandsAveraged_number	p_average_disk_totalReadLatency_millisecond	p_average_disk_deviceLatency_millisecond	p_average_disk_numberReadAveraged_number	p_average_disk_kernelWriteLatency_millisecond	p_summation_disk_commandsAborted_number	p_summation_disk_commands_number	p_latest_disk_maxTotalLatency_millisecond	p_average_disk_write_kiloBytesPerSecond	p_summation_disk_numberWrite_number	p_summation_disk_busResets_number	p_average_disk_kernelReadLatency_millisecond	p_average_disk_queueLatency_millisecond	p_average_disk_totalWriteLatency_millisecond	p_average_disk_usage_kiloBytesPerSecond	p_average_disk_numberWriteAveraged_number	p_average_disk_queueWriteLatency_millisecond	p_average_disk_maxQueueDepth_number	p_average_disk_deviceReadLatency_millisecond	p_average_disk_read_kiloBytesPerSecond	p_average_disk_deviceWriteLatency_millisecond	p_average_disk_kernelLatency_millisecond	p_summation_disk_numberRead_number	p_average_disk_totalLatency_millisecond	p_average_disk_queueReadLatency_millisecond
+host-10	00000000-0000-0000-0000-002590d3fca0	t10.FreeBSD_iSCSI_Disk______002590d0fed0050_________________	20	0	0	0	0	0	0	0		0	0	0	0	0	0		0	0	128	0	0	0	0	0	0	0
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20								0	40						184					143					
+host-10	00000000-0000-0000-0000-002590d3fca0	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	7	0	0	5	0	0	147		40	29	0	0	0	0		1	0	31	0	143	0	0	116	0	0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:disk","2016-06-20 03:22:40.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_disk_read_kiloBytesPerSecond	p_average_disk_commandsAveraged_number	p_average_disk_usage_kiloBytesPerSecond	p_average_disk_numberWriteAveraged_number	p_summation_disk_numberWrite_number	p_average_disk_numberReadAveraged_number	p_summation_disk_numberRead_number	p_summation_disk_commandsAborted_number	p_average_disk_write_kiloBytesPerSecond	p_summation_disk_commands_number	p_summation_disk_busResets_number	p_latest_disk_maxTotalLatency_millisecond
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	aggregated	20	0		0						0			0
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	2	0	0	0	0	2	0	
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	aggregated	20	0		0						0			0
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	aggregated	20												0
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	aggregated	20	0		0						0			0
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	aggregated	20	0		0						0			0
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	aggregated	20	0		0						0			0
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	aggregated	20												0
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	aggregated	20												0
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	aggregated	20	0		0						0			0
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	aggregated	20	0		0						0			0
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	aggregated	20												0
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	aggregated	20	0		0						0			0
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-16	5010d5e0-116d-cc1b-93ad-c1926428df1d	aggregated	20												0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:VirtualMachine","vmware:perf:disk","2016-06-20 03:22:20.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_disk_read_kiloBytesPerSecond	p_average_disk_commandsAveraged_number	p_average_disk_usage_kiloBytesPerSecond	p_average_disk_numberWriteAveraged_number	p_summation_disk_numberWrite_number	p_average_disk_numberReadAveraged_number	p_summation_disk_numberRead_number	p_summation_disk_commandsAborted_number	p_average_disk_write_kiloBytesPerSecond	p_summation_disk_commands_number	p_summation_disk_busResets_number	p_latest_disk_maxTotalLatency_millisecond
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	aggregated	20	0		0						0			0
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	aggregated	20	0		0						0			0
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	aggregated	20												0
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	aggregated	20	0		0						0			0
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	aggregated	20	0		0						0			0
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	aggregated	20	0		0						0			0
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	aggregated	20												0
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	aggregated	20												0
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	aggregated	20	0		0						0			0
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	aggregated	20	0		0						0			0
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	aggregated	20												0
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	aggregated	20	0		0						0			0
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	t10.ATA_____Samsung_SSD_840_PRO_Series______________S1ANNSAD756819B_____	20	0	0		0	0	0	0	0	0	0	0	
+vm-16	5010d5e0-116d-cc1b-93ad-c1926428df1d	aggregated	20												0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:VirtualMachine","vmware:perf:disk","2016-06-20 03:23:20.000000 PDT"

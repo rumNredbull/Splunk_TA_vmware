@@ -1,0 +1,247 @@
+/*=================================================================
+NODE BAR CSS
+=================================================================*/
+.node-box {
+	width: 30px;
+	height: 30px;
+	float: left;
+	padding: 0px;
+	margin: 3px;
+	background: #FFFFFF;
+	border: 1px solid rgb(104, 104, 104);
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	-moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
+	-webkit-box-shadow: #ccc 0 0 4px;
+	box-shadow: #ccc 0 0 4px;
+}
+.plus-box {
+	width: 30px;
+	height: 30px;
+	float: left;
+	padding: 0px;
+	margin: 2px;
+}
+.node-box:hover {
+	border: 1px solid black;
+	cursor: pointer;
+}
+.node-box.selected:hover {
+	border: 2px solid black;
+	cursor: pointer;
+	margin: 2px;
+}
+/*valid and invalid classes are placeholders might use them might not*/
+.node-box.valid {
+	background: #FFFFFF;
+}
+.node-box.invalid {
+	background: #FFFFFF;
+}
+.node-box.selected {
+	border: 2px solid black;
+	margin: 2px;
+}
+i.node-icon {
+	font-size: 18px;
+	position: relative;
+	left: 7px;
+	top: 6px;
+}
+i.node-icon.icon-plus {
+	top: 8px;
+}
+
+div.node-bar {
+	float: left;
+	clear: right;
+}
+
+/*=================================================================
+LAYOUT CSS
+=================================================================*/
+h1 {
+	font-size: 19px;
+	color: #373737;
+	font-weight: 100;
+	padding: 0px 0px 22px 0px;
+	margin: 0px;
+}
+h2 {
+	font-size: 14px;
+	color: #373737;
+	font-weight: bold;
+	padding: 0px 0px 16px 0px;
+	margin: 16px 0px 0px 0px;
+}
+body {
+	background-color: #EDEDE7;
+	font-size: 12px;
+	font-family: 'Helvetica nenu', Helvetica, Arial, sans-serif;
+	color: #373737;
+}
+div.conf-panel {
+	background-color: #FFFFFF;
+	overflow: hidden;
+	padding: 27px;
+	margin: 10px 0px 10px 0px;
+	border: #CCCCCC solid 1px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	-moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+	-webkit-box-shadow: #ccc 0 0 5px;
+	box-shadow: #ccc 0 0 5px;
+}
+i.conf-icon {
+	color: #373737;
+	font-size: 18px;
+}
+.button-bar i {
+	margin: 0px 5px 0px 5px;
+}
+/*=================================================================
+GENERAL TEXT/INTERFACE CSS
+=================================================================*/
+.invalid {
+	color: #B72D2D;
+}
+.valid {
+	color: #5E9958;
+}
+.disabled {
+    color: #808080;
+}
+.clickable {
+	cursor: pointer;
+}
+.clickable:hover {
+	color: black;
+}
+/*=================================================================
+DIALOG CSS
+=================================================================*/
+.conf-dialog.ui-dialog {
+	background-color: #FFFFFF;
+	overflow: hidden;
+	padding: 20px;
+	border: #666666 solid 1px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+	-moz-box-shadow: 0 0 70px rgba(98, 98, 98, 0);
+	-webkit-box-shadow: #626262 0 0 70px;
+	box-shadow: #626262 0 0 70px;
+}
+.conf-dialog .ui-dialog-titlebar-close {
+	display: none;
+}
+.conf-dialog .ui-resizable-handle {
+	display: none !important;
+}
+.conf-dialog .ui-dialog-titlebar.ui-widget-header{
+	background: #FFFFFF;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	border-bottom-color: rgb(221, 221, 221);
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+.conf-dialog .ui-dialog-title {
+	font-size: 19px;
+	color: #373737;
+	font-weight: 100;
+	padding: 0px 0px 15px 2px;
+	margin: 19px 0px 19px 0px;
+}
+.conf-dialog-table {
+	width: 100%;
+}
+.conf-dialog-table th {
+	text-align: left;
+	vertical-align: middle;
+	padding: 1px 25px 1px 0px;
+	font-weight: normal;
+	font-size: 12px;
+	width:50%;
+}
+.conf-dialog-table td {
+	text-align: left;
+	vertical-align: middle;
+	padding: 1px 0px 1px 1px;
+	font-size: 12px;
+	width:70%;
+}
+.conf-dialog input[type="text"]{
+	width: 100%;
+	height: 25px;
+}
+.conf-dialog input[type="password"]{
+	width: 100%;
+	height: 25px;
+}
+.ui-widget-overlay {
+	background: #000000 !important;
+	opacity: 0.5 !important;
+	filter: alpha(opacity=50) !important;
+}
+.ui-overlay {
+	background: #000000 !important;
+	opacity: 0.5 !important;
+	filter: alpha(opacity=50) !important;
+}
+.conf-dialog .ui-dialog-buttonset {
+	width: 100%;
+}
+.right-button {
+	float: right;
+	margin-top: 22px !important;
+}
+.left-button {
+	float: left;
+	margin-top: 22px !important;
+}
+/*=================================================================
+CONF INFO CSS
+=================================================================*/
+div.button-bar {
+	float: left;
+	clear: right;
+	padding: 10px;
+	margin: 5px;
+}
+div.conf-info {
+	float: left;
+	clear: both;
+	min-width: 550px;
+	font-size: 12px;
+}
+table.conf-info-display {
+	min-width: 250px;
+	clear: both;
+	float: left;
+}
+table.conf-info-display tr{
+	height: 19px;
+}
+table.conf-info-display td{
+	text-align:left;
+	vertical-align:bottom;
+	padding: 1px 0px 1px 1px;
+	font-size: 12px;
+}
+table.conf-info-display th{
+	text-align:left;
+	vertical-align:bottom;
+	padding: 1px 1px 1px 0px;
+	font-weight: normal;
+	font-size: 12px;
+	white-space: nowrap;
+}
+div.conf-dialog-content {
+}
+

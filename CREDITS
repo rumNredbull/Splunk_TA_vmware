@@ -1,0 +1,11 @@
+--------------------------------------------------
+Credits for Included Software
+--------------------------------------------------
+This product includes a modified version of the suds python library
+
+	ORIGINAL AUTHOR:	Jeff Ortel
+	SITE:				https://fedorahosted.org/suds/
+	CONTACT:			jortel@redhat.com
+
+This software located in bin/suds is used/modified under the GNU Lesser 
+General Public License http://www.gnu.org/licenses/lgpl.html

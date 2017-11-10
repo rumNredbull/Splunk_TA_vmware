@@ -1,0 +1,611 @@
+"_raw",host,index,source,sourcetype,time
+"moid	uuid	instance	samp_int	p_summation_power_energy_joule	p_average_power_power_watt
+vm-16	5010d5e0-116d-cc1b-93ad-c1926428df1d	aggregated	20	0	0
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	aggregated	20	0	0
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	aggregated	20	0	0
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	aggregated	20	0	0
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	aggregated	20	0	0
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	aggregated	20	0	0
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	aggregated	20	0	0
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	aggregated	20	0	0
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	aggregated	20	0	0
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	aggregated	20	0	0
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	aggregated	20	0	0
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	aggregated	20	0	0
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	aggregated	20	0	0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:VirtualMachine","vmware:perf:power","2016-06-20 03:35:00.000000 PDT"
+"moid	uuid	instance	samp_int	p_summation_power_energy_joule	p_average_power_powerCap_watt	p_average_power_power_watt
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20	0	0	0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:power","2016-06-20 03:33:40.000000 PDT"
+"moid	uuid	instance	samp_int	p_summation_power_energy_joule	p_average_power_power_watt
+vm-16	5010d5e0-116d-cc1b-93ad-c1926428df1d	aggregated	20	0	0
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	aggregated	20	0	0
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	aggregated	20	0	0
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	aggregated	20	0	0
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	aggregated	20	0	0
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	aggregated	20	0	0
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	aggregated	20	0	0
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	aggregated	20	0	0
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	aggregated	20	0	0
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	aggregated	20	0	0
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	aggregated	20	0	0
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	aggregated	20	0	0
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	aggregated	20	0	0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:VirtualMachine","vmware:perf:power","2016-06-20 03:35:40.000000 PDT"
+"moid	uuid	instance	samp_int	p_summation_power_energy_joule	p_average_power_power_watt
+vm-16	5010d5e0-116d-cc1b-93ad-c1926428df1d	aggregated	20	0	0
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	aggregated	20	0	0
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	aggregated	20	0	0
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	aggregated	20	0	0
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	aggregated	20	0	0
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	aggregated	20	0	0
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	aggregated	20	0	0
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	aggregated	20	0	0
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	aggregated	20	0	0
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	aggregated	20	0	0
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	aggregated	20	0	0
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	aggregated	20	0	0
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	aggregated	20	0	0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:VirtualMachine","vmware:perf:power","2016-06-20 03:33:40.000000 PDT"
+"moid	uuid	instance	samp_int	p_summation_power_energy_joule	p_average_power_power_watt
+vm-16	5010d5e0-116d-cc1b-93ad-c1926428df1d	aggregated	20	0	0
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	aggregated	20	0	0
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	aggregated	20	0	0
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	aggregated	20	0	0
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	aggregated	20	0	0
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	aggregated	20	0	0
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	aggregated	20	0	0
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	aggregated	20	0	0
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	aggregated	20	0	0
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	aggregated	20	0	0
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	aggregated	20	0	0
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	aggregated	20	0	0
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	aggregated	20	0	0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:VirtualMachine","vmware:perf:power","2016-06-20 03:34:00.000000 PDT"
+"moid	uuid	instance	samp_int	p_summation_power_energy_joule	p_average_power_power_watt
+vm-16	5010d5e0-116d-cc1b-93ad-c1926428df1d	aggregated	20	0	0
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	aggregated	20	0	0
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	aggregated	20	0	0
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	aggregated	20	0	0
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	aggregated	20	0	0
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	aggregated	20	0	0
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	aggregated	20	0	0
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	aggregated	20	0	0
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	aggregated	20	0	0
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	aggregated	20	0	0
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	aggregated	20	0	0
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	aggregated	20	0	0
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	aggregated	20	0	0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:VirtualMachine","vmware:perf:power","2016-06-20 03:33:20.000000 PDT"
+"moid	uuid	instance	samp_int	p_summation_power_energy_joule	p_average_power_powerCap_watt	p_average_power_power_watt
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20	0	0	0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:power","2016-06-20 03:35:40.000000 PDT"
+"moid	uuid	instance	samp_int	p_summation_power_energy_joule	p_average_power_powerCap_watt	p_average_power_power_watt
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20	0	0	0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:power","2016-06-20 03:33:00.000000 PDT"
+"moid	uuid	instance	samp_int	p_summation_power_energy_joule	p_average_power_power_watt
+vm-16	5010d5e0-116d-cc1b-93ad-c1926428df1d	aggregated	20	0	0
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	aggregated	20	0	0
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	aggregated	20	0	0
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	aggregated	20	0	0
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	aggregated	20	0	0
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	aggregated	20	0	0
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	aggregated	20	0	0
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	aggregated	20	0	0
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	aggregated	20	0	0
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	aggregated	20	0	0
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	aggregated	20	0	0
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	aggregated	20	0	0
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	aggregated	20	0	0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:VirtualMachine","vmware:perf:power","2016-06-20 03:34:40.000000 PDT"
+"moid	uuid	instance	samp_int	p_summation_power_energy_joule	p_average_power_powerCap_watt	p_average_power_power_watt
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20	0	0	0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:power","2016-06-20 03:34:20.000000 PDT"
+"moid	uuid	instance	samp_int	p_summation_power_energy_joule	p_average_power_powerCap_watt	p_average_power_power_watt
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20	0	0	0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:power","2016-06-20 03:34:00.000000 PDT"
+"moid	uuid	instance	samp_int	p_summation_power_energy_joule	p_average_power_powerCap_watt	p_average_power_power_watt
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20	0	0	0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:power","2016-06-20 03:33:20.000000 PDT"
+"moid	uuid	instance	samp_int	p_summation_power_energy_joule	p_average_power_powerCap_watt	p_average_power_power_watt
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20	0	0	0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:power","2016-06-20 03:35:20.000000 PDT"
+"moid	uuid	instance	samp_int	p_summation_power_energy_joule	p_average_power_power_watt
+vm-16	5010d5e0-116d-cc1b-93ad-c1926428df1d	aggregated	20	0	0
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	aggregated	20	0	0
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	aggregated	20	0	0
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	aggregated	20	0	0
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	aggregated	20	0	0
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	aggregated	20	0	0
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	aggregated	20	0	0
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	aggregated	20	0	0
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	aggregated	20	0	0
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	aggregated	20	0	0
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	aggregated	20	0	0
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	aggregated	20	0	0
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	aggregated	20	0	0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:VirtualMachine","vmware:perf:power","2016-06-20 03:32:40.000000 PDT"
+"moid	uuid	instance	samp_int	p_summation_power_energy_joule	p_average_power_power_watt
+vm-16	5010d5e0-116d-cc1b-93ad-c1926428df1d	aggregated	20	0	0
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	aggregated	20	0	0
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	aggregated	20	0	0
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	aggregated	20	0	0
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	aggregated	20	0	0
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	aggregated	20	0	0
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	aggregated	20	0	0
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	aggregated	20	0	0
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	aggregated	20	0	0
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	aggregated	20	0	0
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	aggregated	20	0	0
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	aggregated	20	0	0
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	aggregated	20	0	0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:VirtualMachine","vmware:perf:power","2016-06-20 03:31:20.000000 PDT"
+"moid	uuid	instance	samp_int	p_summation_power_energy_joule	p_average_power_power_watt
+vm-16	5010d5e0-116d-cc1b-93ad-c1926428df1d	aggregated	20	0	0
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	aggregated	20	0	0
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	aggregated	20	0	0
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	aggregated	20	0	0
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	aggregated	20	0	0
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	aggregated	20	0	0
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	aggregated	20	0	0
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	aggregated	20	0	0
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	aggregated	20	0	0
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	aggregated	20	0	0
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	aggregated	20	0	0
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	aggregated	20	0	0
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	aggregated	20	0	0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:VirtualMachine","vmware:perf:power","2016-06-20 03:30:40.000000 PDT"
+"moid	uuid	instance	samp_int	p_summation_power_energy_joule	p_average_power_power_watt
+vm-16	5010d5e0-116d-cc1b-93ad-c1926428df1d	aggregated	20	0	0
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	aggregated	20	0	0
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	aggregated	20	0	0
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	aggregated	20	0	0
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	aggregated	20	0	0
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	aggregated	20	0	0
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	aggregated	20	0	0
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	aggregated	20	0	0
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	aggregated	20	0	0
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	aggregated	20	0	0
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	aggregated	20	0	0
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	aggregated	20	0	0
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	aggregated	20	0	0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:VirtualMachine","vmware:perf:power","2016-06-20 03:31:40.000000 PDT"
+"moid	uuid	instance	samp_int	p_summation_power_energy_joule	p_average_power_power_watt
+vm-16	5010d5e0-116d-cc1b-93ad-c1926428df1d	aggregated	20	0	0
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	aggregated	20	0	0
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	aggregated	20	0	0
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	aggregated	20	0	0
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	aggregated	20	0	0
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	aggregated	20	0	0
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	aggregated	20	0	0
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	aggregated	20	0	0
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	aggregated	20	0	0
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	aggregated	20	0	0
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	aggregated	20	0	0
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	aggregated	20	0	0
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	aggregated	20	0	0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:VirtualMachine","vmware:perf:power","2016-06-20 03:30:20.000000 PDT"
+"moid	uuid	instance	samp_int	p_summation_power_energy_joule	p_average_power_powerCap_watt	p_average_power_power_watt
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20	0	0	0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:power","2016-06-20 03:32:40.000000 PDT"
+"moid	uuid	instance	samp_int	p_summation_power_energy_joule	p_average_power_powerCap_watt	p_average_power_power_watt
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20	0	0	0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:power","2016-06-20 03:31:20.000000 PDT"
+"moid	uuid	instance	samp_int	p_summation_power_energy_joule	p_average_power_powerCap_watt	p_average_power_power_watt
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20	0	0	0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:power","2016-06-20 03:32:00.000000 PDT"
+"moid	uuid	instance	samp_int	p_summation_power_energy_joule	p_average_power_powerCap_watt	p_average_power_power_watt
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20	0	0	0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:power","2016-06-20 03:31:40.000000 PDT"
+"moid	uuid	instance	samp_int	p_summation_power_energy_joule	p_average_power_power_watt
+vm-16	5010d5e0-116d-cc1b-93ad-c1926428df1d	aggregated	20	0	0
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	aggregated	20	0	0
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	aggregated	20	0	0
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	aggregated	20	0	0
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	aggregated	20	0	0
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	aggregated	20	0	0
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	aggregated	20	0	0
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	aggregated	20	0	0
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	aggregated	20	0	0
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	aggregated	20	0	0
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	aggregated	20	0	0
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	aggregated	20	0	0
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	aggregated	20	0	0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:VirtualMachine","vmware:perf:power","2016-06-20 03:30:00.000000 PDT"
+"moid	uuid	instance	samp_int	p_summation_power_energy_joule	p_average_power_powerCap_watt	p_average_power_power_watt
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20	0	0	0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:power","2016-06-20 03:32:20.000000 PDT"
+"moid	uuid	instance	samp_int	p_summation_power_energy_joule	p_average_power_power_watt
+vm-16	5010d5e0-116d-cc1b-93ad-c1926428df1d	aggregated	20	0	0
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	aggregated	20	0	0
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	aggregated	20	0	0
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	aggregated	20	0	0
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	aggregated	20	0	0
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	aggregated	20	0	0
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	aggregated	20	0	0
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	aggregated	20	0	0
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	aggregated	20	0	0
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	aggregated	20	0	0
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	aggregated	20	0	0
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	aggregated	20	0	0
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	aggregated	20	0	0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:VirtualMachine","vmware:perf:power","2016-06-20 03:32:00.000000 PDT"
+"moid	uuid	instance	samp_int	p_summation_power_energy_joule	p_average_power_powerCap_watt	p_average_power_power_watt
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20	0	0	0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:power","2016-06-20 03:30:40.000000 PDT"
+"moid	uuid	instance	samp_int	p_summation_power_energy_joule	p_average_power_powerCap_watt	p_average_power_power_watt
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20	0	0	0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:power","2016-06-20 03:31:00.000000 PDT"
+"moid	uuid	instance	samp_int	p_summation_power_energy_joule	p_average_power_power_watt
+vm-16	5010d5e0-116d-cc1b-93ad-c1926428df1d	aggregated	20	0	0
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	aggregated	20	0	0
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	aggregated	20	0	0
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	aggregated	20	0	0
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	aggregated	20	0	0
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	aggregated	20	0	0
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	aggregated	20	0	0
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	aggregated	20	0	0
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	aggregated	20	0	0
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	aggregated	20	0	0
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	aggregated	20	0	0
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	aggregated	20	0	0
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	aggregated	20	0	0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:VirtualMachine","vmware:perf:power","2016-06-20 03:31:00.000000 PDT"
+"moid	uuid	instance	samp_int	p_summation_power_energy_joule	p_average_power_power_watt
+vm-16	5010d5e0-116d-cc1b-93ad-c1926428df1d	aggregated	20	0	0
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	aggregated	20	0	0
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	aggregated	20	0	0
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	aggregated	20	0	0
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	aggregated	20	0	0
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	aggregated	20	0	0
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	aggregated	20	0	0
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	aggregated	20	0	0
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	aggregated	20	0	0
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	aggregated	20	0	0
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	aggregated	20	0	0
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	aggregated	20	0	0
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	aggregated	20	0	0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:VirtualMachine","vmware:perf:power","2016-06-20 03:32:20.000000 PDT"
+"moid	uuid	instance	samp_int	p_summation_power_energy_joule	p_average_power_powerCap_watt	p_average_power_power_watt
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20	0	0	0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:power","2016-06-20 03:30:20.000000 PDT"
+"moid	uuid	instance	samp_int	p_summation_power_energy_joule	p_average_power_powerCap_watt	p_average_power_power_watt
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20	0	0	0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:power","2016-06-20 03:30:00.000000 PDT"
+"moid	uuid	instance	samp_int	p_summation_power_energy_joule	p_average_power_powerCap_watt	p_average_power_power_watt
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20	0	0	0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:power","2016-06-20 03:28:40.000000 PDT"
+"moid	uuid	instance	samp_int	p_summation_power_energy_joule	p_average_power_powerCap_watt	p_average_power_power_watt
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20	0	0	0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:power","2016-06-20 03:28:20.000000 PDT"
+"moid	uuid	instance	samp_int	p_summation_power_energy_joule	p_average_power_powerCap_watt	p_average_power_power_watt
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20	0	0	0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:power","2016-06-20 03:27:00.000000 PDT"
+"moid	uuid	instance	samp_int	p_summation_power_energy_joule	p_average_power_powerCap_watt	p_average_power_power_watt
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20	0	0	0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:power","2016-06-20 03:29:40.000000 PDT"
+"moid	uuid	instance	samp_int	p_summation_power_energy_joule	p_average_power_powerCap_watt	p_average_power_power_watt
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20	0	0	0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:power","2016-06-20 03:27:40.000000 PDT"
+"moid	uuid	instance	samp_int	p_summation_power_energy_joule	p_average_power_power_watt
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	aggregated	20	0	0
+vm-16	5010d5e0-116d-cc1b-93ad-c1926428df1d	aggregated	20	0	0
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	aggregated	20	0	0
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	aggregated	20	0	0
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	aggregated	20	0	0
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	aggregated	20	0	0
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	aggregated	20	0	0
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	aggregated	20	0	0
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	aggregated	20	0	0
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	aggregated	20	0	0
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	aggregated	20	0	0
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	aggregated	20	0	0
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	aggregated	20	0	0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:VirtualMachine","vmware:perf:power","2016-06-20 03:27:40.000000 PDT"
+"moid	uuid	instance	samp_int	p_summation_power_energy_joule	p_average_power_power_watt
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	aggregated	20	0	0
+vm-16	5010d5e0-116d-cc1b-93ad-c1926428df1d	aggregated	20	0	0
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	aggregated	20	0	0
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	aggregated	20	0	0
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	aggregated	20	0	0
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	aggregated	20	0	0
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	aggregated	20	0	0
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	aggregated	20	0	0
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	aggregated	20	0	0
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	aggregated	20	0	0
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	aggregated	20	0	0
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	aggregated	20	0	0
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	aggregated	20	0	0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:VirtualMachine","vmware:perf:power","2016-06-20 03:29:40.000000 PDT"
+"moid	uuid	instance	samp_int	p_summation_power_energy_joule	p_average_power_powerCap_watt	p_average_power_power_watt
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20	0	0	0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:power","2016-06-20 03:29:20.000000 PDT"
+"moid	uuid	instance	samp_int	p_summation_power_energy_joule	p_average_power_power_watt
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	aggregated	20	0	0
+vm-16	5010d5e0-116d-cc1b-93ad-c1926428df1d	aggregated	20	0	0
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	aggregated	20	0	0
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	aggregated	20	0	0
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	aggregated	20	0	0
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	aggregated	20	0	0
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	aggregated	20	0	0
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	aggregated	20	0	0
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	aggregated	20	0	0
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	aggregated	20	0	0
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	aggregated	20	0	0
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	aggregated	20	0	0
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	aggregated	20	0	0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:VirtualMachine","vmware:perf:power","2016-06-20 03:27:00.000000 PDT"
+"moid	uuid	instance	samp_int	p_summation_power_energy_joule	p_average_power_powerCap_watt	p_average_power_power_watt
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20	0	0	0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:power","2016-06-20 03:29:00.000000 PDT"
+"moid	uuid	instance	samp_int	p_summation_power_energy_joule	p_average_power_powerCap_watt	p_average_power_power_watt
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20	0	0	0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:power","2016-06-20 03:28:00.000000 PDT"
+"moid	uuid	instance	samp_int	p_summation_power_energy_joule	p_average_power_power_watt
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	aggregated	20	0	0
+vm-16	5010d5e0-116d-cc1b-93ad-c1926428df1d	aggregated	20	0	0
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	aggregated	20	0	0
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	aggregated	20	0	0
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	aggregated	20	0	0
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	aggregated	20	0	0
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	aggregated	20	0	0
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	aggregated	20	0	0
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	aggregated	20	0	0
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	aggregated	20	0	0
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	aggregated	20	0	0
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	aggregated	20	0	0
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	aggregated	20	0	0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:VirtualMachine","vmware:perf:power","2016-06-20 03:28:00.000000 PDT"
+"moid	uuid	instance	samp_int	p_summation_power_energy_joule	p_average_power_power_watt
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	aggregated	20	0	0
+vm-16	5010d5e0-116d-cc1b-93ad-c1926428df1d	aggregated	20	0	0
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	aggregated	20	0	0
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	aggregated	20	0	0
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	aggregated	20	0	0
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	aggregated	20	0	0
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	aggregated	20	0	0
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	aggregated	20	0	0
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	aggregated	20	0	0
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	aggregated	20	0	0
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	aggregated	20	0	0
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	aggregated	20	0	0
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	aggregated	20	0	0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:VirtualMachine","vmware:perf:power","2016-06-20 03:29:00.000000 PDT"
+"moid	uuid	instance	samp_int	p_summation_power_energy_joule	p_average_power_power_watt
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	aggregated	20	0	0
+vm-16	5010d5e0-116d-cc1b-93ad-c1926428df1d	aggregated	20	0	0
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	aggregated	20	0	0
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	aggregated	20	0	0
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	aggregated	20	0	0
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	aggregated	20	0	0
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	aggregated	20	0	0
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	aggregated	20	0	0
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	aggregated	20	0	0
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	aggregated	20	0	0
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	aggregated	20	0	0
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	aggregated	20	0	0
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	aggregated	20	0	0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:VirtualMachine","vmware:perf:power","2016-06-20 03:29:20.000000 PDT"
+"moid	uuid	instance	samp_int	p_summation_power_energy_joule	p_average_power_power_watt
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	aggregated	20	0	0
+vm-16	5010d5e0-116d-cc1b-93ad-c1926428df1d	aggregated	20	0	0
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	aggregated	20	0	0
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	aggregated	20	0	0
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	aggregated	20	0	0
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	aggregated	20	0	0
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	aggregated	20	0	0
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	aggregated	20	0	0
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	aggregated	20	0	0
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	aggregated	20	0	0
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	aggregated	20	0	0
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	aggregated	20	0	0
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	aggregated	20	0	0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:VirtualMachine","vmware:perf:power","2016-06-20 03:27:20.000000 PDT"
+"moid	uuid	instance	samp_int	p_summation_power_energy_joule	p_average_power_powerCap_watt	p_average_power_power_watt
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20	0	0	0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:power","2016-06-20 03:27:20.000000 PDT"
+"moid	uuid	instance	samp_int	p_summation_power_energy_joule	p_average_power_power_watt
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	aggregated	20	0	0
+vm-16	5010d5e0-116d-cc1b-93ad-c1926428df1d	aggregated	20	0	0
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	aggregated	20	0	0
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	aggregated	20	0	0
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	aggregated	20	0	0
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	aggregated	20	0	0
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	aggregated	20	0	0
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	aggregated	20	0	0
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	aggregated	20	0	0
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	aggregated	20	0	0
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	aggregated	20	0	0
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	aggregated	20	0	0
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	aggregated	20	0	0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:VirtualMachine","vmware:perf:power","2016-06-20 03:28:40.000000 PDT"
+"moid	uuid	instance	samp_int	p_summation_power_energy_joule	p_average_power_power_watt
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	aggregated	20	0	0
+vm-16	5010d5e0-116d-cc1b-93ad-c1926428df1d	aggregated	20	0	0
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	aggregated	20	0	0
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	aggregated	20	0	0
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	aggregated	20	0	0
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	aggregated	20	0	0
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	aggregated	20	0	0
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	aggregated	20	0	0
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	aggregated	20	0	0
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	aggregated	20	0	0
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	aggregated	20	0	0
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	aggregated	20	0	0
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	aggregated	20	0	0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:VirtualMachine","vmware:perf:power","2016-06-20 03:28:20.000000 PDT"
+"moid	uuid	instance	samp_int	p_summation_power_energy_joule	p_average_power_powerCap_watt	p_average_power_power_watt
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20	0	0	0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:power","2016-06-20 03:24:00.000000 PDT"
+"moid	uuid	instance	samp_int	p_summation_power_energy_joule	p_average_power_power_watt
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	aggregated	20	0	0
+vm-16	5010d5e0-116d-cc1b-93ad-c1926428df1d	aggregated	20	0	0
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	aggregated	20	0	0
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	aggregated	20	0	0
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	aggregated	20	0	0
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	aggregated	20	0	0
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	aggregated	20	0	0
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	aggregated	20	0	0
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	aggregated	20	0	0
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	aggregated	20	0	0
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	aggregated	20	0	0
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	aggregated	20	0	0
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	aggregated	20	0	0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:VirtualMachine","vmware:perf:power","2016-06-20 03:26:20.000000 PDT"
+"moid	uuid	instance	samp_int	p_summation_power_energy_joule	p_average_power_power_watt
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	aggregated	20	0	0
+vm-16	5010d5e0-116d-cc1b-93ad-c1926428df1d	aggregated	20	0	0
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	aggregated	20	0	0
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	aggregated	20	0	0
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	aggregated	20	0	0
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	aggregated	20	0	0
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	aggregated	20	0	0
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	aggregated	20	0	0
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	aggregated	20	0	0
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	aggregated	20	0	0
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	aggregated	20	0	0
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	aggregated	20	0	0
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	aggregated	20	0	0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:VirtualMachine","vmware:perf:power","2016-06-20 03:24:00.000000 PDT"
+"moid	uuid	instance	samp_int	p_summation_power_energy_joule	p_average_power_powerCap_watt	p_average_power_power_watt
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20	0	0	0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:power","2016-06-20 03:26:20.000000 PDT"
+"moid	uuid	instance	samp_int	p_summation_power_energy_joule	p_average_power_power_watt
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	aggregated	20	0	0
+vm-16	5010d5e0-116d-cc1b-93ad-c1926428df1d	aggregated	20	0	0
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	aggregated	20	0	0
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	aggregated	20	0	0
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	aggregated	20	0	0
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	aggregated	20	0	0
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	aggregated	20	0	0
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	aggregated	20	0	0
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	aggregated	20	0	0
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	aggregated	20	0	0
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	aggregated	20	0	0
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	aggregated	20	0	0
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	aggregated	20	0	0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:VirtualMachine","vmware:perf:power","2016-06-20 03:24:20.000000 PDT"
+"moid	uuid	instance	samp_int	p_summation_power_energy_joule	p_average_power_power_watt
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	aggregated	20	0	0
+vm-16	5010d5e0-116d-cc1b-93ad-c1926428df1d	aggregated	20	0	0
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	aggregated	20	0	0
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	aggregated	20	0	0
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	aggregated	20	0	0
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	aggregated	20	0	0
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	aggregated	20	0	0
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	aggregated	20	0	0
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	aggregated	20	0	0
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	aggregated	20	0	0
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	aggregated	20	0	0
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	aggregated	20	0	0
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	aggregated	20	0	0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:VirtualMachine","vmware:perf:power","2016-06-20 03:25:20.000000 PDT"
+"moid	uuid	instance	samp_int	p_summation_power_energy_joule	p_average_power_powerCap_watt	p_average_power_power_watt
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20	0	0	0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:power","2016-06-20 03:24:20.000000 PDT"
+"moid	uuid	instance	samp_int	p_summation_power_energy_joule	p_average_power_powerCap_watt	p_average_power_power_watt
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20	0	0	0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:power","2016-06-20 03:25:20.000000 PDT"
+"moid	uuid	instance	samp_int	p_summation_power_energy_joule	p_average_power_power_watt
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	aggregated	20	0	0
+vm-16	5010d5e0-116d-cc1b-93ad-c1926428df1d	aggregated	20	0	0
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	aggregated	20	0	0
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	aggregated	20	0	0
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	aggregated	20	0	0
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	aggregated	20	0	0
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	aggregated	20	0	0
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	aggregated	20	0	0
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	aggregated	20	0	0
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	aggregated	20	0	0
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	aggregated	20	0	0
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	aggregated	20	0	0
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	aggregated	20	0	0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:VirtualMachine","vmware:perf:power","2016-06-20 03:26:40.000000 PDT"
+"moid	uuid	instance	samp_int	p_summation_power_energy_joule	p_average_power_power_watt
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	aggregated	20	0	0
+vm-16	5010d5e0-116d-cc1b-93ad-c1926428df1d	aggregated	20	0	0
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	aggregated	20	0	0
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	aggregated	20	0	0
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	aggregated	20	0	0
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	aggregated	20	0	0
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	aggregated	20	0	0
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	aggregated	20	0	0
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	aggregated	20	0	0
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	aggregated	20	0	0
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	aggregated	20	0	0
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	aggregated	20	0	0
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	aggregated	20	0	0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:VirtualMachine","vmware:perf:power","2016-06-20 03:26:00.000000 PDT"
+"moid	uuid	instance	samp_int	p_summation_power_energy_joule	p_average_power_powerCap_watt	p_average_power_power_watt
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20	0	0	0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:power","2016-06-20 03:25:00.000000 PDT"
+"moid	uuid	instance	samp_int	p_summation_power_energy_joule	p_average_power_power_watt
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	aggregated	20	0	0
+vm-16	5010d5e0-116d-cc1b-93ad-c1926428df1d	aggregated	20	0	0
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	aggregated	20	0	0
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	aggregated	20	0	0
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	aggregated	20	0	0
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	aggregated	20	0	0
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	aggregated	20	0	0
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	aggregated	20	0	0
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	aggregated	20	0	0
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	aggregated	20	0	0
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	aggregated	20	0	0
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	aggregated	20	0	0
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	aggregated	20	0	0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:VirtualMachine","vmware:perf:power","2016-06-20 03:24:40.000000 PDT"
+"moid	uuid	instance	samp_int	p_summation_power_energy_joule	p_average_power_powerCap_watt	p_average_power_power_watt
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20	0	0	0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:power","2016-06-20 03:24:40.000000 PDT"
+"moid	uuid	instance	samp_int	p_summation_power_energy_joule	p_average_power_powerCap_watt	p_average_power_power_watt
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20	0	0	0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:power","2016-06-20 03:25:40.000000 PDT"
+"moid	uuid	instance	samp_int	p_summation_power_energy_joule	p_average_power_powerCap_watt	p_average_power_power_watt
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20	0	0	0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:power","2016-06-20 03:26:00.000000 PDT"
+"moid	uuid	instance	samp_int	p_summation_power_energy_joule	p_average_power_power_watt
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	aggregated	20	0	0
+vm-16	5010d5e0-116d-cc1b-93ad-c1926428df1d	aggregated	20	0	0
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	aggregated	20	0	0
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	aggregated	20	0	0
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	aggregated	20	0	0
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	aggregated	20	0	0
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	aggregated	20	0	0
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	aggregated	20	0	0
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	aggregated	20	0	0
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	aggregated	20	0	0
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	aggregated	20	0	0
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	aggregated	20	0	0
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	aggregated	20	0	0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:VirtualMachine","vmware:perf:power","2016-06-20 03:25:40.000000 PDT"
+"moid	uuid	instance	samp_int	p_summation_power_energy_joule	p_average_power_power_watt
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	aggregated	20	0	0
+vm-16	5010d5e0-116d-cc1b-93ad-c1926428df1d	aggregated	20	0	0
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	aggregated	20	0	0
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	aggregated	20	0	0
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	aggregated	20	0	0
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	aggregated	20	0	0
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	aggregated	20	0	0
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	aggregated	20	0	0
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	aggregated	20	0	0
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	aggregated	20	0	0
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	aggregated	20	0	0
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	aggregated	20	0	0
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	aggregated	20	0	0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:VirtualMachine","vmware:perf:power","2016-06-20 03:25:00.000000 PDT"
+"moid	uuid	instance	samp_int	p_summation_power_energy_joule	p_average_power_powerCap_watt	p_average_power_power_watt
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20	0	0	0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:power","2016-06-20 03:26:40.000000 PDT"
+"moid	uuid	instance	samp_int	p_summation_power_energy_joule	p_average_power_power_watt	p_average_power_powerCap_watt
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20	0	0	0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:power","2016-06-20 03:23:00.000000 PDT"
+"moid	uuid	instance	samp_int	p_summation_power_energy_joule	p_average_power_power_watt
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	aggregated	20	0	0
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	aggregated	20	0	0
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	aggregated	20	0	0
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	aggregated	20	0	0
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	aggregated	20	0	0
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	aggregated	20	0	0
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	aggregated	20	0	0
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	aggregated	20	0	0
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	aggregated	20	0	0
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	aggregated	20	0	0
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	aggregated	20	0	0
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	aggregated	20	0	0
+vm-16	5010d5e0-116d-cc1b-93ad-c1926428df1d	aggregated	20	0	0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:VirtualMachine","vmware:perf:power","2016-06-20 03:23:20.000000 PDT"
+"moid	uuid	instance	samp_int	p_summation_power_energy_joule	p_average_power_power_watt	p_average_power_powerCap_watt
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20	0	0	0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:power","2016-06-20 03:23:20.000000 PDT"
+"moid	uuid	instance	samp_int	p_summation_power_energy_joule	p_average_power_power_watt
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	aggregated	20	0	0
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	aggregated	20	0	0
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	aggregated	20	0	0
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	aggregated	20	0	0
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	aggregated	20	0	0
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	aggregated	20	0	0
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	aggregated	20	0	0
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	aggregated	20	0	0
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	aggregated	20	0	0
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	aggregated	20	0	0
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	aggregated	20	0	0
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	aggregated	20	0	0
+vm-16	5010d5e0-116d-cc1b-93ad-c1926428df1d	aggregated	20	0	0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:VirtualMachine","vmware:perf:power","2016-06-20 03:23:40.000000 PDT"
+"moid	uuid	instance	samp_int	p_summation_power_energy_joule	p_average_power_power_watt	p_average_power_powerCap_watt
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20	0	0	0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:power","2016-06-20 03:22:20.000000 PDT"
+"moid	uuid	instance	samp_int	p_summation_power_energy_joule	p_average_power_power_watt
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	aggregated	20	0	0
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	aggregated	20	0	0
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	aggregated	20	0	0
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	aggregated	20	0	0
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	aggregated	20	0	0
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	aggregated	20	0	0
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	aggregated	20	0	0
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	aggregated	20	0	0
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	aggregated	20	0	0
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	aggregated	20	0	0
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	aggregated	20	0	0
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	aggregated	20	0	0
+vm-16	5010d5e0-116d-cc1b-93ad-c1926428df1d	aggregated	20	0	0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:VirtualMachine","vmware:perf:power","2016-06-20 03:22:40.000000 PDT"
+"moid	uuid	instance	samp_int	p_summation_power_energy_joule	p_average_power_power_watt
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	aggregated	20	0	0
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	aggregated	20	0	0
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	aggregated	20	0	0
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	aggregated	20	0	0
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	aggregated	20	0	0
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	aggregated	20	0	0
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	aggregated	20	0	0
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	aggregated	20	0	0
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	aggregated	20	0	0
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	aggregated	20	0	0
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	aggregated	20	0	0
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	aggregated	20	0	0
+vm-16	5010d5e0-116d-cc1b-93ad-c1926428df1d	aggregated	20	0	0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:VirtualMachine","vmware:perf:power","2016-06-20 03:23:00.000000 PDT"
+"moid	uuid	instance	samp_int	p_summation_power_energy_joule	p_average_power_power_watt	p_average_power_powerCap_watt
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20	0	0	0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:power","2016-06-20 03:23:40.000000 PDT"
+"moid	uuid	instance	samp_int	p_summation_power_energy_joule	p_average_power_power_watt
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	aggregated	20	0	0
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	aggregated	20	0	0
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	aggregated	20	0	0
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	aggregated	20	0	0
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	aggregated	20	0	0
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	aggregated	20	0	0
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	aggregated	20	0	0
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	aggregated	20	0	0
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	aggregated	20	0	0
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	aggregated	20	0	0
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	aggregated	20	0	0
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	aggregated	20	0	0
+vm-16	5010d5e0-116d-cc1b-93ad-c1926428df1d	aggregated	20	0	0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:VirtualMachine","vmware:perf:power","2016-06-20 03:22:20.000000 PDT"
+"moid	uuid	instance	samp_int	p_summation_power_energy_joule	p_average_power_power_watt	p_average_power_powerCap_watt
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20	0	0	0","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:power","2016-06-20 03:22:40.000000 PDT"

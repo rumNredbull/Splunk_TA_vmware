@@ -1,0 +1,1081 @@
+"_raw",host,index,source,sourcetype,time
+"moid	uuid	instance	samp_int	p_average_datastore_write_kiloBytesPerSecond	p_average_datastore_totalWriteLatency_millisecond	p_average_datastore_numberReadAveraged_number	p_average_datastore_totalReadLatency_millisecond	p_average_datastore_numberWriteAveraged_number	p_average_datastore_read_kiloBytesPerSecond	p_latest_datastore_maxTotalLatency_millisecond	storage_committed	storage_uncommitted	datastore_capacity	datastore_freespace
+vm-16	5010d5e0-116d-cc1b-93ad-c1926428df1d	aggregated	20							0	0	192053248		
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		5548026893	52626981397	122675003392	82058412032
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	aggregated	20							0	5548026893	52626981397		
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	6ead15c4-fce65468	20	0	0	0	0	0	0		1054445090	52632657920	536870912000	512661868544
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	aggregated	20							0	1054445090	52632657920		
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	6ead15c4-fce65468	20	0	0	0	0	0	0		1054445090	52632657920	536870912000	512661868544
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	aggregated	20							0	1054445090	52632657920		
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		3392154459	13958644248	122675003392	82058412032
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	aggregated	20							0	3392154459	13958644248		
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		5548026901	52626981399	122675003392	82058412032
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	aggregated	20							0	5548026901	52626981399		
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	6ead15c4-fce65468	20	0	0	0	0	0	0		847258	13958643712	536870912000	512661868544
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	aggregated	20							0	847258	13958643712		
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		5555067405	52626981399	122675003392	82058412032
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	aggregated	20							0	5555067405	52626981399		
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	6ead15c4-fce65468	20	0	0	0	0	0	0		1055143064	52632657920	536870912000	512661868544
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	aggregated	20							0	1055143064	52632657920		
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		5548239537	52626981397	122675003392	82058412032
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	aggregated	20							0	5548239537	52626981397		
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		3392322365	13958644248	122675003392	82058412032
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	aggregated	20							0	3392322365	13958644248		
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		5548218006	52626981399	122675003392	82058412032
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	aggregated	20							0	5548218006	52626981399		
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		3392154455	13958644247	122675003392	82058412032
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	aggregated	20							0	3392154455	13958644247		","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:VirtualMachine","vmware:perf:datastore","2016-06-20 03:33:40.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_datastore_write_kiloBytesPerSecond	p_average_datastore_totalWriteLatency_millisecond	p_average_datastore_numberReadAveraged_number	p_average_datastore_totalReadLatency_millisecond	p_average_datastore_numberWriteAveraged_number	p_average_datastore_read_kiloBytesPerSecond	p_latest_datastore_maxTotalLatency_millisecond	storage_committed	storage_uncommitted	datastore_capacity	datastore_freespace
+vm-16	5010d5e0-116d-cc1b-93ad-c1926428df1d	aggregated	20							0	0	192053248		
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		5548026893	52626981397	122675003392	82058412032
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	aggregated	20							0	5548026893	52626981397		
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	6ead15c4-fce65468	20	0	0	0	0	0	0		1054445090	52632657920	536870912000	512661868544
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	aggregated	20							0	1054445090	52632657920		
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	6ead15c4-fce65468	20	0	0	0	0	0	0		1054445090	52632657920	536870912000	512661868544
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	aggregated	20							0	1054445090	52632657920		
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		3392154459	13958644248	122675003392	82058412032
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	aggregated	20							0	3392154459	13958644248		
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		5548026901	52626981399	122675003392	82058412032
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	aggregated	20							0	5548026901	52626981399		
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	6ead15c4-fce65468	20	0	0	0	0	0	0		847258	13958643712	536870912000	512661868544
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	aggregated	20							0	847258	13958643712		
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		5555067405	52626981399	122675003392	82058412032
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	aggregated	20							0	5555067405	52626981399		
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	6ead15c4-fce65468	20	0	0	0	0	0	0		1055143064	52632657920	536870912000	512661868544
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	aggregated	20							0	1055143064	52632657920		
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		5548239537	52626981397	122675003392	82058412032
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	aggregated	20							0	5548239537	52626981397		
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		3392322365	13958644248	122675003392	82058412032
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	aggregated	20							0	3392322365	13958644248		
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		5548218006	52626981399	122675003392	82058412032
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	aggregated	20							0	5548218006	52626981399		
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		3392154455	13958644247	122675003392	82058412032
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	aggregated	20							0	3392154455	13958644247		","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:VirtualMachine","vmware:perf:datastore","2016-06-20 03:34:20.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_datastore_write_kiloBytesPerSecond	p_average_datastore_totalWriteLatency_millisecond	p_average_datastore_numberReadAveraged_number	p_average_datastore_totalReadLatency_millisecond	p_average_datastore_numberWriteAveraged_number	p_average_datastore_read_kiloBytesPerSecond	p_latest_datastore_maxTotalLatency_millisecond	storage_committed	storage_uncommitted	datastore_capacity	datastore_freespace
+vm-16	5010d5e0-116d-cc1b-93ad-c1926428df1d	aggregated	20							0	0	192053248		
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		5548026893	52626981397	122675003392	82058412032
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	aggregated	20							0	5548026893	52626981397		
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	6ead15c4-fce65468	20	0	0	0	0	0	0		1054445090	52632657920	536870912000	512661868544
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	aggregated	20							0	1054445090	52632657920		
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	6ead15c4-fce65468	20	0	0	0	0	0	0		1054445090	52632657920	536870912000	512661868544
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	aggregated	20							0	1054445090	52632657920		
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		3392154459	13958644248	122675003392	82058412032
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	aggregated	20							0	3392154459	13958644248		
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		5548026901	52626981399	122675003392	82058412032
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	aggregated	20							0	5548026901	52626981399		
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	6ead15c4-fce65468	20	0	0	0	0	0	0		847258	13958643712	536870912000	512661868544
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	aggregated	20							0	847258	13958643712		
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		5555067405	52626981399	122675003392	82058412032
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	aggregated	20							0	5555067405	52626981399		
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	6ead15c4-fce65468	20	0	0	0	0	0	0		1055143064	52632657920	536870912000	512661868544
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	aggregated	20							0	1055143064	52632657920		
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		5548239537	52626981397	122675003392	82058412032
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	aggregated	20							0	5548239537	52626981397		
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		3392322365	13958644248	122675003392	82058412032
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	aggregated	20							0	3392322365	13958644248		
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		5548218006	52626981399	122675003392	82058412032
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	aggregated	20							0	5548218006	52626981399		
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		3392154455	13958644247	122675003392	82058412032
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	aggregated	20							0	3392154455	13958644247		","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:VirtualMachine","vmware:perf:datastore","2016-06-20 03:33:20.000000 PDT"
+"moid	uuid	instance	samp_int	p_latest_datastore_datastoreReadBytes_number	p_latest_datastore_datastoreNormalWriteLatency_number	p_latest_datastore_datastoreMaxQueueDepth_number	p_average_datastore_write_kiloBytesPerSecond	p_average_datastore_numberWriteAveraged_number	p_average_datastore_read_kiloBytesPerSecond	p_average_datastore_datastoreIops_number	p_latest_datastore_datastoreWriteBytes_number	p_latest_datastore_datastoreWriteLoadMetric_number	p_average_datastore_totalWriteLatency_millisecond	p_latest_datastore_datastoreNormalReadLatency_number	p_latest_datastore_datastoreVMObservedLatency_microsecond	p_latest_datastore_datastoreWriteIops_number	p_average_datastore_sizeNormalizedDatastoreLatency_microsecond	p_latest_datastore_datastoreReadOIO_number	p_latest_datastore_datastoreReadIops_number	p_average_datastore_numberReadAveraged_number	p_latest_datastore_datastoreWriteOIO_number	p_average_datastore_totalReadLatency_millisecond	p_average_datastore_siocActiveTimePercentage_percent	p_latest_datastore_maxTotalLatency_millisecond	p_latest_datastore_datastoreReadLoadMetric_number	datastore_capacity	datastore_freespace
+host-10	00000000-0000-0000-0000-002590d3fca0	6ead15c4-fce65468	20	0	615	256	0	2	0	6	0	0	0	0	438	6	615	0	0	0	0	0	0.0		0	536870912000	512661868544
+host-10	00000000-0000-0000-0000-002590d3fca0	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	131584	153	31	0	0	0	7	154112	0	0	134	164	4	144	0	3	0	0	0	0.0		0	122675003392	82058412032
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20																					0			","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:datastore","2016-06-20 03:35:40.000000 PDT"
+"moid	uuid	instance	samp_int	p_latest_datastore_datastoreReadBytes_number	p_latest_datastore_datastoreNormalWriteLatency_number	p_latest_datastore_datastoreMaxQueueDepth_number	p_average_datastore_write_kiloBytesPerSecond	p_average_datastore_numberWriteAveraged_number	p_average_datastore_read_kiloBytesPerSecond	p_average_datastore_datastoreIops_number	p_latest_datastore_datastoreWriteBytes_number	p_latest_datastore_datastoreWriteLoadMetric_number	p_average_datastore_totalWriteLatency_millisecond	p_latest_datastore_datastoreNormalReadLatency_number	p_latest_datastore_datastoreVMObservedLatency_microsecond	p_latest_datastore_datastoreWriteIops_number	p_average_datastore_sizeNormalizedDatastoreLatency_microsecond	p_latest_datastore_datastoreReadOIO_number	p_latest_datastore_datastoreReadIops_number	p_average_datastore_numberReadAveraged_number	p_latest_datastore_datastoreWriteOIO_number	p_average_datastore_totalReadLatency_millisecond	p_average_datastore_siocActiveTimePercentage_percent	p_latest_datastore_maxTotalLatency_millisecond	p_latest_datastore_datastoreReadLoadMetric_number	datastore_capacity	datastore_freespace
+host-10	00000000-0000-0000-0000-002590d3fca0	6ead15c4-fce65468	20	0	692	256	0	2	0	6	0	0	0	0	484	6	692	0	0	0	0	0	0.0		0	536870912000	512661868544
+host-10	00000000-0000-0000-0000-002590d3fca0	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	3072	0	31	0	0	0	2	0	0	0	181	218	0	181	0	2	0	0	0	0.0		0	122675003392	82058412032
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20																					0			","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:datastore","2016-06-20 03:35:20.000000 PDT"
+"moid	uuid	instance	samp_int	p_latest_datastore_datastoreReadBytes_number	p_latest_datastore_datastoreNormalWriteLatency_number	p_latest_datastore_datastoreMaxQueueDepth_number	p_average_datastore_write_kiloBytesPerSecond	p_average_datastore_numberWriteAveraged_number	p_average_datastore_read_kiloBytesPerSecond	p_average_datastore_datastoreIops_number	p_latest_datastore_datastoreWriteBytes_number	p_latest_datastore_datastoreWriteLoadMetric_number	p_average_datastore_totalWriteLatency_millisecond	p_latest_datastore_datastoreNormalReadLatency_number	p_latest_datastore_datastoreVMObservedLatency_microsecond	p_latest_datastore_datastoreWriteIops_number	p_average_datastore_sizeNormalizedDatastoreLatency_microsecond	p_latest_datastore_datastoreReadOIO_number	p_latest_datastore_datastoreReadIops_number	p_average_datastore_numberReadAveraged_number	p_latest_datastore_datastoreWriteOIO_number	p_average_datastore_totalReadLatency_millisecond	p_average_datastore_siocActiveTimePercentage_percent	p_latest_datastore_maxTotalLatency_millisecond	p_latest_datastore_datastoreReadLoadMetric_number	datastore_capacity	datastore_freespace
+host-10	00000000-0000-0000-0000-002590d3fca0	6ead15c4-fce65468	20	0	769	256	0	2	0	6	0	0	0	0	444	6	769	0	0	0	0	0	0.0		0	536870912000	512661868544
+host-10	00000000-0000-0000-0000-002590d3fca0	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	164864	157	31	0	0	0	8	170496	0	0	128	158	4	142	0	4	0	0	0	0.0		0	122675003392	82058412032
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20																					0			","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:datastore","2016-06-20 03:34:40.000000 PDT"
+"moid	uuid	instance	samp_int	p_latest_datastore_datastoreReadBytes_number	p_latest_datastore_datastoreNormalWriteLatency_number	p_latest_datastore_datastoreMaxQueueDepth_number	p_average_datastore_write_kiloBytesPerSecond	p_average_datastore_numberWriteAveraged_number	p_average_datastore_read_kiloBytesPerSecond	p_average_datastore_datastoreIops_number	p_latest_datastore_datastoreWriteBytes_number	p_latest_datastore_datastoreWriteLoadMetric_number	p_average_datastore_totalWriteLatency_millisecond	p_latest_datastore_datastoreNormalReadLatency_number	p_latest_datastore_datastoreVMObservedLatency_microsecond	p_latest_datastore_datastoreWriteIops_number	p_average_datastore_sizeNormalizedDatastoreLatency_microsecond	p_latest_datastore_datastoreReadOIO_number	p_latest_datastore_datastoreReadIops_number	p_average_datastore_numberReadAveraged_number	p_latest_datastore_datastoreWriteOIO_number	p_average_datastore_totalReadLatency_millisecond	p_average_datastore_siocActiveTimePercentage_percent	p_latest_datastore_maxTotalLatency_millisecond	p_latest_datastore_datastoreReadLoadMetric_number	datastore_capacity	datastore_freespace
+host-10	00000000-0000-0000-0000-002590d3fca0	6ead15c4-fce65468	20	0	653	256	0	2	0	6	0	0	0	0	626	6	653	0	0	0	0	0	0.0		0	536870912000	512661868544
+host-10	00000000-0000-0000-0000-002590d3fca0	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	134656	140	31	0	0	0	9	136192	0	0	159	175	3	152	0	6	0	0	0	0.0		0	122675003392	82058412032
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20																					0			","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:datastore","2016-06-20 03:30:00.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_datastore_write_kiloBytesPerSecond	p_average_datastore_totalWriteLatency_millisecond	p_average_datastore_numberReadAveraged_number	p_average_datastore_totalReadLatency_millisecond	p_average_datastore_numberWriteAveraged_number	p_average_datastore_read_kiloBytesPerSecond	p_latest_datastore_maxTotalLatency_millisecond	storage_committed	storage_uncommitted	datastore_capacity	datastore_freespace
+vm-16	5010d5e0-116d-cc1b-93ad-c1926428df1d	aggregated	20							0	0	192053248		
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		5548026893	52626981397	122675003392	82058412032
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	aggregated	20							0	5548026893	52626981397		
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	6ead15c4-fce65468	20	0	0	0	0	0	0		1054445090	52632657920	536870912000	512661868544
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	aggregated	20							0	1054445090	52632657920		
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	6ead15c4-fce65468	20	0	0	0	0	0	0		1054445090	52632657920	536870912000	512661868544
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	aggregated	20							0	1054445090	52632657920		
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		3392154459	13958644248	122675003392	82058412032
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	aggregated	20							0	3392154459	13958644248		
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		5548026901	52626981399	122675003392	82058412032
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	aggregated	20							0	5548026901	52626981399		
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	6ead15c4-fce65468	20	0	0	0	0	0	0		847258	13958643712	536870912000	512661868544
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	aggregated	20							0	847258	13958643712		
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		5555067405	52626981399	122675003392	82058412032
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	aggregated	20							0	5555067405	52626981399		
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	6ead15c4-fce65468	20	0	0	0	0	0	0		1055143064	52632657920	536870912000	512661868544
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	aggregated	20							0	1055143064	52632657920		
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		5548239537	52626981397	122675003392	82058412032
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	aggregated	20							0	5548239537	52626981397		
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		3392322365	13958644248	122675003392	82058412032
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	aggregated	20							0	3392322365	13958644248		
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		5548218006	52626981399	122675003392	82058412032
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	aggregated	20							0	5548218006	52626981399		
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		3392154455	13958644247	122675003392	82058412032
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	aggregated	20							0	3392154455	13958644247		","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:VirtualMachine","vmware:perf:datastore","2016-06-20 03:31:20.000000 PDT"
+"moid	uuid	instance	samp_int	p_latest_datastore_datastoreReadBytes_number	p_latest_datastore_datastoreNormalWriteLatency_number	p_latest_datastore_datastoreMaxQueueDepth_number	p_average_datastore_write_kiloBytesPerSecond	p_average_datastore_numberWriteAveraged_number	p_average_datastore_read_kiloBytesPerSecond	p_average_datastore_datastoreIops_number	p_latest_datastore_datastoreWriteBytes_number	p_latest_datastore_datastoreWriteLoadMetric_number	p_average_datastore_totalWriteLatency_millisecond	p_latest_datastore_datastoreNormalReadLatency_number	p_latest_datastore_datastoreVMObservedLatency_microsecond	p_latest_datastore_datastoreWriteIops_number	p_average_datastore_sizeNormalizedDatastoreLatency_microsecond	p_latest_datastore_datastoreReadOIO_number	p_latest_datastore_datastoreReadIops_number	p_average_datastore_numberReadAveraged_number	p_latest_datastore_datastoreWriteOIO_number	p_average_datastore_totalReadLatency_millisecond	p_average_datastore_siocActiveTimePercentage_percent	p_latest_datastore_maxTotalLatency_millisecond	p_latest_datastore_datastoreReadLoadMetric_number	datastore_capacity	datastore_freespace
+host-10	00000000-0000-0000-0000-002590d3fca0	6ead15c4-fce65468	20	0	653	256	0	2	0	6	0	0	0	0	463	6	653	0	0	0	0	0	0.0		0	536870912000	512661868544
+host-10	00000000-0000-0000-0000-002590d3fca0	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	233	31	2	0	0	2	12800	0	0	0	251	2	233	0	0	0	0	0	0.0		0	122675003392	82058412032
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20																					0			","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:datastore","2016-06-20 03:30:40.000000 PDT"
+"moid	uuid	instance	samp_int	p_latest_datastore_datastoreReadBytes_number	p_latest_datastore_datastoreNormalWriteLatency_number	p_latest_datastore_datastoreMaxQueueDepth_number	p_average_datastore_write_kiloBytesPerSecond	p_average_datastore_numberWriteAveraged_number	p_average_datastore_read_kiloBytesPerSecond	p_average_datastore_datastoreIops_number	p_latest_datastore_datastoreWriteBytes_number	p_latest_datastore_datastoreWriteLoadMetric_number	p_average_datastore_totalWriteLatency_millisecond	p_latest_datastore_datastoreNormalReadLatency_number	p_latest_datastore_datastoreVMObservedLatency_microsecond	p_latest_datastore_datastoreWriteIops_number	p_average_datastore_sizeNormalizedDatastoreLatency_microsecond	p_latest_datastore_datastoreReadOIO_number	p_latest_datastore_datastoreReadIops_number	p_average_datastore_numberReadAveraged_number	p_latest_datastore_datastoreWriteOIO_number	p_average_datastore_totalReadLatency_millisecond	p_average_datastore_siocActiveTimePercentage_percent	p_latest_datastore_maxTotalLatency_millisecond	p_latest_datastore_datastoreReadLoadMetric_number	datastore_capacity	datastore_freespace
+host-10	00000000-0000-0000-0000-002590d3fca0	6ead15c4-fce65468	20	0	500	256	0	2	0	6	0	0	0	0	481	6	500	0	0	0	0	0	0.0		0	536870912000	512661868544
+host-10	00000000-0000-0000-0000-002590d3fca0	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	532992	0	31	1	0	0	19	0	0	0	181	201	0	181	0	19	0	0	0	0.0		0	122675003392	82058412032
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20																					0			","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:datastore","2016-06-20 03:30:20.000000 PDT"
+"moid	uuid	instance	samp_int	p_latest_datastore_datastoreReadBytes_number	p_latest_datastore_datastoreNormalWriteLatency_number	p_latest_datastore_datastoreMaxQueueDepth_number	p_average_datastore_write_kiloBytesPerSecond	p_average_datastore_numberWriteAveraged_number	p_average_datastore_read_kiloBytesPerSecond	p_average_datastore_datastoreIops_number	p_latest_datastore_datastoreWriteBytes_number	p_latest_datastore_datastoreWriteLoadMetric_number	p_average_datastore_totalWriteLatency_millisecond	p_latest_datastore_datastoreNormalReadLatency_number	p_latest_datastore_datastoreVMObservedLatency_microsecond	p_latest_datastore_datastoreWriteIops_number	p_average_datastore_sizeNormalizedDatastoreLatency_microsecond	p_latest_datastore_datastoreReadOIO_number	p_latest_datastore_datastoreReadIops_number	p_average_datastore_numberReadAveraged_number	p_latest_datastore_datastoreWriteOIO_number	p_average_datastore_totalReadLatency_millisecond	p_average_datastore_siocActiveTimePercentage_percent	p_latest_datastore_maxTotalLatency_millisecond	p_latest_datastore_datastoreReadLoadMetric_number	datastore_capacity	datastore_freespace
+host-10	00000000-0000-0000-0000-002590d3fca0	6ead15c4-fce65468	20	0	692	256	0	2	0	6	0	0	0	0	531	6	692	0	0	0	0	0	0.0		0	536870912000	512661868544
+host-10	00000000-0000-0000-0000-002590d3fca0	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	131584	137	31	0	0	0	6	135168	0	0	140	157	3	138	0	3	0	0	0	0.0		0	122675003392	82058412032
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20																					0			","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:datastore","2016-06-20 03:32:40.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_datastore_write_kiloBytesPerSecond	p_average_datastore_totalWriteLatency_millisecond	p_average_datastore_numberReadAveraged_number	p_average_datastore_totalReadLatency_millisecond	p_average_datastore_numberWriteAveraged_number	p_average_datastore_read_kiloBytesPerSecond	p_latest_datastore_maxTotalLatency_millisecond	storage_committed	storage_uncommitted	datastore_capacity	datastore_freespace
+vm-16	5010d5e0-116d-cc1b-93ad-c1926428df1d	aggregated	20							0	0	192053248		
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		5548026893	52626981397	122675003392	82058412032
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	aggregated	20							0	5548026893	52626981397		
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	6ead15c4-fce65468	20	0	0	0	0	0	0		1054445090	52632657920	536870912000	512661868544
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	aggregated	20							0	1054445090	52632657920		
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	6ead15c4-fce65468	20	0	0	0	0	0	0		1054445090	52632657920	536870912000	512661868544
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	aggregated	20							0	1054445090	52632657920		
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		3392154459	13958644248	122675003392	82058412032
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	aggregated	20							0	3392154459	13958644248		
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		5548026901	52626981399	122675003392	82058412032
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	aggregated	20							0	5548026901	52626981399		
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	6ead15c4-fce65468	20	0	0	0	0	0	0		847258	13958643712	536870912000	512661868544
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	aggregated	20							0	847258	13958643712		
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		5555067405	52626981399	122675003392	82058412032
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	aggregated	20							0	5555067405	52626981399		
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	6ead15c4-fce65468	20	0	0	0	0	0	0		1055143064	52632657920	536870912000	512661868544
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	aggregated	20							0	1055143064	52632657920		
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		5548239537	52626981397	122675003392	82058412032
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	aggregated	20							0	5548239537	52626981397		
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		3392322365	13958644248	122675003392	82058412032
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	aggregated	20							0	3392322365	13958644248		
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		5548218006	52626981399	122675003392	82058412032
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	aggregated	20							0	5548218006	52626981399		
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		3392154455	13958644247	122675003392	82058412032
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	aggregated	20							0	3392154455	13958644247		","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:VirtualMachine","vmware:perf:datastore","2016-06-20 03:31:40.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_datastore_write_kiloBytesPerSecond	p_average_datastore_totalWriteLatency_millisecond	p_average_datastore_numberReadAveraged_number	p_average_datastore_totalReadLatency_millisecond	p_average_datastore_numberWriteAveraged_number	p_average_datastore_read_kiloBytesPerSecond	p_latest_datastore_maxTotalLatency_millisecond	storage_committed	storage_uncommitted	datastore_capacity	datastore_freespace
+vm-16	5010d5e0-116d-cc1b-93ad-c1926428df1d	aggregated	20							0	0	192053248		
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		5548026893	52626981397	122675003392	82058412032
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	aggregated	20							0	5548026893	52626981397		
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	6ead15c4-fce65468	20	0	0	0	0	0	0		1054445090	52632657920	536870912000	512661868544
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	aggregated	20							0	1054445090	52632657920		
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	6ead15c4-fce65468	20	0	0	0	0	0	0		1054445090	52632657920	536870912000	512661868544
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	aggregated	20							0	1054445090	52632657920		
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		3392154459	13958644248	122675003392	82058412032
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	aggregated	20							0	3392154459	13958644248		
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		5548026901	52626981399	122675003392	82058412032
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	aggregated	20							0	5548026901	52626981399		
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	6ead15c4-fce65468	20	0	0	0	0	0	0		847258	13958643712	536870912000	512661868544
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	aggregated	20							0	847258	13958643712		
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		5555067405	52626981399	122675003392	82058412032
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	aggregated	20							0	5555067405	52626981399		
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	6ead15c4-fce65468	20	0	0	0	0	0	0		1055143064	52632657920	536870912000	512661868544
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	aggregated	20							0	1055143064	52632657920		
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		5548239537	52626981397	122675003392	82058412032
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	aggregated	20							0	5548239537	52626981397		
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		3392322365	13958644248	122675003392	82058412032
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	aggregated	20							0	3392322365	13958644248		
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		5548218006	52626981399	122675003392	82058412032
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	aggregated	20							0	5548218006	52626981399		
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		3392154455	13958644247	122675003392	82058412032
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	aggregated	20							0	3392154455	13958644247		","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:VirtualMachine","vmware:perf:datastore","2016-06-20 03:32:20.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_datastore_write_kiloBytesPerSecond	p_average_datastore_totalWriteLatency_millisecond	p_average_datastore_numberReadAveraged_number	p_average_datastore_totalReadLatency_millisecond	p_average_datastore_numberWriteAveraged_number	p_average_datastore_read_kiloBytesPerSecond	p_latest_datastore_maxTotalLatency_millisecond	storage_committed	storage_uncommitted	datastore_capacity	datastore_freespace
+vm-16	5010d5e0-116d-cc1b-93ad-c1926428df1d	aggregated	20							0	0	192053248		
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		5548026893	52626981397	122675003392	82058412032
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	aggregated	20							0	5548026893	52626981397		
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	6ead15c4-fce65468	20	0	0	0	0	0	0		1054445090	52632657920	536870912000	512661868544
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	aggregated	20							0	1054445090	52632657920		
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	6ead15c4-fce65468	20	0	0	0	0	0	0		1054445090	52632657920	536870912000	512661868544
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	aggregated	20							0	1054445090	52632657920		
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		3392154459	13958644248	122675003392	82058412032
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	aggregated	20							0	3392154459	13958644248		
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		5548026901	52626981399	122675003392	82058412032
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	aggregated	20							0	5548026901	52626981399		
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	6ead15c4-fce65468	20	0	0	0	0	0	0		847258	13958643712	536870912000	512661868544
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	aggregated	20							0	847258	13958643712		
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		5555067405	52626981399	122675003392	82058412032
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	aggregated	20							0	5555067405	52626981399		
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	6ead15c4-fce65468	20	0	0	0	0	0	0		1055143064	52632657920	536870912000	512661868544
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	aggregated	20							0	1055143064	52632657920		
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		5548239537	52626981397	122675003392	82058412032
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	aggregated	20							0	5548239537	52626981397		
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		3392322365	13958644248	122675003392	82058412032
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	aggregated	20							0	3392322365	13958644248		
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		5548218006	52626981399	122675003392	82058412032
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	aggregated	20							0	5548218006	52626981399		
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		3392154455	13958644247	122675003392	82058412032
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	aggregated	20							0	3392154455	13958644247		","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:VirtualMachine","vmware:perf:datastore","2016-06-20 03:30:00.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_datastore_write_kiloBytesPerSecond	p_average_datastore_totalWriteLatency_millisecond	p_average_datastore_numberReadAveraged_number	p_average_datastore_totalReadLatency_millisecond	p_average_datastore_numberWriteAveraged_number	p_average_datastore_read_kiloBytesPerSecond	p_latest_datastore_maxTotalLatency_millisecond	storage_committed	storage_uncommitted	datastore_capacity	datastore_freespace
+vm-16	5010d5e0-116d-cc1b-93ad-c1926428df1d	aggregated	20							0	0	192053248		
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		5548026893	52626981397	122675003392	82058412032
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	aggregated	20							0	5548026893	52626981397		
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	6ead15c4-fce65468	20	0	0	0	0	0	0		1054445090	52632657920	536870912000	512661868544
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	aggregated	20							0	1054445090	52632657920		
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	6ead15c4-fce65468	20	0	0	0	0	0	0		1054445090	52632657920	536870912000	512661868544
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	aggregated	20							0	1054445090	52632657920		
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		3392154459	13958644248	122675003392	82058412032
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	aggregated	20							0	3392154459	13958644248		
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		5548026901	52626981399	122675003392	82058412032
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	aggregated	20							0	5548026901	52626981399		
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	6ead15c4-fce65468	20	0	0	0	0	0	0		847258	13958643712	536870912000	512661868544
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	aggregated	20							0	847258	13958643712		
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		5555067405	52626981399	122675003392	82058412032
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	aggregated	20							0	5555067405	52626981399		
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	6ead15c4-fce65468	20	0	0	0	0	0	0		1055143064	52632657920	536870912000	512661868544
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	aggregated	20							0	1055143064	52632657920		
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		5548239537	52626981397	122675003392	82058412032
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	aggregated	20							0	5548239537	52626981397		
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		3392322365	13958644248	122675003392	82058412032
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	aggregated	20							0	3392322365	13958644248		
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		5548218006	52626981399	122675003392	82058412032
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	aggregated	20							0	5548218006	52626981399		
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		3392154455	13958644247	122675003392	82058412032
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	aggregated	20							0	3392154455	13958644247		","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:VirtualMachine","vmware:perf:datastore","2016-06-20 03:32:40.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_datastore_write_kiloBytesPerSecond	p_average_datastore_totalWriteLatency_millisecond	p_average_datastore_numberReadAveraged_number	p_average_datastore_totalReadLatency_millisecond	p_average_datastore_numberWriteAveraged_number	p_average_datastore_read_kiloBytesPerSecond	p_latest_datastore_maxTotalLatency_millisecond	storage_committed	storage_uncommitted	datastore_capacity	datastore_freespace
+vm-16	5010d5e0-116d-cc1b-93ad-c1926428df1d	aggregated	20							0	0	192053248		
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		5548026893	52626981397	122675003392	82058412032
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	aggregated	20							0	5548026893	52626981397		
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	6ead15c4-fce65468	20	0	0	0	0	0	0		1054445090	52632657920	536870912000	512661868544
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	aggregated	20							0	1054445090	52632657920		
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	6ead15c4-fce65468	20	0	0	0	0	0	0		1054445090	52632657920	536870912000	512661868544
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	aggregated	20							0	1054445090	52632657920		
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		3392154459	13958644248	122675003392	82058412032
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	aggregated	20							0	3392154459	13958644248		
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		5548026901	52626981399	122675003392	82058412032
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	aggregated	20							0	5548026901	52626981399		
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	6ead15c4-fce65468	20	0	0	0	0	0	0		847258	13958643712	536870912000	512661868544
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	aggregated	20							0	847258	13958643712		
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		5555067405	52626981399	122675003392	82058412032
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	aggregated	20							0	5555067405	52626981399		
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	6ead15c4-fce65468	20	0	0	0	0	0	0		1055143064	52632657920	536870912000	512661868544
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	aggregated	20							0	1055143064	52632657920		
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		5548239537	52626981397	122675003392	82058412032
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	aggregated	20							0	5548239537	52626981397		
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		3392322365	13958644248	122675003392	82058412032
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	aggregated	20							0	3392322365	13958644248		
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		5548218006	52626981399	122675003392	82058412032
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	aggregated	20							0	5548218006	52626981399		
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		3392154455	13958644247	122675003392	82058412032
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	aggregated	20							0	3392154455	13958644247		","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:VirtualMachine","vmware:perf:datastore","2016-06-20 03:31:00.000000 PDT"
+"moid	uuid	instance	samp_int	p_latest_datastore_datastoreReadBytes_number	p_latest_datastore_datastoreNormalWriteLatency_number	p_latest_datastore_datastoreMaxQueueDepth_number	p_average_datastore_write_kiloBytesPerSecond	p_average_datastore_numberWriteAveraged_number	p_average_datastore_read_kiloBytesPerSecond	p_average_datastore_datastoreIops_number	p_latest_datastore_datastoreWriteBytes_number	p_latest_datastore_datastoreWriteLoadMetric_number	p_average_datastore_totalWriteLatency_millisecond	p_latest_datastore_datastoreNormalReadLatency_number	p_latest_datastore_datastoreVMObservedLatency_microsecond	p_latest_datastore_datastoreWriteIops_number	p_average_datastore_sizeNormalizedDatastoreLatency_microsecond	p_latest_datastore_datastoreReadOIO_number	p_latest_datastore_datastoreReadIops_number	p_average_datastore_numberReadAveraged_number	p_latest_datastore_datastoreWriteOIO_number	p_average_datastore_totalReadLatency_millisecond	p_average_datastore_siocActiveTimePercentage_percent	p_latest_datastore_maxTotalLatency_millisecond	p_latest_datastore_datastoreReadLoadMetric_number	datastore_capacity	datastore_freespace
+host-10	00000000-0000-0000-0000-002590d3fca0	6ead15c4-fce65468	20	0	538	256	0	2	0	6	0	0	1	0	517	6	538	0	0	0	0	0	0.0		0	536870912000	512661868544
+host-10	00000000-0000-0000-0000-002590d3fca0	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	3072	0	31	0	0	0	2	0	0	0	213	291	0	213	0	2	0	0	0	0.0		0	122675003392	82058412032
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20																					0			","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:datastore","2016-06-20 03:32:20.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_datastore_write_kiloBytesPerSecond	p_average_datastore_totalWriteLatency_millisecond	p_average_datastore_numberReadAveraged_number	p_average_datastore_totalReadLatency_millisecond	p_average_datastore_numberWriteAveraged_number	p_average_datastore_read_kiloBytesPerSecond	p_latest_datastore_maxTotalLatency_millisecond	storage_committed	storage_uncommitted	datastore_capacity	datastore_freespace
+vm-16	5010d5e0-116d-cc1b-93ad-c1926428df1d	aggregated	20							0	0	192053248		
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		5548026893	52626981397	122675003392	82058412032
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	aggregated	20							0	5548026893	52626981397		
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	6ead15c4-fce65468	20	0	0	0	0	0	0		1054445090	52632657920	536870912000	512661868544
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	aggregated	20							0	1054445090	52632657920		
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	6ead15c4-fce65468	20	0	0	0	0	0	0		1054445090	52632657920	536870912000	512661868544
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	aggregated	20							0	1054445090	52632657920		
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		3392154459	13958644248	122675003392	82058412032
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	aggregated	20							0	3392154459	13958644248		
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		5548026901	52626981399	122675003392	82058412032
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	aggregated	20							0	5548026901	52626981399		
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	6ead15c4-fce65468	20	0	0	0	0	0	0		847258	13958643712	536870912000	512661868544
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	aggregated	20							0	847258	13958643712		
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		5555067405	52626981399	122675003392	82058412032
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	aggregated	20							0	5555067405	52626981399		
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	6ead15c4-fce65468	20	0	0	0	0	0	0		1055143064	52632657920	536870912000	512661868544
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	aggregated	20							0	1055143064	52632657920		
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		5548239537	52626981397	122675003392	82058412032
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	aggregated	20							0	5548239537	52626981397		
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		3392322365	13958644248	122675003392	82058412032
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	aggregated	20							0	3392322365	13958644248		
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		5548218006	52626981399	122675003392	82058412032
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	aggregated	20							0	5548218006	52626981399		
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		3392154455	13958644247	122675003392	82058412032
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	aggregated	20							0	3392154455	13958644247		","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:VirtualMachine","vmware:perf:datastore","2016-06-20 03:32:00.000000 PDT"
+"moid	uuid	instance	samp_int	p_latest_datastore_datastoreReadBytes_number	p_latest_datastore_datastoreNormalWriteLatency_number	p_latest_datastore_datastoreMaxQueueDepth_number	p_average_datastore_write_kiloBytesPerSecond	p_average_datastore_numberWriteAveraged_number	p_average_datastore_read_kiloBytesPerSecond	p_average_datastore_datastoreIops_number	p_latest_datastore_datastoreWriteBytes_number	p_latest_datastore_datastoreWriteLoadMetric_number	p_average_datastore_totalWriteLatency_millisecond	p_latest_datastore_datastoreNormalReadLatency_number	p_latest_datastore_datastoreVMObservedLatency_microsecond	p_latest_datastore_datastoreWriteIops_number	p_average_datastore_sizeNormalizedDatastoreLatency_microsecond	p_latest_datastore_datastoreReadOIO_number	p_latest_datastore_datastoreReadIops_number	p_average_datastore_numberReadAveraged_number	p_latest_datastore_datastoreWriteOIO_number	p_average_datastore_totalReadLatency_millisecond	p_average_datastore_siocActiveTimePercentage_percent	p_latest_datastore_maxTotalLatency_millisecond	p_latest_datastore_datastoreReadLoadMetric_number	datastore_capacity	datastore_freespace
+host-10	00000000-0000-0000-0000-002590d3fca0	6ead15c4-fce65468	20	0	346	256	0	2	0	6	0	0	0	0	460	6	346	0	0	0	0	0	0.0		0	536870912000	512661868544
+host-10	00000000-0000-0000-0000-002590d3fca0	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	98816	150	31	0	0	0	4	102400	0	0	183	185	2	166	0	2	0	0	0	0.0		0	122675003392	82058412032
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20																					0			","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:datastore","2016-06-20 03:32:00.000000 PDT"
+"moid	uuid	instance	samp_int	p_latest_datastore_datastoreReadBytes_number	p_latest_datastore_datastoreNormalWriteLatency_number	p_latest_datastore_datastoreMaxQueueDepth_number	p_average_datastore_write_kiloBytesPerSecond	p_average_datastore_numberWriteAveraged_number	p_average_datastore_read_kiloBytesPerSecond	p_average_datastore_datastoreIops_number	p_latest_datastore_datastoreWriteBytes_number	p_latest_datastore_datastoreWriteLoadMetric_number	p_average_datastore_totalWriteLatency_millisecond	p_latest_datastore_datastoreNormalReadLatency_number	p_latest_datastore_datastoreVMObservedLatency_microsecond	p_latest_datastore_datastoreWriteIops_number	p_average_datastore_sizeNormalizedDatastoreLatency_microsecond	p_latest_datastore_datastoreReadOIO_number	p_latest_datastore_datastoreReadIops_number	p_average_datastore_numberReadAveraged_number	p_latest_datastore_datastoreWriteOIO_number	p_average_datastore_totalReadLatency_millisecond	p_average_datastore_siocActiveTimePercentage_percent	p_latest_datastore_maxTotalLatency_millisecond	p_latest_datastore_datastoreReadLoadMetric_number	datastore_capacity	datastore_freespace
+host-10	00000000-0000-0000-0000-002590d3fca0	6ead15c4-fce65468	20	0	740	256	0	2	0	6	0	0	0	0	486	6	740	0	0	0	0	0	0.0		0	536870912000	512661868544
+host-10	00000000-0000-0000-0000-002590d3fca0	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	391	31	0	0	0	1	512	0	0	0	406	1	391	0	0	0	0	0	0.0		0	122675003392	82058412032
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20																					0			","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:datastore","2016-06-20 03:31:20.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_datastore_write_kiloBytesPerSecond	p_average_datastore_totalWriteLatency_millisecond	p_average_datastore_numberReadAveraged_number	p_average_datastore_totalReadLatency_millisecond	p_average_datastore_numberWriteAveraged_number	p_average_datastore_read_kiloBytesPerSecond	p_latest_datastore_maxTotalLatency_millisecond	storage_committed	storage_uncommitted	datastore_capacity	datastore_freespace
+vm-16	5010d5e0-116d-cc1b-93ad-c1926428df1d	aggregated	20							0	0	192053248		
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		5548026893	52626981397	122675003392	82058412032
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	aggregated	20							0	5548026893	52626981397		
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	6ead15c4-fce65468	20	0	0	0	0	0	0		1054445090	52632657920	536870912000	512661868544
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	aggregated	20							0	1054445090	52632657920		
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	6ead15c4-fce65468	20	0	0	0	0	0	0		1054445090	52632657920	536870912000	512661868544
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	aggregated	20							0	1054445090	52632657920		
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		3392154459	13958644248	122675003392	82058412032
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	aggregated	20							0	3392154459	13958644248		
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		5548026901	52626981399	122675003392	82058412032
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	aggregated	20							0	5548026901	52626981399		
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	6ead15c4-fce65468	20	0	0	0	0	0	0		847258	13958643712	536870912000	512661868544
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	aggregated	20							0	847258	13958643712		
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	2	0	0	0	0	0		5555067405	52626981399	122675003392	82058412032
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	aggregated	20							0	5555067405	52626981399		
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	6ead15c4-fce65468	20	0	0	0	0	0	0		1055143064	52632657920	536870912000	512661868544
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	aggregated	20							0	1055143064	52632657920		
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		5548239537	52626981397	122675003392	82058412032
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	aggregated	20							0	5548239537	52626981397		
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		3392322365	13958644248	122675003392	82058412032
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	aggregated	20							0	3392322365	13958644248		
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		5548218006	52626981399	122675003392	82058412032
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	aggregated	20							0	5548218006	52626981399		
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		3392154455	13958644247	122675003392	82058412032
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	aggregated	20							0	3392154455	13958644247		","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:VirtualMachine","vmware:perf:datastore","2016-06-20 03:30:40.000000 PDT"
+"moid	uuid	instance	samp_int	p_latest_datastore_datastoreReadBytes_number	p_latest_datastore_datastoreNormalWriteLatency_number	p_latest_datastore_datastoreMaxQueueDepth_number	p_average_datastore_write_kiloBytesPerSecond	p_average_datastore_numberWriteAveraged_number	p_average_datastore_read_kiloBytesPerSecond	p_average_datastore_datastoreIops_number	p_latest_datastore_datastoreWriteBytes_number	p_latest_datastore_datastoreWriteLoadMetric_number	p_average_datastore_totalWriteLatency_millisecond	p_latest_datastore_datastoreNormalReadLatency_number	p_latest_datastore_datastoreVMObservedLatency_microsecond	p_latest_datastore_datastoreWriteIops_number	p_average_datastore_sizeNormalizedDatastoreLatency_microsecond	p_latest_datastore_datastoreReadOIO_number	p_latest_datastore_datastoreReadIops_number	p_average_datastore_numberReadAveraged_number	p_latest_datastore_datastoreWriteOIO_number	p_average_datastore_totalReadLatency_millisecond	p_average_datastore_siocActiveTimePercentage_percent	p_latest_datastore_maxTotalLatency_millisecond	p_latest_datastore_datastoreReadLoadMetric_number	datastore_capacity	datastore_freespace
+host-10	00000000-0000-0000-0000-002590d3fca0	6ead15c4-fce65468	20	0	692	256	0	2	0	6	0	0	0	0	476	6	692	0	0	0	0	0	0.0		0	536870912000	512661868544
+host-10	00000000-0000-0000-0000-002590d3fca0	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	131584	144	31	0	0	0	6	135680	0	0	217	200	3	180	0	3	0	0	0	0.0		0	122675003392	82058412032
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20																					0			","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:datastore","2016-06-20 03:31:00.000000 PDT"
+"moid	uuid	instance	samp_int	p_latest_datastore_datastoreReadBytes_number	p_latest_datastore_datastoreNormalWriteLatency_number	p_latest_datastore_datastoreMaxQueueDepth_number	p_average_datastore_write_kiloBytesPerSecond	p_average_datastore_numberWriteAveraged_number	p_average_datastore_read_kiloBytesPerSecond	p_average_datastore_datastoreIops_number	p_latest_datastore_datastoreWriteBytes_number	p_latest_datastore_datastoreWriteLoadMetric_number	p_average_datastore_totalWriteLatency_millisecond	p_latest_datastore_datastoreNormalReadLatency_number	p_latest_datastore_datastoreVMObservedLatency_microsecond	p_latest_datastore_datastoreWriteIops_number	p_average_datastore_sizeNormalizedDatastoreLatency_microsecond	p_latest_datastore_datastoreReadOIO_number	p_latest_datastore_datastoreReadIops_number	p_average_datastore_numberReadAveraged_number	p_latest_datastore_datastoreWriteOIO_number	p_average_datastore_totalReadLatency_millisecond	p_average_datastore_siocActiveTimePercentage_percent	p_latest_datastore_maxTotalLatency_millisecond	p_latest_datastore_datastoreReadLoadMetric_number	datastore_capacity	datastore_freespace
+host-10	00000000-0000-0000-0000-002590d3fca0	6ead15c4-fce65468	20	0	1538	256	0	2	0	6	0	0	1	0	1347	6	1538	0	0	0	0	0	0.0		0	536870912000	512661868544
+host-10	00000000-0000-0000-0000-002590d3fca0	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	382	31	0	0	0	1	512	0	0	0	407	1	382	0	0	0	0	0	0.0		0	122675003392	82058412032
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20																					0			","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:datastore","2016-06-20 03:31:40.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_datastore_write_kiloBytesPerSecond	p_average_datastore_totalWriteLatency_millisecond	p_average_datastore_numberReadAveraged_number	p_average_datastore_totalReadLatency_millisecond	p_average_datastore_numberWriteAveraged_number	p_average_datastore_read_kiloBytesPerSecond	p_latest_datastore_maxTotalLatency_millisecond	storage_committed	storage_uncommitted	datastore_capacity	datastore_freespace
+vm-16	5010d5e0-116d-cc1b-93ad-c1926428df1d	aggregated	20							0	0	192053248		
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		5548026893	52626981397	122675003392	82058412032
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	aggregated	20							0	5548026893	52626981397		
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	6ead15c4-fce65468	20	0	0	0	0	0	0		1054445090	52632657920	536870912000	512661868544
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	aggregated	20							0	1054445090	52632657920		
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	6ead15c4-fce65468	20	0	0	0	0	0	0		1054445090	52632657920	536870912000	512661868544
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	aggregated	20							0	1054445090	52632657920		
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		3392154459	13958644248	122675003392	82058412032
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	aggregated	20							0	3392154459	13958644248		
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		5548026901	52626981399	122675003392	82058412032
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	aggregated	20							0	5548026901	52626981399		
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	6ead15c4-fce65468	20	0	0	0	0	0	0		847258	13958643712	536870912000	512661868544
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	aggregated	20							0	847258	13958643712		
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		5555067405	52626981399	122675003392	82058412032
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	aggregated	20							0	5555067405	52626981399		
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	6ead15c4-fce65468	20	0	0	0	0	0	0		1055143064	52632657920	536870912000	512661868544
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	aggregated	20							0	1055143064	52632657920		
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		5548239537	52626981397	122675003392	82058412032
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	aggregated	20							0	5548239537	52626981397		
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		3392322365	13958644248	122675003392	82058412032
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	aggregated	20							0	3392322365	13958644248		
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		5548218006	52626981399	122675003392	82058412032
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	aggregated	20							0	5548218006	52626981399		
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		3392154455	13958644247	122675003392	82058412032
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	aggregated	20							0	3392154455	13958644247		","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:VirtualMachine","vmware:perf:datastore","2016-06-20 03:30:20.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_datastore_read_kiloBytesPerSecond	p_average_datastore_numberReadAveraged_number	p_average_datastore_numberWriteAveraged_number	p_average_datastore_totalReadLatency_millisecond	p_average_datastore_write_kiloBytesPerSecond	p_latest_datastore_maxTotalLatency_millisecond	p_average_datastore_totalWriteLatency_millisecond	storage_committed	storage_uncommitted	datastore_capacity	datastore_freespace
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	3392154459	13958644248	122675003392	82058412032
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	aggregated	20						0		3392154459	13958644248		
+vm-16	5010d5e0-116d-cc1b-93ad-c1926428df1d	aggregated	20						0		0	192053248		
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	6ead15c4-fce65468	20	0	0	0	0	0		0	1054445090	52632657920	536870912000	512661868544
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	aggregated	20						0		1054445090	52632657920		
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	3392154455	13958644247	122675003392	82058412032
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	aggregated	20						0		3392154455	13958644247		
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	6ead15c4-fce65468	20	0	0	0	0	0		0	1054445090	52632657920	536870912000	512661868544
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	aggregated	20						0		1054445090	52632657920		
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	5548026893	52626981397	122675003392	82058412032
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	aggregated	20						0		5548026893	52626981397		
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	5555067405	52626981399	122675003392	82058412032
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	aggregated	20						0		5555067405	52626981399		
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	6ead15c4-fce65468	20	0	0	0	0	0		0	1055143064	52632657920	536870912000	512661868544
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	aggregated	20						0		1055143064	52632657920		
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	5548026901	52626981399	122675003392	82058412032
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	aggregated	20						0		5548026901	52626981399		
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	5548239537	52626981397	122675003392	82058412032
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	aggregated	20						0		5548239537	52626981397		
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	5548218006	52626981399	122675003392	82058412032
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	aggregated	20						0		5548218006	52626981399		
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	3392322365	13958644248	122675003392	82058412032
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	aggregated	20						0		3392322365	13958644248		
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	6ead15c4-fce65468	20	0	0	0	0	0		0	847258	13958643712	536870912000	512661868544
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	aggregated	20						0		847258	13958643712		","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:VirtualMachine","vmware:perf:datastore","2016-06-20 03:28:20.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_datastore_read_kiloBytesPerSecond	p_average_datastore_numberReadAveraged_number	p_average_datastore_numberWriteAveraged_number	p_average_datastore_totalReadLatency_millisecond	p_average_datastore_write_kiloBytesPerSecond	p_latest_datastore_maxTotalLatency_millisecond	p_average_datastore_totalWriteLatency_millisecond	storage_committed	storage_uncommitted	datastore_capacity	datastore_freespace
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	3392154459	13958644248	122675003392	82058412032
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	aggregated	20						0		3392154459	13958644248		
+vm-16	5010d5e0-116d-cc1b-93ad-c1926428df1d	aggregated	20						0		0	192053248		
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	6ead15c4-fce65468	20	0	0	0	0	0		0	1054445090	52632657920	536870912000	512661868544
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	aggregated	20						0		1054445090	52632657920		
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	3392154455	13958644247	122675003392	82058412032
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	aggregated	20						0		3392154455	13958644247		
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	6ead15c4-fce65468	20	0	0	0	0	0		0	1054445090	52632657920	536870912000	512661868544
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	aggregated	20						0		1054445090	52632657920		
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	5548026893	52626981397	122675003392	82058412032
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	aggregated	20						0		5548026893	52626981397		
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	485	90	15	0	111		0	5555067405	52626981399	122675003392	82058412032
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	aggregated	20						0		5555067405	52626981399		
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	6ead15c4-fce65468	20	0	0	0	0	0		0	1055143064	52632657920	536870912000	512661868544
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	aggregated	20						0		1055143064	52632657920		
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	5548026901	52626981399	122675003392	82058412032
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	aggregated	20						0		5548026901	52626981399		
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	5548239537	52626981397	122675003392	82058412032
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	aggregated	20						0		5548239537	52626981397		
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	5548218006	52626981399	122675003392	82058412032
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	aggregated	20						0		5548218006	52626981399		
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	3392322365	13958644248	122675003392	82058412032
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	aggregated	20						0		3392322365	13958644248		
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	6ead15c4-fce65468	20	0	0	0	0	0		0	847258	13958643712	536870912000	512661868544
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	aggregated	20						0		847258	13958643712		","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:VirtualMachine","vmware:perf:datastore","2016-06-20 03:29:20.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_datastore_read_kiloBytesPerSecond	p_average_datastore_numberReadAveraged_number	p_average_datastore_numberWriteAveraged_number	p_average_datastore_totalReadLatency_millisecond	p_average_datastore_write_kiloBytesPerSecond	p_latest_datastore_maxTotalLatency_millisecond	p_average_datastore_totalWriteLatency_millisecond	storage_committed	storage_uncommitted	datastore_capacity	datastore_freespace
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	3392154459	13958644248	122675003392	82058412032
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	aggregated	20						0		3392154459	13958644248		
+vm-16	5010d5e0-116d-cc1b-93ad-c1926428df1d	aggregated	20						0		0	192053248		
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	6ead15c4-fce65468	20	0	0	0	0	0		0	1054445090	52632657920	536870912000	512661868544
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	aggregated	20						0		1054445090	52632657920		
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	3392154455	13958644247	122675003392	82058412032
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	aggregated	20						0		3392154455	13958644247		
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	6ead15c4-fce65468	20	0	0	0	0	0		0	1054445090	52632657920	536870912000	512661868544
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	aggregated	20						0		1054445090	52632657920		
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	5548026893	52626981397	122675003392	82058412032
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	aggregated	20						0		5548026893	52626981397		
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	5555067405	52626981399	122675003392	82058412032
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	aggregated	20						0		5555067405	52626981399		
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	6ead15c4-fce65468	20	0	0	0	0	0		0	1055143064	52632657920	536870912000	512661868544
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	aggregated	20						0		1055143064	52632657920		
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	5548026901	52626981399	122675003392	82058412032
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	aggregated	20						0		5548026901	52626981399		
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	5548239537	52626981397	122675003392	82058412032
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	aggregated	20						0		5548239537	52626981397		
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	5548218006	52626981399	122675003392	82058412032
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	aggregated	20						0		5548218006	52626981399		
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	3392322365	13958644248	122675003392	82058412032
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	aggregated	20						0		3392322365	13958644248		
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	6ead15c4-fce65468	20	0	0	0	0	0		0	847258	13958643712	536870912000	512661868544
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	aggregated	20						0		847258	13958643712		","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:VirtualMachine","vmware:perf:datastore","2016-06-20 03:27:20.000000 PDT"
+"moid	uuid	instance	samp_int	p_latest_datastore_datastoreNormalWriteLatency_number	p_average_datastore_write_kiloBytesPerSecond	p_latest_datastore_datastoreWriteLoadMetric_number	p_latest_datastore_maxTotalLatency_millisecond	p_average_datastore_totalWriteLatency_millisecond	p_average_datastore_numberReadAveraged_number	p_average_datastore_sizeNormalizedDatastoreLatency_microsecond	p_latest_datastore_datastoreVMObservedLatency_microsecond	p_latest_datastore_datastoreWriteBytes_number	p_average_datastore_read_kiloBytesPerSecond	p_latest_datastore_datastoreWriteOIO_number	p_average_datastore_numberWriteAveraged_number	p_latest_datastore_datastoreReadIops_number	p_average_datastore_siocActiveTimePercentage_percent	p_average_datastore_datastoreIops_number	p_latest_datastore_datastoreReadOIO_number	p_latest_datastore_datastoreReadLoadMetric_number	p_latest_datastore_datastoreWriteIops_number	p_latest_datastore_datastoreReadBytes_number	p_average_datastore_totalReadLatency_millisecond	p_latest_datastore_datastoreMaxQueueDepth_number	p_latest_datastore_datastoreNormalReadLatency_number	datastore_capacity	datastore_freespace
+host-10	00000000-0000-0000-0000-002590d3fca0	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0		0	0	183	211	0	0	0	0	19	0.0	19	0	0	0	532992	0	31	183	122675003392	82058412032
+host-10	00000000-0000-0000-0000-002590d3fca0	6ead15c4-fce65468	20	769	0	0		0	0	769	452	0	0	0	2	0	0.0	6	0	0	6	0	0	256	0	536870912000	512661868544
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20				0																				","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:datastore","2016-06-20 03:28:40.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_datastore_read_kiloBytesPerSecond	p_average_datastore_numberReadAveraged_number	p_average_datastore_numberWriteAveraged_number	p_average_datastore_totalReadLatency_millisecond	p_average_datastore_write_kiloBytesPerSecond	p_latest_datastore_maxTotalLatency_millisecond	p_average_datastore_totalWriteLatency_millisecond	storage_committed	storage_uncommitted	datastore_capacity	datastore_freespace
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	3392154459	13958644248	122675003392	82058412032
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	aggregated	20						0		3392154459	13958644248		
+vm-16	5010d5e0-116d-cc1b-93ad-c1926428df1d	aggregated	20						0		0	192053248		
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	6ead15c4-fce65468	20	0	0	0	0	0		0	1054445090	52632657920	536870912000	512661868544
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	aggregated	20						0		1054445090	52632657920		
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	3392154455	13958644247	122675003392	82058412032
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	aggregated	20						0		3392154455	13958644247		
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	6ead15c4-fce65468	20	0	0	0	0	0		0	1054445090	52632657920	536870912000	512661868544
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	aggregated	20						0		1054445090	52632657920		
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	5548026893	52626981397	122675003392	82058412032
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	aggregated	20						0		5548026893	52626981397		
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	5555067405	52626981399	122675003392	82058412032
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	aggregated	20						0		5555067405	52626981399		
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	6ead15c4-fce65468	20	0	0	0	0	0		0	1055143064	52632657920	536870912000	512661868544
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	aggregated	20						0		1055143064	52632657920		
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	5548026901	52626981399	122675003392	82058412032
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	aggregated	20						0		5548026901	52626981399		
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	5548239537	52626981397	122675003392	82058412032
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	aggregated	20						0		5548239537	52626981397		
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	5548218006	52626981399	122675003392	82058412032
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	aggregated	20						0		5548218006	52626981399		
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	3392322365	13958644248	122675003392	82058412032
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	aggregated	20						0		3392322365	13958644248		
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	6ead15c4-fce65468	20	0	0	0	0	0		0	847258	13958643712	536870912000	512661868544
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	aggregated	20						0		847258	13958643712		","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:VirtualMachine","vmware:perf:datastore","2016-06-20 03:28:40.000000 PDT"
+"moid	uuid	instance	samp_int	p_latest_datastore_datastoreNormalWriteLatency_number	p_average_datastore_write_kiloBytesPerSecond	p_latest_datastore_datastoreWriteLoadMetric_number	p_latest_datastore_maxTotalLatency_millisecond	p_average_datastore_totalWriteLatency_millisecond	p_average_datastore_numberReadAveraged_number	p_average_datastore_sizeNormalizedDatastoreLatency_microsecond	p_latest_datastore_datastoreVMObservedLatency_microsecond	p_latest_datastore_datastoreWriteBytes_number	p_average_datastore_read_kiloBytesPerSecond	p_latest_datastore_datastoreWriteOIO_number	p_average_datastore_numberWriteAveraged_number	p_latest_datastore_datastoreReadIops_number	p_average_datastore_siocActiveTimePercentage_percent	p_average_datastore_datastoreIops_number	p_latest_datastore_datastoreReadOIO_number	p_latest_datastore_datastoreReadLoadMetric_number	p_latest_datastore_datastoreWriteIops_number	p_latest_datastore_datastoreReadBytes_number	p_average_datastore_totalReadLatency_millisecond	p_latest_datastore_datastoreMaxQueueDepth_number	p_latest_datastore_datastoreNormalReadLatency_number	datastore_capacity	datastore_freespace
+host-10	00000000-0000-0000-0000-002590d3fca0	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	53	111	0		0	90	100	106	107520	485	0	15	22	0.0	43	0	0	21	102912	0	31	146	122675003392	82058412032
+host-10	00000000-0000-0000-0000-002590d3fca0	6ead15c4-fce65468	20	576	0	0		0	0	576	454	0	0	0	2	0	0.0	6	0	0	6	0	0	256	0	536870912000	512661868544
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20				0																				","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:datastore","2016-06-20 03:29:20.000000 PDT"
+"moid	uuid	instance	samp_int	p_latest_datastore_datastoreNormalWriteLatency_number	p_average_datastore_write_kiloBytesPerSecond	p_latest_datastore_datastoreWriteLoadMetric_number	p_latest_datastore_maxTotalLatency_millisecond	p_average_datastore_totalWriteLatency_millisecond	p_average_datastore_numberReadAveraged_number	p_average_datastore_sizeNormalizedDatastoreLatency_microsecond	p_latest_datastore_datastoreVMObservedLatency_microsecond	p_latest_datastore_datastoreWriteBytes_number	p_average_datastore_read_kiloBytesPerSecond	p_latest_datastore_datastoreWriteOIO_number	p_average_datastore_numberWriteAveraged_number	p_latest_datastore_datastoreReadIops_number	p_average_datastore_siocActiveTimePercentage_percent	p_average_datastore_datastoreIops_number	p_latest_datastore_datastoreReadOIO_number	p_latest_datastore_datastoreReadLoadMetric_number	p_latest_datastore_datastoreWriteIops_number	p_latest_datastore_datastoreReadBytes_number	p_average_datastore_totalReadLatency_millisecond	p_latest_datastore_datastoreMaxQueueDepth_number	p_latest_datastore_datastoreNormalReadLatency_number	datastore_capacity	datastore_freespace
+host-10	00000000-0000-0000-0000-002590d3fca0	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	169	0	0		0	0	167	188	102912	0	0	0	2	0.0	4	0	0	2	98816	0	31	166	122675003392	82058412032
+host-10	00000000-0000-0000-0000-002590d3fca0	6ead15c4-fce65468	20	769	0	0		0	0	769	448	0	0	0	2	0	0.0	6	0	0	6	0	0	256	0	536870912000	512661868544
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20				0																				","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:datastore","2016-06-20 03:27:40.000000 PDT"
+"moid	uuid	instance	samp_int	p_latest_datastore_datastoreNormalWriteLatency_number	p_average_datastore_write_kiloBytesPerSecond	p_latest_datastore_datastoreWriteLoadMetric_number	p_latest_datastore_maxTotalLatency_millisecond	p_average_datastore_totalWriteLatency_millisecond	p_average_datastore_numberReadAveraged_number	p_average_datastore_sizeNormalizedDatastoreLatency_microsecond	p_latest_datastore_datastoreVMObservedLatency_microsecond	p_latest_datastore_datastoreWriteBytes_number	p_average_datastore_read_kiloBytesPerSecond	p_latest_datastore_datastoreWriteOIO_number	p_average_datastore_numberWriteAveraged_number	p_latest_datastore_datastoreReadIops_number	p_average_datastore_siocActiveTimePercentage_percent	p_average_datastore_datastoreIops_number	p_latest_datastore_datastoreReadOIO_number	p_latest_datastore_datastoreReadLoadMetric_number	p_latest_datastore_datastoreWriteIops_number	p_latest_datastore_datastoreReadBytes_number	p_average_datastore_totalReadLatency_millisecond	p_latest_datastore_datastoreMaxQueueDepth_number	p_latest_datastore_datastoreNormalReadLatency_number	datastore_capacity	datastore_freespace
+host-10	00000000-0000-0000-0000-002590d3fca0	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	187	0	0		0	0	170	189	100864	0	0	0	3	0.0	5	0	0	2	98816	0	31	159	122675003392	82058412032
+host-10	00000000-0000-0000-0000-002590d3fca0	6ead15c4-fce65468	20	653	0	0		0	0	653	521	0	0	0	2	0	0.0	6	0	0	6	0	0	256	0	536870912000	512661868544
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20				0																				","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:datastore","2016-06-20 03:29:00.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_datastore_read_kiloBytesPerSecond	p_average_datastore_numberReadAveraged_number	p_average_datastore_numberWriteAveraged_number	p_average_datastore_totalReadLatency_millisecond	p_average_datastore_write_kiloBytesPerSecond	p_latest_datastore_maxTotalLatency_millisecond	p_average_datastore_totalWriteLatency_millisecond	storage_committed	storage_uncommitted	datastore_capacity	datastore_freespace
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	3392154459	13958644248	122675003392	82058412032
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	aggregated	20						0		3392154459	13958644248		
+vm-16	5010d5e0-116d-cc1b-93ad-c1926428df1d	aggregated	20						0		0	192053248		
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	6ead15c4-fce65468	20	0	0	0	0	0		0	1054445090	52632657920	536870912000	512661868544
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	aggregated	20						0		1054445090	52632657920		
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	3392154455	13958644247	122675003392	82058412032
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	aggregated	20						0		3392154455	13958644247		
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	6ead15c4-fce65468	20	0	0	0	0	0		0	1054445090	52632657920	536870912000	512661868544
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	aggregated	20						0		1054445090	52632657920		
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	5548026893	52626981397	122675003392	82058412032
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	aggregated	20						0		5548026893	52626981397		
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	5555067405	52626981399	122675003392	82058412032
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	aggregated	20						0		5555067405	52626981399		
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	6ead15c4-fce65468	20	0	0	0	0	0		0	1055143064	52632657920	536870912000	512661868544
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	aggregated	20						0		1055143064	52632657920		
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	5548026901	52626981399	122675003392	82058412032
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	aggregated	20						0		5548026901	52626981399		
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	5548239537	52626981397	122675003392	82058412032
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	aggregated	20						0		5548239537	52626981397		
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	5548218006	52626981399	122675003392	82058412032
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	aggregated	20						0		5548218006	52626981399		
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	3392322365	13958644248	122675003392	82058412032
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	aggregated	20						0		3392322365	13958644248		
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	6ead15c4-fce65468	20	0	0	0	0	0		0	847258	13958643712	536870912000	512661868544
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	aggregated	20						0		847258	13958643712		","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:VirtualMachine","vmware:perf:datastore","2016-06-20 03:27:40.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_datastore_read_kiloBytesPerSecond	p_average_datastore_numberReadAveraged_number	p_average_datastore_numberWriteAveraged_number	p_average_datastore_totalReadLatency_millisecond	p_average_datastore_write_kiloBytesPerSecond	p_latest_datastore_maxTotalLatency_millisecond	p_average_datastore_totalWriteLatency_millisecond	storage_committed	storage_uncommitted	datastore_capacity	datastore_freespace
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	3392154459	13958644248	122675003392	82058412032
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	aggregated	20						0		3392154459	13958644248		
+vm-16	5010d5e0-116d-cc1b-93ad-c1926428df1d	aggregated	20						0		0	192053248		
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	6ead15c4-fce65468	20	0	0	0	0	0		0	1054445090	52632657920	536870912000	512661868544
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	aggregated	20						0		1054445090	52632657920		
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	3392154455	13958644247	122675003392	82058412032
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	aggregated	20						0		3392154455	13958644247		
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	6ead15c4-fce65468	20	0	0	0	0	0		0	1054445090	52632657920	536870912000	512661868544
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	aggregated	20						0		1054445090	52632657920		
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	5548026893	52626981397	122675003392	82058412032
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	aggregated	20						0		5548026893	52626981397		
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	5555067405	52626981399	122675003392	82058412032
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	aggregated	20						0		5555067405	52626981399		
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	6ead15c4-fce65468	20	0	0	0	0	0		0	1055143064	52632657920	536870912000	512661868544
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	aggregated	20						0		1055143064	52632657920		
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	5548026901	52626981399	122675003392	82058412032
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	aggregated	20						0		5548026901	52626981399		
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	5548239537	52626981397	122675003392	82058412032
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	aggregated	20						0		5548239537	52626981397		
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	5548218006	52626981399	122675003392	82058412032
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	aggregated	20						0		5548218006	52626981399		
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	3392322365	13958644248	122675003392	82058412032
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	aggregated	20						0		3392322365	13958644248		
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	6ead15c4-fce65468	20	0	0	0	0	0		0	847258	13958643712	536870912000	512661868544
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	aggregated	20						0		847258	13958643712		","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:VirtualMachine","vmware:perf:datastore","2016-06-20 03:27:00.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_datastore_read_kiloBytesPerSecond	p_average_datastore_numberReadAveraged_number	p_average_datastore_numberWriteAveraged_number	p_average_datastore_totalReadLatency_millisecond	p_average_datastore_write_kiloBytesPerSecond	p_latest_datastore_maxTotalLatency_millisecond	p_average_datastore_totalWriteLatency_millisecond	storage_committed	storage_uncommitted	datastore_capacity	datastore_freespace
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	3392154459	13958644248	122675003392	82058412032
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	aggregated	20						0		3392154459	13958644248		
+vm-16	5010d5e0-116d-cc1b-93ad-c1926428df1d	aggregated	20						0		0	192053248		
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	6ead15c4-fce65468	20	0	0	0	0	0		0	1054445090	52632657920	536870912000	512661868544
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	aggregated	20						0		1054445090	52632657920		
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	3392154455	13958644247	122675003392	82058412032
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	aggregated	20						0		3392154455	13958644247		
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	6ead15c4-fce65468	20	0	0	0	0	0		0	1054445090	52632657920	536870912000	512661868544
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	aggregated	20						0		1054445090	52632657920		
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	5548026893	52626981397	122675003392	82058412032
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	aggregated	20						0		5548026893	52626981397		
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	5555067405	52626981399	122675003392	82058412032
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	aggregated	20						0		5555067405	52626981399		
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	6ead15c4-fce65468	20	0	0	0	0	0		0	1055143064	52632657920	536870912000	512661868544
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	aggregated	20						0		1055143064	52632657920		
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	5548026901	52626981399	122675003392	82058412032
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	aggregated	20						0		5548026901	52626981399		
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	5548239537	52626981397	122675003392	82058412032
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	aggregated	20						0		5548239537	52626981397		
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	5548218006	52626981399	122675003392	82058412032
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	aggregated	20						0		5548218006	52626981399		
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	3392322365	13958644248	122675003392	82058412032
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	aggregated	20						0		3392322365	13958644248		
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	6ead15c4-fce65468	20	0	0	0	0	0		0	847258	13958643712	536870912000	512661868544
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	aggregated	20						0		847258	13958643712		","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:VirtualMachine","vmware:perf:datastore","2016-06-20 03:29:00.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_datastore_read_kiloBytesPerSecond	p_average_datastore_numberReadAveraged_number	p_average_datastore_numberWriteAveraged_number	p_average_datastore_totalReadLatency_millisecond	p_average_datastore_write_kiloBytesPerSecond	p_latest_datastore_maxTotalLatency_millisecond	p_average_datastore_totalWriteLatency_millisecond	storage_committed	storage_uncommitted	datastore_capacity	datastore_freespace
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	3392154459	13958644248	122675003392	82058412032
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	aggregated	20						0		3392154459	13958644248		
+vm-16	5010d5e0-116d-cc1b-93ad-c1926428df1d	aggregated	20						0		0	192053248		
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	6ead15c4-fce65468	20	0	0	0	0	0		0	1054445090	52632657920	536870912000	512661868544
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	aggregated	20						0		1054445090	52632657920		
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	3392154455	13958644247	122675003392	82058412032
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	aggregated	20						0		3392154455	13958644247		
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	6ead15c4-fce65468	20	0	0	0	0	0		0	1054445090	52632657920	536870912000	512661868544
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	aggregated	20						0		1054445090	52632657920		
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	5548026893	52626981397	122675003392	82058412032
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	aggregated	20						0		5548026893	52626981397		
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	5555067405	52626981399	122675003392	82058412032
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	aggregated	20						0		5555067405	52626981399		
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	6ead15c4-fce65468	20	0	0	0	0	0		0	1055143064	52632657920	536870912000	512661868544
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	aggregated	20						0		1055143064	52632657920		
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	5548026901	52626981399	122675003392	82058412032
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	aggregated	20						0		5548026901	52626981399		
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	5548239537	52626981397	122675003392	82058412032
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	aggregated	20						0		5548239537	52626981397		
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	5548218006	52626981399	122675003392	82058412032
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	aggregated	20						0		5548218006	52626981399		
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	3392322365	13958644248	122675003392	82058412032
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	aggregated	20						0		3392322365	13958644248		
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	6ead15c4-fce65468	20	0	0	0	0	0		0	847258	13958643712	536870912000	512661868544
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	aggregated	20						0		847258	13958643712		","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:VirtualMachine","vmware:perf:datastore","2016-06-20 03:28:00.000000 PDT"
+"moid	uuid	instance	samp_int	p_latest_datastore_datastoreNormalWriteLatency_number	p_average_datastore_write_kiloBytesPerSecond	p_latest_datastore_datastoreWriteLoadMetric_number	p_latest_datastore_maxTotalLatency_millisecond	p_average_datastore_totalWriteLatency_millisecond	p_average_datastore_numberReadAveraged_number	p_average_datastore_sizeNormalizedDatastoreLatency_microsecond	p_latest_datastore_datastoreVMObservedLatency_microsecond	p_latest_datastore_datastoreWriteBytes_number	p_average_datastore_read_kiloBytesPerSecond	p_latest_datastore_datastoreWriteOIO_number	p_average_datastore_numberWriteAveraged_number	p_latest_datastore_datastoreReadIops_number	p_average_datastore_siocActiveTimePercentage_percent	p_average_datastore_datastoreIops_number	p_latest_datastore_datastoreReadOIO_number	p_latest_datastore_datastoreReadLoadMetric_number	p_latest_datastore_datastoreWriteIops_number	p_latest_datastore_datastoreReadBytes_number	p_average_datastore_totalReadLatency_millisecond	p_latest_datastore_datastoreMaxQueueDepth_number	p_latest_datastore_datastoreNormalReadLatency_number	datastore_capacity	datastore_freespace
+host-10	00000000-0000-0000-0000-002590d3fca0	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	466	0	0		0	0	466	444	512	0	0	0	0	0.0	1	0	0	1	0	0	31	0	122675003392	82058412032
+host-10	00000000-0000-0000-0000-002590d3fca0	6ead15c4-fce65468	20	769	0	0		0	0	769	487	0	0	0	2	0	0.0	6	0	0	6	0	0	256	0	536870912000	512661868544
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20				0																				","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:datastore","2016-06-20 03:27:20.000000 PDT"
+"moid	uuid	instance	samp_int	p_latest_datastore_datastoreNormalWriteLatency_number	p_average_datastore_write_kiloBytesPerSecond	p_latest_datastore_datastoreWriteLoadMetric_number	p_latest_datastore_maxTotalLatency_millisecond	p_average_datastore_totalWriteLatency_millisecond	p_average_datastore_numberReadAveraged_number	p_average_datastore_sizeNormalizedDatastoreLatency_microsecond	p_latest_datastore_datastoreVMObservedLatency_microsecond	p_latest_datastore_datastoreWriteBytes_number	p_average_datastore_read_kiloBytesPerSecond	p_latest_datastore_datastoreWriteOIO_number	p_average_datastore_numberWriteAveraged_number	p_latest_datastore_datastoreReadIops_number	p_average_datastore_siocActiveTimePercentage_percent	p_average_datastore_datastoreIops_number	p_latest_datastore_datastoreReadOIO_number	p_latest_datastore_datastoreReadLoadMetric_number	p_latest_datastore_datastoreWriteIops_number	p_latest_datastore_datastoreReadBytes_number	p_average_datastore_totalReadLatency_millisecond	p_latest_datastore_datastoreMaxQueueDepth_number	p_latest_datastore_datastoreNormalReadLatency_number	datastore_capacity	datastore_freespace
+host-10	00000000-0000-0000-0000-002590d3fca0	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	655	67	0		0	0	655	634	4096	0	0	5	0	0.0	1	0	0	1	0	0	31	0	122675003392	82058412032
+host-10	00000000-0000-0000-0000-002590d3fca0	6ead15c4-fce65468	20	576	0	0		0	0	576	422	0	0	0	2	0	0.0	6	0	0	6	0	0	256	0	536870912000	512661868544
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20				0																				","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:datastore","2016-06-20 03:29:40.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_datastore_read_kiloBytesPerSecond	p_average_datastore_numberReadAveraged_number	p_average_datastore_numberWriteAveraged_number	p_average_datastore_totalReadLatency_millisecond	p_average_datastore_write_kiloBytesPerSecond	p_latest_datastore_maxTotalLatency_millisecond	p_average_datastore_totalWriteLatency_millisecond	storage_committed	storage_uncommitted	datastore_capacity	datastore_freespace
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	3392154459	13958644248	122675003392	82058412032
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	aggregated	20						0		3392154459	13958644248		
+vm-16	5010d5e0-116d-cc1b-93ad-c1926428df1d	aggregated	20						0		0	192053248		
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	6ead15c4-fce65468	20	0	0	0	0	0		0	1054445090	52632657920	536870912000	512661868544
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	aggregated	20						0		1054445090	52632657920		
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	3392154455	13958644247	122675003392	82058412032
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	aggregated	20						0		3392154455	13958644247		
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	6ead15c4-fce65468	20	0	0	0	0	0		0	1054445090	52632657920	536870912000	512661868544
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	aggregated	20						0		1054445090	52632657920		
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	5548026893	52626981397	122675003392	82058412032
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	aggregated	20						0		5548026893	52626981397		
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	5	0	67		0	5555067405	52626981399	122675003392	82058412032
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	aggregated	20						0		5555067405	52626981399		
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	6ead15c4-fce65468	20	0	0	0	0	0		0	1055143064	52632657920	536870912000	512661868544
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	aggregated	20						0		1055143064	52632657920		
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	5548026901	52626981399	122675003392	82058412032
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	aggregated	20						0		5548026901	52626981399		
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	5548239537	52626981397	122675003392	82058412032
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	aggregated	20						0		5548239537	52626981397		
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	5548218006	52626981399	122675003392	82058412032
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	aggregated	20						0		5548218006	52626981399		
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	3392322365	13958644248	122675003392	82058412032
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	aggregated	20						0		3392322365	13958644248		
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	6ead15c4-fce65468	20	0	0	0	0	0		0	847258	13958643712	536870912000	512661868544
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	aggregated	20						0		847258	13958643712		","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:VirtualMachine","vmware:perf:datastore","2016-06-20 03:29:40.000000 PDT"
+"moid	uuid	instance	samp_int	p_latest_datastore_datastoreNormalWriteLatency_number	p_average_datastore_write_kiloBytesPerSecond	p_latest_datastore_datastoreWriteLoadMetric_number	p_latest_datastore_maxTotalLatency_millisecond	p_average_datastore_totalWriteLatency_millisecond	p_average_datastore_numberReadAveraged_number	p_average_datastore_sizeNormalizedDatastoreLatency_microsecond	p_latest_datastore_datastoreVMObservedLatency_microsecond	p_latest_datastore_datastoreWriteBytes_number	p_average_datastore_read_kiloBytesPerSecond	p_latest_datastore_datastoreWriteOIO_number	p_average_datastore_numberWriteAveraged_number	p_latest_datastore_datastoreReadIops_number	p_average_datastore_siocActiveTimePercentage_percent	p_average_datastore_datastoreIops_number	p_latest_datastore_datastoreReadOIO_number	p_latest_datastore_datastoreReadLoadMetric_number	p_latest_datastore_datastoreWriteIops_number	p_latest_datastore_datastoreReadBytes_number	p_average_datastore_totalReadLatency_millisecond	p_latest_datastore_datastoreMaxQueueDepth_number	p_latest_datastore_datastoreNormalReadLatency_number	datastore_capacity	datastore_freespace
+host-10	00000000-0000-0000-0000-002590d3fca0	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	165	0	0		0	0	160	181	100352	0	0	0	2	0.0	4	0	0	2	98816	0	31	155	122675003392	82058412032
+host-10	00000000-0000-0000-0000-002590d3fca0	6ead15c4-fce65468	20	653	0	0		0	0	653	506	0	0	0	2	0	0.0	6	0	0	6	0	0	256	0	536870912000	512661868544
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20				0																				","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:datastore","2016-06-20 03:28:00.000000 PDT"
+"moid	uuid	instance	samp_int	p_latest_datastore_datastoreNormalWriteLatency_number	p_average_datastore_write_kiloBytesPerSecond	p_latest_datastore_datastoreWriteLoadMetric_number	p_latest_datastore_maxTotalLatency_millisecond	p_average_datastore_totalWriteLatency_millisecond	p_average_datastore_numberReadAveraged_number	p_average_datastore_sizeNormalizedDatastoreLatency_microsecond	p_latest_datastore_datastoreVMObservedLatency_microsecond	p_latest_datastore_datastoreWriteBytes_number	p_average_datastore_read_kiloBytesPerSecond	p_latest_datastore_datastoreWriteOIO_number	p_average_datastore_numberWriteAveraged_number	p_latest_datastore_datastoreReadIops_number	p_average_datastore_siocActiveTimePercentage_percent	p_average_datastore_datastoreIops_number	p_latest_datastore_datastoreReadOIO_number	p_latest_datastore_datastoreReadLoadMetric_number	p_latest_datastore_datastoreWriteIops_number	p_latest_datastore_datastoreReadBytes_number	p_average_datastore_totalReadLatency_millisecond	p_latest_datastore_datastoreMaxQueueDepth_number	p_latest_datastore_datastoreNormalReadLatency_number	datastore_capacity	datastore_freespace
+host-10	00000000-0000-0000-0000-002590d3fca0	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	151	0	0		0	0	151	169	136192	0	0	0	3	0.0	6	0	0	3	131584	0	31	151	122675003392	82058412032
+host-10	00000000-0000-0000-0000-002590d3fca0	6ead15c4-fce65468	20	800	0	0		0	0	800	451	0	0	0	2	0	0.0	6	0	0	6	0	0	256	0	536870912000	512661868544
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20				0																				","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:datastore","2016-06-20 03:27:00.000000 PDT"
+"moid	uuid	instance	samp_int	p_latest_datastore_datastoreNormalWriteLatency_number	p_average_datastore_write_kiloBytesPerSecond	p_latest_datastore_datastoreWriteLoadMetric_number	p_latest_datastore_maxTotalLatency_millisecond	p_average_datastore_totalWriteLatency_millisecond	p_average_datastore_numberReadAveraged_number	p_average_datastore_sizeNormalizedDatastoreLatency_microsecond	p_latest_datastore_datastoreVMObservedLatency_microsecond	p_latest_datastore_datastoreWriteBytes_number	p_average_datastore_read_kiloBytesPerSecond	p_latest_datastore_datastoreWriteOIO_number	p_average_datastore_numberWriteAveraged_number	p_latest_datastore_datastoreReadIops_number	p_average_datastore_siocActiveTimePercentage_percent	p_average_datastore_datastoreIops_number	p_latest_datastore_datastoreReadOIO_number	p_latest_datastore_datastoreReadLoadMetric_number	p_latest_datastore_datastoreWriteIops_number	p_latest_datastore_datastoreReadBytes_number	p_average_datastore_totalReadLatency_millisecond	p_latest_datastore_datastoreMaxQueueDepth_number	p_latest_datastore_datastoreNormalReadLatency_number	datastore_capacity	datastore_freespace
+host-10	00000000-0000-0000-0000-002590d3fca0	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	165	0	0		0	0	160	181	100352	0	0	0	2	0.0	4	0	0	2	98816	0	31	155	122675003392	82058412032
+host-10	00000000-0000-0000-0000-002590d3fca0	6ead15c4-fce65468	20	653	0	0		0	0	653	491	0	0	0	2	0	0.0	6	0	0	6	0	0	256	0	536870912000	512661868544
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20				0																				","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:datastore","2016-06-20 03:28:20.000000 PDT"
+"moid	uuid	instance	samp_int	p_latest_datastore_datastoreNormalWriteLatency_number	p_average_datastore_write_kiloBytesPerSecond	p_latest_datastore_datastoreWriteLoadMetric_number	p_latest_datastore_maxTotalLatency_millisecond	p_average_datastore_totalWriteLatency_millisecond	p_average_datastore_numberReadAveraged_number	p_average_datastore_sizeNormalizedDatastoreLatency_microsecond	p_latest_datastore_datastoreVMObservedLatency_microsecond	p_latest_datastore_datastoreWriteBytes_number	p_average_datastore_read_kiloBytesPerSecond	p_latest_datastore_datastoreWriteOIO_number	p_average_datastore_numberWriteAveraged_number	p_latest_datastore_datastoreReadIops_number	p_average_datastore_siocActiveTimePercentage_percent	p_average_datastore_datastoreIops_number	p_latest_datastore_datastoreReadOIO_number	p_latest_datastore_datastoreReadLoadMetric_number	p_latest_datastore_datastoreWriteIops_number	p_latest_datastore_datastoreReadBytes_number	p_average_datastore_totalReadLatency_millisecond	p_latest_datastore_datastoreMaxQueueDepth_number	p_latest_datastore_datastoreNormalReadLatency_number	datastore_capacity	datastore_freespace
+host-10	00000000-0000-0000-0000-002590d3fca0	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	157	0	0		0	0	140	157	171008	0	0	0	4	0.0	7	0	0	3	164864	0	31	128	122675003392	82058412032
+host-10	00000000-0000-0000-0000-002590d3fca0	6ead15c4-fce65468	20	599	0	0		0	0	599	511	0	0	0	2	0	0.0	6	0	0	6	0	0	256	0	536870912000	512661868544
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20				0																				","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:datastore","2016-06-20 03:24:00.000000 PDT"
+"moid	uuid	instance	samp_int	p_latest_datastore_datastoreNormalWriteLatency_number	p_average_datastore_write_kiloBytesPerSecond	p_latest_datastore_datastoreWriteLoadMetric_number	p_latest_datastore_maxTotalLatency_millisecond	p_average_datastore_totalWriteLatency_millisecond	p_average_datastore_numberReadAveraged_number	p_average_datastore_sizeNormalizedDatastoreLatency_microsecond	p_latest_datastore_datastoreVMObservedLatency_microsecond	p_latest_datastore_datastoreWriteBytes_number	p_average_datastore_read_kiloBytesPerSecond	p_latest_datastore_datastoreWriteOIO_number	p_average_datastore_numberWriteAveraged_number	p_latest_datastore_datastoreReadIops_number	p_average_datastore_siocActiveTimePercentage_percent	p_average_datastore_datastoreIops_number	p_latest_datastore_datastoreReadOIO_number	p_latest_datastore_datastoreReadLoadMetric_number	p_latest_datastore_datastoreWriteIops_number	p_latest_datastore_datastoreReadBytes_number	p_average_datastore_totalReadLatency_millisecond	p_latest_datastore_datastoreMaxQueueDepth_number	p_latest_datastore_datastoreNormalReadLatency_number	datastore_capacity	datastore_freespace
+host-10	00000000-0000-0000-0000-002590d3fca0	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	509	2	0		0	0	509	488	12800	0	0	0	0	0.0	2	0	0	2	0	0	31	0	122675003392	82058412032
+host-10	00000000-0000-0000-0000-002590d3fca0	6ead15c4-fce65468	20	800	0	0		0	0	800	459	0	0	0	2	0	0.0	6	0	0	6	0	0	256	0	536870912000	512661868544
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20				0																				","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:datastore","2016-06-20 03:26:20.000000 PDT"
+"moid	uuid	instance	samp_int	p_latest_datastore_datastoreNormalWriteLatency_number	p_average_datastore_write_kiloBytesPerSecond	p_latest_datastore_datastoreWriteLoadMetric_number	p_latest_datastore_maxTotalLatency_millisecond	p_average_datastore_totalWriteLatency_millisecond	p_average_datastore_numberReadAveraged_number	p_average_datastore_sizeNormalizedDatastoreLatency_microsecond	p_latest_datastore_datastoreVMObservedLatency_microsecond	p_latest_datastore_datastoreWriteBytes_number	p_average_datastore_read_kiloBytesPerSecond	p_latest_datastore_datastoreWriteOIO_number	p_average_datastore_numberWriteAveraged_number	p_latest_datastore_datastoreReadIops_number	p_average_datastore_siocActiveTimePercentage_percent	p_average_datastore_datastoreIops_number	p_latest_datastore_datastoreReadOIO_number	p_latest_datastore_datastoreReadLoadMetric_number	p_latest_datastore_datastoreWriteIops_number	p_latest_datastore_datastoreReadBytes_number	p_average_datastore_totalReadLatency_millisecond	p_latest_datastore_datastoreMaxQueueDepth_number	p_latest_datastore_datastoreNormalReadLatency_number	datastore_capacity	datastore_freespace
+host-10	00000000-0000-0000-0000-002590d3fca0	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	518	3	0		0	1	218	235	2048	31	0	1	19	0.0	20	0	0	1	532992	0	31	203	122675003392	82058412032
+host-10	00000000-0000-0000-0000-002590d3fca0	6ead15c4-fce65468	20	920	0	0		1	0	920	525	0	0	0	2	0	0.0	6	0	0	6	0	0	256	0	536870912000	512661868544
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20				0																				","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:datastore","2016-06-20 03:25:40.000000 PDT"
+"moid	uuid	instance	samp_int	p_latest_datastore_datastoreNormalWriteLatency_number	p_average_datastore_write_kiloBytesPerSecond	p_latest_datastore_datastoreWriteLoadMetric_number	p_latest_datastore_maxTotalLatency_millisecond	p_average_datastore_totalWriteLatency_millisecond	p_average_datastore_numberReadAveraged_number	p_average_datastore_sizeNormalizedDatastoreLatency_microsecond	p_latest_datastore_datastoreVMObservedLatency_microsecond	p_latest_datastore_datastoreWriteBytes_number	p_average_datastore_read_kiloBytesPerSecond	p_latest_datastore_datastoreWriteOIO_number	p_average_datastore_numberWriteAveraged_number	p_latest_datastore_datastoreReadIops_number	p_average_datastore_siocActiveTimePercentage_percent	p_average_datastore_datastoreIops_number	p_latest_datastore_datastoreReadOIO_number	p_latest_datastore_datastoreReadLoadMetric_number	p_latest_datastore_datastoreWriteIops_number	p_latest_datastore_datastoreReadBytes_number	p_average_datastore_totalReadLatency_millisecond	p_latest_datastore_datastoreMaxQueueDepth_number	p_latest_datastore_datastoreNormalReadLatency_number	datastore_capacity	datastore_freespace
+host-10	00000000-0000-0000-0000-002590d3fca0	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	140	0	0		0	0	141	156	137728	0	0	0	3	0.0	6	0	0	3	131584	0	31	142	122675003392	82058412032
+host-10	00000000-0000-0000-0000-002590d3fca0	6ead15c4-fce65468	20	800	0	0		0	0	800	492	0	0	0	2	0	0.0	6	0	0	6	0	0	256	0	536870912000	512661868544
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20				0																				","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:datastore","2016-06-20 03:25:00.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_datastore_read_kiloBytesPerSecond	p_average_datastore_numberReadAveraged_number	p_average_datastore_numberWriteAveraged_number	p_average_datastore_totalReadLatency_millisecond	p_average_datastore_write_kiloBytesPerSecond	p_latest_datastore_maxTotalLatency_millisecond	p_average_datastore_totalWriteLatency_millisecond	storage_committed	storage_uncommitted	datastore_capacity	datastore_freespace
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	3392154459	13958644248	122675003392	82058412032
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	aggregated	20						0		3392154459	13958644248		
+vm-16	5010d5e0-116d-cc1b-93ad-c1926428df1d	aggregated	20						0		0	192053248		
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	6ead15c4-fce65468	20	0	0	0	0	0		0	1054445090	52632657920	536870912000	512661868544
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	aggregated	20						0		1054445090	52632657920		
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	3392154455	13958644247	122675003392	82058412032
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	aggregated	20						0		3392154455	13958644247		
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	6ead15c4-fce65468	20	0	0	0	0	0		0	1054445090	52632657920	536870912000	512661868544
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	aggregated	20						0		1054445090	52632657920		
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	5548026893	52626981397	122675003392	82058412032
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	aggregated	20						0		5548026893	52626981397		
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	5555067405	52626981399	122675003392	82058412032
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	aggregated	20						0		5555067405	52626981399		
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	6ead15c4-fce65468	20	0	0	0	0	0		0	1055143064	52632657920	536870912000	512661868544
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	aggregated	20						0		1055143064	52632657920		
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	5548026901	52626981399	122675003392	82058412032
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	aggregated	20						0		5548026901	52626981399		
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	5548239537	52626981397	122675003392	82058412032
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	aggregated	20						0		5548239537	52626981397		
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	5548218006	52626981399	122675003392	82058412032
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	aggregated	20						0		5548218006	52626981399		
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	3392322365	13958644248	122675003392	82058412032
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	aggregated	20						0		3392322365	13958644248		
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	6ead15c4-fce65468	20	0	0	0	0	0		0	847258	13958643712	536870912000	512661868544
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	aggregated	20						0		847258	13958643712		","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:VirtualMachine","vmware:perf:datastore","2016-06-20 03:25:00.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_datastore_read_kiloBytesPerSecond	p_average_datastore_numberReadAveraged_number	p_average_datastore_numberWriteAveraged_number	p_average_datastore_totalReadLatency_millisecond	p_average_datastore_write_kiloBytesPerSecond	p_latest_datastore_maxTotalLatency_millisecond	p_average_datastore_totalWriteLatency_millisecond	storage_committed	storage_uncommitted	datastore_capacity	datastore_freespace
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	3392154459	13958644248	122675003392	82058412032
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	aggregated	20						0		3392154459	13958644248		
+vm-16	5010d5e0-116d-cc1b-93ad-c1926428df1d	aggregated	20						0		0	192053248		
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	6ead15c4-fce65468	20	0	0	0	0	0		0	1054445090	52632657920	536870912000	512661868544
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	aggregated	20						0		1054445090	52632657920		
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	3392154455	13958644247	122675003392	82058412032
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	aggregated	20						0		3392154455	13958644247		
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	6ead15c4-fce65468	20	0	0	0	0	0		0	1054445090	52632657920	536870912000	512661868544
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	aggregated	20						0		1054445090	52632657920		
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	2		0	5548026893	52626981397	122675003392	82058412032
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	aggregated	20						0		5548026893	52626981397		
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	5555067405	52626981399	122675003392	82058412032
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	aggregated	20						0		5555067405	52626981399		
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	6ead15c4-fce65468	20	0	0	0	0	0		0	1055143064	52632657920	536870912000	512661868544
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	aggregated	20						0		1055143064	52632657920		
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	5548026901	52626981399	122675003392	82058412032
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	aggregated	20						0		5548026901	52626981399		
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	5548239537	52626981397	122675003392	82058412032
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	aggregated	20						0		5548239537	52626981397		
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	5548218006	52626981399	122675003392	82058412032
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	aggregated	20						0		5548218006	52626981399		
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	3392322365	13958644248	122675003392	82058412032
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	aggregated	20						0		3392322365	13958644248		
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	6ead15c4-fce65468	20	0	0	0	0	0		0	847258	13958643712	536870912000	512661868544
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	aggregated	20						0		847258	13958643712		","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:VirtualMachine","vmware:perf:datastore","2016-06-20 03:25:40.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_datastore_read_kiloBytesPerSecond	p_average_datastore_numberReadAveraged_number	p_average_datastore_numberWriteAveraged_number	p_average_datastore_totalReadLatency_millisecond	p_average_datastore_write_kiloBytesPerSecond	p_latest_datastore_maxTotalLatency_millisecond	p_average_datastore_totalWriteLatency_millisecond	storage_committed	storage_uncommitted	datastore_capacity	datastore_freespace
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	3392154459	13958644248	122675003392	82058412032
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	aggregated	20						0		3392154459	13958644248		
+vm-16	5010d5e0-116d-cc1b-93ad-c1926428df1d	aggregated	20						0		0	192053248		
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	6ead15c4-fce65468	20	0	0	0	0	0		0	1054445090	52632657920	536870912000	512661868544
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	aggregated	20						0		1054445090	52632657920		
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	3392154455	13958644247	122675003392	82058412032
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	aggregated	20						0		3392154455	13958644247		
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	6ead15c4-fce65468	20	0	0	0	0	0		0	1054445090	52632657920	536870912000	512661868544
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	aggregated	20						0		1054445090	52632657920		
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	5548026893	52626981397	122675003392	82058412032
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	aggregated	20						0		5548026893	52626981397		
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	5555067405	52626981399	122675003392	82058412032
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	aggregated	20						0		5555067405	52626981399		
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	6ead15c4-fce65468	20	0	0	0	0	0		0	1055143064	52632657920	536870912000	512661868544
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	aggregated	20						0		1055143064	52632657920		
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	5548026901	52626981399	122675003392	82058412032
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	aggregated	20						0		5548026901	52626981399		
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	5548239537	52626981397	122675003392	82058412032
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	aggregated	20						0		5548239537	52626981397		
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	5548218006	52626981399	122675003392	82058412032
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	aggregated	20						0		5548218006	52626981399		
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	3392322365	13958644248	122675003392	82058412032
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	aggregated	20						0		3392322365	13958644248		
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	6ead15c4-fce65468	20	0	0	0	0	0		0	847258	13958643712	536870912000	512661868544
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	aggregated	20						0		847258	13958643712		","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:VirtualMachine","vmware:perf:datastore","2016-06-20 03:24:00.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_datastore_read_kiloBytesPerSecond	p_average_datastore_numberReadAveraged_number	p_average_datastore_numberWriteAveraged_number	p_average_datastore_totalReadLatency_millisecond	p_average_datastore_write_kiloBytesPerSecond	p_latest_datastore_maxTotalLatency_millisecond	p_average_datastore_totalWriteLatency_millisecond	storage_committed	storage_uncommitted	datastore_capacity	datastore_freespace
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	3392154459	13958644248	122675003392	82058412032
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	aggregated	20						0		3392154459	13958644248		
+vm-16	5010d5e0-116d-cc1b-93ad-c1926428df1d	aggregated	20						0		0	192053248		
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	6ead15c4-fce65468	20	0	0	0	0	0		0	1054445090	52632657920	536870912000	512661868544
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	aggregated	20						0		1054445090	52632657920		
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	3392154455	13958644247	122675003392	82058412032
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	aggregated	20						0		3392154455	13958644247		
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	6ead15c4-fce65468	20	0	0	0	0	0		1	1054445090	52632657920	536870912000	512661868544
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	aggregated	20						1		1054445090	52632657920		
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	2		0	5548026893	52626981397	122675003392	82058412032
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	aggregated	20						0		5548026893	52626981397		
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	5555067405	52626981399	122675003392	82058412032
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	aggregated	20						0		5555067405	52626981399		
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	6ead15c4-fce65468	20	0	0	0	0	0		0	1055143064	52632657920	536870912000	512661868544
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	aggregated	20						0		1055143064	52632657920		
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	5548026901	52626981399	122675003392	82058412032
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	aggregated	20						0		5548026901	52626981399		
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	5548239537	52626981397	122675003392	82058412032
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	aggregated	20						0		5548239537	52626981397		
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	5548218006	52626981399	122675003392	82058412032
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	aggregated	20						0		5548218006	52626981399		
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	3392322365	13958644248	122675003392	82058412032
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	aggregated	20						0		3392322365	13958644248		
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	6ead15c4-fce65468	20	0	0	0	0	0		0	847258	13958643712	536870912000	512661868544
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	aggregated	20						0		847258	13958643712		","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:VirtualMachine","vmware:perf:datastore","2016-06-20 03:26:20.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_datastore_read_kiloBytesPerSecond	p_average_datastore_numberReadAveraged_number	p_average_datastore_numberWriteAveraged_number	p_average_datastore_totalReadLatency_millisecond	p_average_datastore_write_kiloBytesPerSecond	p_latest_datastore_maxTotalLatency_millisecond	p_average_datastore_totalWriteLatency_millisecond	storage_committed	storage_uncommitted	datastore_capacity	datastore_freespace
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	3392154459	13958644248	122675003392	82058412032
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	aggregated	20						0		3392154459	13958644248		
+vm-16	5010d5e0-116d-cc1b-93ad-c1926428df1d	aggregated	20						0		0	192053248		
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	6ead15c4-fce65468	20	0	0	0	0	0		0	1054445090	52632657920	536870912000	512661868544
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	aggregated	20						0		1054445090	52632657920		
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	3392154455	13958644247	122675003392	82058412032
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	aggregated	20						0		3392154455	13958644247		
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	6ead15c4-fce65468	20	0	0	0	0	0		0	1054445090	52632657920	536870912000	512661868544
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	aggregated	20						0		1054445090	52632657920		
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	485	90	18	0	169		0	5548026893	52626981397	122675003392	82058412032
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	aggregated	20						0		5548026893	52626981397		
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	5555067405	52626981399	122675003392	82058412032
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	aggregated	20						0		5555067405	52626981399		
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	6ead15c4-fce65468	20	0	0	0	0	0		0	1055143064	52632657920	536870912000	512661868544
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	aggregated	20						0		1055143064	52632657920		
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	5548026901	52626981399	122675003392	82058412032
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	aggregated	20						0		5548026901	52626981399		
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	5548239537	52626981397	122675003392	82058412032
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	aggregated	20						0		5548239537	52626981397		
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	5548218006	52626981399	122675003392	82058412032
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	aggregated	20						0		5548218006	52626981399		
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	3392322365	13958644248	122675003392	82058412032
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	aggregated	20						0		3392322365	13958644248		
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	6ead15c4-fce65468	20	0	0	0	0	0		0	847258	13958643712	536870912000	512661868544
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	aggregated	20						0		847258	13958643712		","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:VirtualMachine","vmware:perf:datastore","2016-06-20 03:25:20.000000 PDT"
+"moid	uuid	instance	samp_int	p_latest_datastore_datastoreNormalWriteLatency_number	p_average_datastore_write_kiloBytesPerSecond	p_latest_datastore_datastoreWriteLoadMetric_number	p_latest_datastore_maxTotalLatency_millisecond	p_average_datastore_totalWriteLatency_millisecond	p_average_datastore_numberReadAveraged_number	p_average_datastore_sizeNormalizedDatastoreLatency_microsecond	p_latest_datastore_datastoreVMObservedLatency_microsecond	p_latest_datastore_datastoreWriteBytes_number	p_average_datastore_read_kiloBytesPerSecond	p_latest_datastore_datastoreWriteOIO_number	p_average_datastore_numberWriteAveraged_number	p_latest_datastore_datastoreReadIops_number	p_average_datastore_siocActiveTimePercentage_percent	p_average_datastore_datastoreIops_number	p_latest_datastore_datastoreReadOIO_number	p_latest_datastore_datastoreReadLoadMetric_number	p_latest_datastore_datastoreWriteIops_number	p_latest_datastore_datastoreReadBytes_number	p_average_datastore_totalReadLatency_millisecond	p_latest_datastore_datastoreMaxQueueDepth_number	p_latest_datastore_datastoreNormalReadLatency_number	datastore_capacity	datastore_freespace
+host-10	00000000-0000-0000-0000-002590d3fca0	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0		0	0	151	210	0	0	0	0	2	0.0	2	0	0	0	3072	0	31	151	122675003392	82058412032
+host-10	00000000-0000-0000-0000-002590d3fca0	6ead15c4-fce65468	20	680	0	0		0	0	680	456	0	0	0	2	0	0.0	6	0	0	6	0	0	256	0	536870912000	512661868544
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20				0																				","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:datastore","2016-06-20 03:24:40.000000 PDT"
+"moid	uuid	instance	samp_int	p_latest_datastore_datastoreNormalWriteLatency_number	p_average_datastore_write_kiloBytesPerSecond	p_latest_datastore_datastoreWriteLoadMetric_number	p_latest_datastore_maxTotalLatency_millisecond	p_average_datastore_totalWriteLatency_millisecond	p_average_datastore_numberReadAveraged_number	p_average_datastore_sizeNormalizedDatastoreLatency_microsecond	p_latest_datastore_datastoreVMObservedLatency_microsecond	p_latest_datastore_datastoreWriteBytes_number	p_average_datastore_read_kiloBytesPerSecond	p_latest_datastore_datastoreWriteOIO_number	p_average_datastore_numberWriteAveraged_number	p_latest_datastore_datastoreReadIops_number	p_average_datastore_siocActiveTimePercentage_percent	p_average_datastore_datastoreIops_number	p_latest_datastore_datastoreReadOIO_number	p_latest_datastore_datastoreReadLoadMetric_number	p_latest_datastore_datastoreWriteIops_number	p_latest_datastore_datastoreReadBytes_number	p_average_datastore_totalReadLatency_millisecond	p_latest_datastore_datastoreMaxQueueDepth_number	p_latest_datastore_datastoreNormalReadLatency_number	datastore_capacity	datastore_freespace
+host-10	00000000-0000-0000-0000-002590d3fca0	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	171	0	0		0	0	161	178	136704	0	0	0	3	0.0	6	0	0	3	131584	0	31	151	122675003392	82058412032
+host-10	00000000-0000-0000-0000-002590d3fca0	6ead15c4-fce65468	20	1153	2	0		2	0	1153	745	0	0	0	2	0	0.0	6	0	0	6	0	0	256	0	536870912000	512661868544
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20				1																				","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:datastore","2016-06-20 03:26:40.000000 PDT"
+"moid	uuid	instance	samp_int	p_latest_datastore_datastoreNormalWriteLatency_number	p_average_datastore_write_kiloBytesPerSecond	p_latest_datastore_datastoreWriteLoadMetric_number	p_latest_datastore_maxTotalLatency_millisecond	p_average_datastore_totalWriteLatency_millisecond	p_average_datastore_numberReadAveraged_number	p_average_datastore_sizeNormalizedDatastoreLatency_microsecond	p_latest_datastore_datastoreVMObservedLatency_microsecond	p_latest_datastore_datastoreWriteBytes_number	p_average_datastore_read_kiloBytesPerSecond	p_latest_datastore_datastoreWriteOIO_number	p_average_datastore_numberWriteAveraged_number	p_latest_datastore_datastoreReadIops_number	p_average_datastore_siocActiveTimePercentage_percent	p_average_datastore_datastoreIops_number	p_latest_datastore_datastoreReadOIO_number	p_latest_datastore_datastoreReadLoadMetric_number	p_latest_datastore_datastoreWriteIops_number	p_latest_datastore_datastoreReadBytes_number	p_average_datastore_totalReadLatency_millisecond	p_latest_datastore_datastoreMaxQueueDepth_number	p_latest_datastore_datastoreNormalReadLatency_number	datastore_capacity	datastore_freespace
+host-10	00000000-0000-0000-0000-002590d3fca0	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	124	0	0		0	0	128	145	185856	0	0	0	4	0.0	8	0	0	4	164864	0	31	132	122675003392	82058412032
+host-10	00000000-0000-0000-0000-002590d3fca0	6ead15c4-fce65468	20	615	0	0		0	0	615	444	0	0	0	2	0	0.0	6	0	0	6	0	0	256	0	536870912000	512661868544
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20				0																				","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:datastore","2016-06-20 03:26:00.000000 PDT"
+"moid	uuid	instance	samp_int	p_latest_datastore_datastoreNormalWriteLatency_number	p_average_datastore_write_kiloBytesPerSecond	p_latest_datastore_datastoreWriteLoadMetric_number	p_latest_datastore_maxTotalLatency_millisecond	p_average_datastore_totalWriteLatency_millisecond	p_average_datastore_numberReadAveraged_number	p_average_datastore_sizeNormalizedDatastoreLatency_microsecond	p_latest_datastore_datastoreVMObservedLatency_microsecond	p_latest_datastore_datastoreWriteBytes_number	p_average_datastore_read_kiloBytesPerSecond	p_latest_datastore_datastoreWriteOIO_number	p_average_datastore_numberWriteAveraged_number	p_latest_datastore_datastoreReadIops_number	p_average_datastore_siocActiveTimePercentage_percent	p_average_datastore_datastoreIops_number	p_latest_datastore_datastoreReadOIO_number	p_latest_datastore_datastoreReadLoadMetric_number	p_latest_datastore_datastoreWriteIops_number	p_latest_datastore_datastoreReadBytes_number	p_average_datastore_totalReadLatency_millisecond	p_latest_datastore_datastoreMaxQueueDepth_number	p_latest_datastore_datastoreNormalReadLatency_number	datastore_capacity	datastore_freespace
+host-10	00000000-0000-0000-0000-002590d3fca0	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	508	169	0		0	90	508	584	359424	485	0	19	0	0.0	28	0	0	28	0	0	31	0	122675003392	82058412032
+host-10	00000000-0000-0000-0000-002590d3fca0	6ead15c4-fce65468	20	800	0	0		0	0	800	482	0	0	0	2	0	0.0	6	0	0	6	0	0	256	0	536870912000	512661868544
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20				0																				","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:datastore","2016-06-20 03:25:20.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_datastore_read_kiloBytesPerSecond	p_average_datastore_numberReadAveraged_number	p_average_datastore_numberWriteAveraged_number	p_average_datastore_totalReadLatency_millisecond	p_average_datastore_write_kiloBytesPerSecond	p_latest_datastore_maxTotalLatency_millisecond	p_average_datastore_totalWriteLatency_millisecond	storage_committed	storage_uncommitted	datastore_capacity	datastore_freespace
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	3392154459	13958644248	122675003392	82058412032
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	aggregated	20						0		3392154459	13958644248		
+vm-16	5010d5e0-116d-cc1b-93ad-c1926428df1d	aggregated	20						0		0	192053248		
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	6ead15c4-fce65468	20	0	0	0	0	0		0	1054445090	52632657920	536870912000	512661868544
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	aggregated	20						0		1054445090	52632657920		
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	3392154455	13958644247	122675003392	82058412032
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	aggregated	20						0		3392154455	13958644247		
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	6ead15c4-fce65468	20	0	0	0	0	0		0	1054445090	52632657920	536870912000	512661868544
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	aggregated	20						0		1054445090	52632657920		
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	5548026893	52626981397	122675003392	82058412032
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	aggregated	20						0		5548026893	52626981397		
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	5555067405	52626981399	122675003392	82058412032
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	aggregated	20						0		5555067405	52626981399		
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	6ead15c4-fce65468	20	0	0	0	0	0		0	1055143064	52632657920	536870912000	512661868544
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	aggregated	20						0		1055143064	52632657920		
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	5548026901	52626981399	122675003392	82058412032
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	aggregated	20						0		5548026901	52626981399		
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	5548239537	52626981397	122675003392	82058412032
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	aggregated	20						0		5548239537	52626981397		
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	5548218006	52626981399	122675003392	82058412032
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	aggregated	20						0		5548218006	52626981399		
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	3392322365	13958644248	122675003392	82058412032
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	aggregated	20						0		3392322365	13958644248		
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	6ead15c4-fce65468	20	0	0	0	0	0		0	847258	13958643712	536870912000	512661868544
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	aggregated	20						0		847258	13958643712		","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:VirtualMachine","vmware:perf:datastore","2016-06-20 03:24:20.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_datastore_read_kiloBytesPerSecond	p_average_datastore_numberReadAveraged_number	p_average_datastore_numberWriteAveraged_number	p_average_datastore_totalReadLatency_millisecond	p_average_datastore_write_kiloBytesPerSecond	p_latest_datastore_maxTotalLatency_millisecond	p_average_datastore_totalWriteLatency_millisecond	storage_committed	storage_uncommitted	datastore_capacity	datastore_freespace
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	3392154459	13958644248	122675003392	82058412032
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	aggregated	20						0		3392154459	13958644248		
+vm-16	5010d5e0-116d-cc1b-93ad-c1926428df1d	aggregated	20						0		0	192053248		
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	6ead15c4-fce65468	20	0	0	0	0	0		0	1054445090	52632657920	536870912000	512661868544
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	aggregated	20						0		1054445090	52632657920		
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	3392154455	13958644247	122675003392	82058412032
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	aggregated	20						0		3392154455	13958644247		
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	6ead15c4-fce65468	20	0	0	0	0	2		0	1054445090	52632657920	536870912000	512661868544
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	aggregated	20						0		1054445090	52632657920		
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	5548026893	52626981397	122675003392	82058412032
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	aggregated	20						0		5548026893	52626981397		
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	5555067405	52626981399	122675003392	82058412032
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	aggregated	20						0		5555067405	52626981399		
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	6ead15c4-fce65468	20	0	0	0	0	0		0	1055143064	52632657920	536870912000	512661868544
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	aggregated	20						0		1055143064	52632657920		
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	5548026901	52626981399	122675003392	82058412032
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	aggregated	20						0		5548026901	52626981399		
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	5548239537	52626981397	122675003392	82058412032
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	aggregated	20						0		5548239537	52626981397		
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	5548218006	52626981399	122675003392	82058412032
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	aggregated	20						0		5548218006	52626981399		
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	3392322365	13958644248	122675003392	82058412032
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	aggregated	20						0		3392322365	13958644248		
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	6ead15c4-fce65468	20	0	0	0	0	0		0	847258	13958643712	536870912000	512661868544
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	aggregated	20						0		847258	13958643712		","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:VirtualMachine","vmware:perf:datastore","2016-06-20 03:26:40.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_datastore_read_kiloBytesPerSecond	p_average_datastore_numberReadAveraged_number	p_average_datastore_numberWriteAveraged_number	p_average_datastore_totalReadLatency_millisecond	p_average_datastore_write_kiloBytesPerSecond	p_latest_datastore_maxTotalLatency_millisecond	p_average_datastore_totalWriteLatency_millisecond	storage_committed	storage_uncommitted	datastore_capacity	datastore_freespace
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	3392154459	13958644248	122675003392	82058412032
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	aggregated	20						0		3392154459	13958644248		
+vm-16	5010d5e0-116d-cc1b-93ad-c1926428df1d	aggregated	20						0		0	192053248		
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	6ead15c4-fce65468	20	0	0	0	0	0		0	1054445090	52632657920	536870912000	512661868544
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	aggregated	20						0		1054445090	52632657920		
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	3392154455	13958644247	122675003392	82058412032
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	aggregated	20						0		3392154455	13958644247		
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	6ead15c4-fce65468	20	0	0	0	0	0		0	1054445090	52632657920	536870912000	512661868544
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	aggregated	20						0		1054445090	52632657920		
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	5548026893	52626981397	122675003392	82058412032
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	aggregated	20						0		5548026893	52626981397		
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	5555067405	52626981399	122675003392	82058412032
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	aggregated	20						0		5555067405	52626981399		
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	6ead15c4-fce65468	20	0	0	0	0	0		0	1055143064	52632657920	536870912000	512661868544
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	aggregated	20						0		1055143064	52632657920		
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	5548026901	52626981399	122675003392	82058412032
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	aggregated	20						0		5548026901	52626981399		
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	5548239537	52626981397	122675003392	82058412032
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	aggregated	20						0		5548239537	52626981397		
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	5548218006	52626981399	122675003392	82058412032
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	aggregated	20						0		5548218006	52626981399		
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	3392322365	13958644248	122675003392	82058412032
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	aggregated	20						0		3392322365	13958644248		
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	6ead15c4-fce65468	20	0	0	0	0	0		0	847258	13958643712	536870912000	512661868544
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	aggregated	20						0		847258	13958643712		","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:VirtualMachine","vmware:perf:datastore","2016-06-20 03:26:00.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_datastore_read_kiloBytesPerSecond	p_average_datastore_numberReadAveraged_number	p_average_datastore_numberWriteAveraged_number	p_average_datastore_totalReadLatency_millisecond	p_average_datastore_write_kiloBytesPerSecond	p_latest_datastore_maxTotalLatency_millisecond	p_average_datastore_totalWriteLatency_millisecond	storage_committed	storage_uncommitted	datastore_capacity	datastore_freespace
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	3392154459	13958644248	122675003392	82058412032
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	aggregated	20						0		3392154459	13958644248		
+vm-16	5010d5e0-116d-cc1b-93ad-c1926428df1d	aggregated	20						0		0	192053248		
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	6ead15c4-fce65468	20	0	0	0	0	0		0	1054445090	52632657920	536870912000	512661868544
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	aggregated	20						0		1054445090	52632657920		
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	3392154455	13958644247	122675003392	82058412032
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	aggregated	20						0		3392154455	13958644247		
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	6ead15c4-fce65468	20	0	0	0	0	0		0	1054445090	52632657920	536870912000	512661868544
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	aggregated	20						0		1054445090	52632657920		
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	5548026893	52626981397	122675003392	82058412032
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	aggregated	20						0		5548026893	52626981397		
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	5555067405	52626981399	122675003392	82058412032
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	aggregated	20						0		5555067405	52626981399		
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	6ead15c4-fce65468	20	0	0	0	0	0		0	1055143064	52632657920	536870912000	512661868544
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	aggregated	20						0		1055143064	52632657920		
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	5548026901	52626981399	122675003392	82058412032
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	aggregated	20						0		5548026901	52626981399		
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	5548239537	52626981397	122675003392	82058412032
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	aggregated	20						0		5548239537	52626981397		
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	5548218006	52626981399	122675003392	82058412032
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	aggregated	20						0		5548218006	52626981399		
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0		0	3392322365	13958644248	122675003392	82058412032
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	aggregated	20						0		3392322365	13958644248		
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	6ead15c4-fce65468	20	0	0	0	0	0		0	847258	13958643712	536870912000	512661868544
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	aggregated	20						0		847258	13958643712		","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:VirtualMachine","vmware:perf:datastore","2016-06-20 03:24:40.000000 PDT"
+"moid	uuid	instance	samp_int	p_latest_datastore_datastoreNormalWriteLatency_number	p_average_datastore_write_kiloBytesPerSecond	p_latest_datastore_datastoreWriteLoadMetric_number	p_latest_datastore_maxTotalLatency_millisecond	p_average_datastore_totalWriteLatency_millisecond	p_average_datastore_numberReadAveraged_number	p_average_datastore_sizeNormalizedDatastoreLatency_microsecond	p_latest_datastore_datastoreVMObservedLatency_microsecond	p_latest_datastore_datastoreWriteBytes_number	p_average_datastore_read_kiloBytesPerSecond	p_latest_datastore_datastoreWriteOIO_number	p_average_datastore_numberWriteAveraged_number	p_latest_datastore_datastoreReadIops_number	p_average_datastore_siocActiveTimePercentage_percent	p_average_datastore_datastoreIops_number	p_latest_datastore_datastoreReadOIO_number	p_latest_datastore_datastoreReadLoadMetric_number	p_latest_datastore_datastoreWriteIops_number	p_latest_datastore_datastoreReadBytes_number	p_average_datastore_totalReadLatency_millisecond	p_latest_datastore_datastoreMaxQueueDepth_number	p_latest_datastore_datastoreNormalReadLatency_number	datastore_capacity	datastore_freespace
+host-10	00000000-0000-0000-0000-002590d3fca0	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0		0	0	269	288	0	0	0	0	19	0.0	19	0	0	0	532480	0	31	269	122675003392	82058412032
+host-10	00000000-0000-0000-0000-002590d3fca0	6ead15c4-fce65468	20	599	0	0		0	0	599	473	0	0	0	2	0	0.0	6	0	0	6	0	0	256	0	536870912000	512661868544
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20				0																				","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:datastore","2016-06-20 03:24:20.000000 PDT"
+"moid	uuid	instance	samp_int	p_latest_datastore_datastoreReadIops_number	p_average_datastore_totalWriteLatency_millisecond	p_average_datastore_write_kiloBytesPerSecond	p_latest_datastore_datastoreMaxQueueDepth_number	p_latest_datastore_datastoreWriteIops_number	p_latest_datastore_datastoreVMObservedLatency_microsecond	p_average_datastore_sizeNormalizedDatastoreLatency_microsecond	p_average_datastore_numberReadAveraged_number	p_latest_datastore_datastoreWriteLoadMetric_number	p_average_datastore_datastoreIops_number	p_latest_datastore_maxTotalLatency_millisecond	p_latest_datastore_datastoreNormalReadLatency_number	p_latest_datastore_datastoreWriteBytes_number	p_latest_datastore_datastoreReadLoadMetric_number	p_latest_datastore_datastoreNormalWriteLatency_number	p_latest_datastore_datastoreReadBytes_number	p_average_datastore_read_kiloBytesPerSecond	p_average_datastore_totalReadLatency_millisecond	p_average_datastore_numberWriteAveraged_number	p_latest_datastore_datastoreWriteOIO_number	p_latest_datastore_datastoreReadOIO_number	p_average_datastore_siocActiveTimePercentage_percent	datastore_capacity	datastore_freespace
+host-10	00000000-0000-0000-0000-002590d3fca0	6ead15c4-fce65468	20	0	2	0	256	6	3541	3680	0	0	6		0	0	0	3680	0	0	0	2	0	0	0.0	536870912000	512661868544
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20											1													
+host-10	00000000-0000-0000-0000-002590d3fca0	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	19	0	0	31	0	218	204	0	0	19		204	0	0	0	532992	0	0	0	0	0	0.0	122675003392	82058412032","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:datastore","2016-06-20 03:22:40.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_datastore_totalWriteLatency_millisecond	p_average_datastore_read_kiloBytesPerSecond	p_average_datastore_numberReadAveraged_number	p_average_datastore_write_kiloBytesPerSecond	p_average_datastore_totalReadLatency_millisecond	p_average_datastore_numberWriteAveraged_number	p_latest_datastore_maxTotalLatency_millisecond	storage_committed	storage_uncommitted	datastore_capacity	datastore_freespace
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	aggregated	20							0	5548026901	52626981399		
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		5548026901	52626981399	122675003392	82058412032
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	aggregated	20							0	3392322365	13958644248		
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		3392322365	13958644248	122675003392	82058412032
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	6ead15c4-fce65468	20	0	0	0	0	0	0		847258	13958643712	536870912000	512661868544
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	aggregated	20							0	847258	13958643712		
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	aggregated	20							0	5548218006	52626981399		
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		5548218006	52626981399	122675003392	82058412032
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	aggregated	20							0	3392154455	13958644247		
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		3392154455	13958644247	122675003392	82058412032
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	aggregated	20							0	5548026893	52626981397		
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		5548026893	52626981397	122675003392	82058412032
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	6ead15c4-fce65468	20	0	0	0	0	0	0		1054445090	52632657920	536870912000	512661868544
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	aggregated	20							0	1054445090	52632657920		
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	6ead15c4-fce65468	20	0	0	0	0	0	0		1054445090	52632657920	536870912000	512661868544
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	aggregated	20							0	1054445090	52632657920		
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	aggregated	20							0	3392154459	13958644248		
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		3392154459	13958644248	122675003392	82058412032
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	aggregated	20							0	5548239537	52626981397		
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		5548239537	52626981397	122675003392	82058412032
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	6ead15c4-fce65468	20	0	0	0	0	0	0		1055143064	52632657920	536870912000	512661868544
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	aggregated	20							0	1055143064	52632657920		
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	aggregated	20							0	5555067405	52626981399		
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		5555067405	52626981399	122675003392	82058412032
+vm-16	5010d5e0-116d-cc1b-93ad-c1926428df1d	aggregated	20							0	0	192053248		","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:VirtualMachine","vmware:perf:datastore","2016-06-20 03:23:00.000000 PDT"
+"moid	uuid	instance	samp_int	p_latest_datastore_datastoreReadIops_number	p_average_datastore_totalWriteLatency_millisecond	p_average_datastore_write_kiloBytesPerSecond	p_latest_datastore_datastoreMaxQueueDepth_number	p_latest_datastore_datastoreWriteIops_number	p_latest_datastore_datastoreVMObservedLatency_microsecond	p_average_datastore_sizeNormalizedDatastoreLatency_microsecond	p_average_datastore_numberReadAveraged_number	p_latest_datastore_datastoreWriteLoadMetric_number	p_average_datastore_datastoreIops_number	p_latest_datastore_maxTotalLatency_millisecond	p_latest_datastore_datastoreNormalReadLatency_number	p_latest_datastore_datastoreWriteBytes_number	p_latest_datastore_datastoreReadLoadMetric_number	p_latest_datastore_datastoreNormalWriteLatency_number	p_latest_datastore_datastoreReadBytes_number	p_average_datastore_read_kiloBytesPerSecond	p_average_datastore_totalReadLatency_millisecond	p_average_datastore_numberWriteAveraged_number	p_latest_datastore_datastoreWriteOIO_number	p_latest_datastore_datastoreReadOIO_number	p_average_datastore_siocActiveTimePercentage_percent	datastore_capacity	datastore_freespace
+host-10	00000000-0000-0000-0000-002590d3fca0	6ead15c4-fce65468	20	0	0	0	256	6	734	760	0	0	6		0	0	0	760	0	0	0	2	0	0	0.0	536870912000	512687996928
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20											0													
+host-10	00000000-0000-0000-0000-002590d3fca0	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	2	0	0	31	0	242	174	0	0	2		174	0	0	0	3072	0	0	0	0	0	0.0	122675003392	85451603968","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:datastore","2016-06-20 03:23:40.000000 PDT"
+"moid	uuid	instance	samp_int	p_latest_datastore_datastoreReadIops_number	p_average_datastore_totalWriteLatency_millisecond	p_average_datastore_write_kiloBytesPerSecond	p_latest_datastore_datastoreMaxQueueDepth_number	p_latest_datastore_datastoreWriteIops_number	p_latest_datastore_datastoreVMObservedLatency_microsecond	p_average_datastore_sizeNormalizedDatastoreLatency_microsecond	p_average_datastore_numberReadAveraged_number	p_latest_datastore_datastoreWriteLoadMetric_number	p_average_datastore_datastoreIops_number	p_latest_datastore_maxTotalLatency_millisecond	p_latest_datastore_datastoreNormalReadLatency_number	p_latest_datastore_datastoreWriteBytes_number	p_latest_datastore_datastoreReadLoadMetric_number	p_latest_datastore_datastoreNormalWriteLatency_number	p_latest_datastore_datastoreReadBytes_number	p_average_datastore_read_kiloBytesPerSecond	p_average_datastore_totalReadLatency_millisecond	p_average_datastore_numberWriteAveraged_number	p_latest_datastore_datastoreWriteOIO_number	p_latest_datastore_datastoreReadOIO_number	p_average_datastore_siocActiveTimePercentage_percent	datastore_capacity	datastore_freespace
+host-10	00000000-0000-0000-0000-002590d3fca0	6ead15c4-fce65468	20	0	0	0	256	6	1960	1879	0	0	6		0	0	0	1879	0	0	1	2	0	0	0.0	536870912000	512687996928
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20											0													
+host-10	00000000-0000-0000-0000-002590d3fca0	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	3	0	0	31	3	164	145	0	0	6		140	136704	0	151	131584	0	0	0	0	0	0.0	122675003392	85451603968","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:datastore","2016-06-20 03:23:00.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_datastore_totalWriteLatency_millisecond	p_average_datastore_read_kiloBytesPerSecond	p_average_datastore_numberReadAveraged_number	p_average_datastore_write_kiloBytesPerSecond	p_average_datastore_totalReadLatency_millisecond	p_average_datastore_numberWriteAveraged_number	p_latest_datastore_maxTotalLatency_millisecond	storage_committed	storage_uncommitted	datastore_capacity	datastore_freespace
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	aggregated	20							0	5548026901	52626981399		
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		5548026901	52626981399	122675003392	85451603968
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	aggregated	20							0	3392322365	13958644248		
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		3392322365	13958644248	122675003392	85451603968
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	6ead15c4-fce65468	20	0	0	0	0	0	0		847258	13958643712	536870912000	512687996928
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	aggregated	20							0	847258	13958643712		
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	aggregated	20							0	5548218006	52626981399		
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		5548218006	52626981399	122675003392	85451603968
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	aggregated	20							0	3392154455	13958644247		
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		3392154455	13958644247	122675003392	85451603968
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	aggregated	20							0	5548026893	52626981397		
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		5548026893	52626981397	122675003392	85451603968
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	6ead15c4-fce65468	20	0	0	0	0	0	0		1054445090	52632657920	536870912000	512687996928
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	aggregated	20							0	1054445090	52632657920		
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	6ead15c4-fce65468	20	0	0	0	0	0	0		1054445090	52632657920	536870912000	512687996928
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	aggregated	20							0	1054445090	52632657920		
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	aggregated	20							0	3392154459	13958644248		
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		3392154459	13958644248	122675003392	85451603968
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	aggregated	20							0	5548239537	52626981397		
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		5548239537	52626981397	122675003392	85451603968
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	6ead15c4-fce65468	20	0	0	0	0	0	0		1055143064	52632657920	536870912000	512687996928
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	aggregated	20							0	1055143064	52632657920		
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	aggregated	20							0	5555067405	52626981399		
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		5555067405	52626981399	122675003392	85451603968
+vm-16	5010d5e0-116d-cc1b-93ad-c1926428df1d	aggregated	20							0	0	192053248		","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:VirtualMachine","vmware:perf:datastore","2016-06-20 03:23:20.000000 PDT"
+"moid	uuid	instance	samp_int	p_latest_datastore_datastoreReadIops_number	p_average_datastore_totalWriteLatency_millisecond	p_average_datastore_write_kiloBytesPerSecond	p_latest_datastore_datastoreMaxQueueDepth_number	p_latest_datastore_datastoreWriteIops_number	p_latest_datastore_datastoreVMObservedLatency_microsecond	p_average_datastore_sizeNormalizedDatastoreLatency_microsecond	p_average_datastore_numberReadAveraged_number	p_latest_datastore_datastoreWriteLoadMetric_number	p_average_datastore_datastoreIops_number	p_latest_datastore_maxTotalLatency_millisecond	p_latest_datastore_datastoreNormalReadLatency_number	p_latest_datastore_datastoreWriteBytes_number	p_latest_datastore_datastoreReadLoadMetric_number	p_latest_datastore_datastoreNormalWriteLatency_number	p_latest_datastore_datastoreReadBytes_number	p_average_datastore_read_kiloBytesPerSecond	p_average_datastore_totalReadLatency_millisecond	p_average_datastore_numberWriteAveraged_number	p_latest_datastore_datastoreWriteOIO_number	p_latest_datastore_datastoreReadOIO_number	p_average_datastore_siocActiveTimePercentage_percent	datastore_capacity	datastore_freespace
+host-10	00000000-0000-0000-0000-002590d3fca0	6ead15c4-fce65468	20	0	0	0	256	6	565	760	0	0	6		0	0	0	760	0	0	0	2	0	0	0.0	536870912000	512687996928
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20											0													
+host-10	00000000-0000-0000-0000-002590d3fca0	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	1	0	0	31	1	337	309	0	0	2		336	33280	0	283	32768	0	0	0	0	0	0.0	122675003392	85451603968","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:datastore","2016-06-20 03:23:20.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_datastore_totalWriteLatency_millisecond	p_average_datastore_read_kiloBytesPerSecond	p_average_datastore_numberReadAveraged_number	p_average_datastore_write_kiloBytesPerSecond	p_average_datastore_totalReadLatency_millisecond	p_average_datastore_numberWriteAveraged_number	p_latest_datastore_maxTotalLatency_millisecond	storage_committed	storage_uncommitted	datastore_capacity	datastore_freespace
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	aggregated	20							0	5548026901	52626981399		
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		5548026901	52626981399	122675003392	85451603968
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	aggregated	20							0	3392322365	13958644248		
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		3392322365	13958644248	122675003392	85451603968
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	6ead15c4-fce65468	20	0	0	0	0	0	0		847258	13958643712	536870912000	512687996928
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	aggregated	20							0	847258	13958643712		
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	aggregated	20							0	5548218006	52626981399		
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		5548218006	52626981399	122675003392	85451603968
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	aggregated	20							0	3392154455	13958644247		
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		3392154455	13958644247	122675003392	85451603968
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	aggregated	20							0	5548026893	52626981397		
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		5548026893	52626981397	122675003392	85451603968
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	6ead15c4-fce65468	20	0	0	0	0	0	0		1054445090	52632657920	536870912000	512687996928
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	aggregated	20							0	1054445090	52632657920		
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	6ead15c4-fce65468	20	0	0	0	0	0	0		1054445090	52632657920	536870912000	512687996928
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	aggregated	20							0	1054445090	52632657920		
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	aggregated	20							0	3392154459	13958644248		
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		3392154459	13958644248	122675003392	85451603968
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	aggregated	20							0	5548239537	52626981397		
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		5548239537	52626981397	122675003392	85451603968
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	6ead15c4-fce65468	20	0	0	0	0	0	0		1055143064	52632657920	536870912000	512687996928
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	aggregated	20							0	1055143064	52632657920		
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	aggregated	20							0	5555067405	52626981399		
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		5555067405	52626981399	122675003392	85451603968
+vm-16	5010d5e0-116d-cc1b-93ad-c1926428df1d	aggregated	20							0	0	192053248		","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:VirtualMachine","vmware:perf:datastore","2016-06-20 03:22:00.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_datastore_totalWriteLatency_millisecond	p_average_datastore_read_kiloBytesPerSecond	p_average_datastore_numberReadAveraged_number	p_average_datastore_write_kiloBytesPerSecond	p_average_datastore_totalReadLatency_millisecond	p_average_datastore_numberWriteAveraged_number	p_latest_datastore_maxTotalLatency_millisecond	storage_committed	storage_uncommitted	datastore_capacity	datastore_freespace
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	aggregated	20							0	5548026901	52626981399		
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		5548026901	52626981399	122675003392	85451603968
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	aggregated	20							0	3392322365	13958644248		
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		3392322365	13958644248	122675003392	85451603968
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	6ead15c4-fce65468	20	0	0	0	0	0	0		847258	13958643712	536870912000	512687996928
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	aggregated	20							0	847258	13958643712		
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	aggregated	20							0	5548218006	52626981399		
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		5548218006	52626981399	122675003392	85451603968
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	aggregated	20							0	3392154455	13958644247		
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		3392154455	13958644247	122675003392	85451603968
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	aggregated	20							0	5548026893	52626981397		
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		5548026893	52626981397	122675003392	85451603968
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	6ead15c4-fce65468	20	0	0	0	0	0	0		1054445090	52632657920	536870912000	512687996928
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	aggregated	20							0	1054445090	52632657920		
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	6ead15c4-fce65468	20	0	0	0	0	0	0		1054445090	52632657920	536870912000	512687996928
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	aggregated	20							0	1054445090	52632657920		
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	aggregated	20							0	3392154459	13958644248		
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		3392154459	13958644248	122675003392	85451603968
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	aggregated	20							0	5548239537	52626981397		
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		5548239537	52626981397	122675003392	85451603968
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	6ead15c4-fce65468	20	0	0	0	0	0	0		1055143064	52632657920	536870912000	512687996928
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	aggregated	20							0	1055143064	52632657920		
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	aggregated	20							0	5555067405	52626981399		
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		5555067405	52626981399	122675003392	85451603968
+vm-16	5010d5e0-116d-cc1b-93ad-c1926428df1d	aggregated	20							0	0	192053248		","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:VirtualMachine","vmware:perf:datastore","2016-06-20 03:22:40.000000 PDT"
+"moid	uuid	instance	samp_int	p_latest_datastore_datastoreReadIops_number	p_average_datastore_totalWriteLatency_millisecond	p_average_datastore_write_kiloBytesPerSecond	p_latest_datastore_datastoreMaxQueueDepth_number	p_latest_datastore_datastoreWriteIops_number	p_latest_datastore_datastoreVMObservedLatency_microsecond	p_average_datastore_sizeNormalizedDatastoreLatency_microsecond	p_average_datastore_numberReadAveraged_number	p_latest_datastore_datastoreWriteLoadMetric_number	p_average_datastore_datastoreIops_number	p_latest_datastore_maxTotalLatency_millisecond	p_latest_datastore_datastoreNormalReadLatency_number	p_latest_datastore_datastoreWriteBytes_number	p_latest_datastore_datastoreReadLoadMetric_number	p_latest_datastore_datastoreNormalWriteLatency_number	p_latest_datastore_datastoreReadBytes_number	p_average_datastore_read_kiloBytesPerSecond	p_average_datastore_totalReadLatency_millisecond	p_average_datastore_numberWriteAveraged_number	p_latest_datastore_datastoreWriteOIO_number	p_latest_datastore_datastoreReadOIO_number	p_average_datastore_siocActiveTimePercentage_percent	datastore_capacity	datastore_freespace
+host-10	00000000-0000-0000-0000-002590d3fca0	6ead15c4-fce65468	20	0	0	0	256	6	474	680	0	0	6		0	0	0	680	0	0	0	2	0	0	0.0	536870912000	512687996928
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20											0													
+host-10	00000000-0000-0000-0000-002590d3fca0	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	31	0	326	0	0	0	0		0	0	0	0	0	0	0	0	0	0	0.0	122675003392	85451603968","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:datastore","2016-06-20 03:22:20.000000 PDT"
+"moid	uuid	instance	samp_int	p_latest_datastore_datastoreReadIops_number	p_average_datastore_totalWriteLatency_millisecond	p_average_datastore_write_kiloBytesPerSecond	p_latest_datastore_datastoreMaxQueueDepth_number	p_latest_datastore_datastoreWriteIops_number	p_latest_datastore_datastoreVMObservedLatency_microsecond	p_average_datastore_sizeNormalizedDatastoreLatency_microsecond	p_average_datastore_numberReadAveraged_number	p_latest_datastore_datastoreWriteLoadMetric_number	p_average_datastore_datastoreIops_number	p_latest_datastore_maxTotalLatency_millisecond	p_latest_datastore_datastoreNormalReadLatency_number	p_latest_datastore_datastoreWriteBytes_number	p_latest_datastore_datastoreReadLoadMetric_number	p_latest_datastore_datastoreNormalWriteLatency_number	p_latest_datastore_datastoreReadBytes_number	p_average_datastore_read_kiloBytesPerSecond	p_average_datastore_totalReadLatency_millisecond	p_average_datastore_numberWriteAveraged_number	p_latest_datastore_datastoreWriteOIO_number	p_latest_datastore_datastoreReadOIO_number	p_average_datastore_siocActiveTimePercentage_percent	datastore_capacity	datastore_freespace
+host-10	00000000-0000-0000-0000-002590d3fca0	6ead15c4-fce65468	20	0	0	0	256	6	644	839	0	0	6		0	0	0	839	0	0	0	2	0	0	0.0	536870912000	512687996928
+host-10	00000000-0000-0000-0000-002590d3fca0	aggregated	20											0													
+host-10	00000000-0000-0000-0000-002590d3fca0	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	2	0	0	31	2	190	168	0	0	4		171	102912	0	165	98816	0	0	0	0	0	0.0	122675003392	85451603968","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:HostSystem","vmware:perf:datastore","2016-06-20 03:22:00.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_datastore_totalWriteLatency_millisecond	p_average_datastore_read_kiloBytesPerSecond	p_average_datastore_numberReadAveraged_number	p_average_datastore_write_kiloBytesPerSecond	p_average_datastore_totalReadLatency_millisecond	p_average_datastore_numberWriteAveraged_number	p_latest_datastore_maxTotalLatency_millisecond	storage_committed	storage_uncommitted	datastore_capacity	datastore_freespace
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	aggregated	20							0	5548026901	52626981399		
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		5548026901	52626981399	122675003392	85451603968
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	aggregated	20							0	3392322365	13958644248		
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		3392322365	13958644248	122675003392	85451603968
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	6ead15c4-fce65468	20	0	0	0	0	0	0		847258	13958643712	536870912000	512687996928
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	aggregated	20							0	847258	13958643712		
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	aggregated	20							0	5548218006	52626981399		
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		5548218006	52626981399	122675003392	85451603968
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	aggregated	20							0	3392154455	13958644247		
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		3392154455	13958644247	122675003392	85451603968
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	aggregated	20							0	5548026893	52626981397		
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		5548026893	52626981397	122675003392	85451603968
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	6ead15c4-fce65468	20	0	0	0	0	0	0		1054445090	52632657920	536870912000	512687996928
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	aggregated	20							0	1054445090	52632657920		
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	6ead15c4-fce65468	20	0	0	0	0	0	0		1054445090	52632657920	536870912000	512687996928
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	aggregated	20							0	1054445090	52632657920		
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	aggregated	20							0	3392154459	13958644248		
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		3392154459	13958644248	122675003392	85451603968
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	aggregated	20							0	5548239537	52626981397		
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		5548239537	52626981397	122675003392	85451603968
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	6ead15c4-fce65468	20	0	0	0	0	0	0		1055143064	52632657920	536870912000	512687996928
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	aggregated	20							0	1055143064	52632657920		
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	aggregated	20							0	5555067405	52626981399		
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		5555067405	52626981399	122675003392	85451603968
+vm-16	5010d5e0-116d-cc1b-93ad-c1926428df1d	aggregated	20							0	0	192053248		","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:VirtualMachine","vmware:perf:datastore","2016-06-20 03:22:20.000000 PDT"
+"moid	uuid	instance	samp_int	p_average_datastore_totalWriteLatency_millisecond	p_average_datastore_read_kiloBytesPerSecond	p_average_datastore_numberReadAveraged_number	p_average_datastore_write_kiloBytesPerSecond	p_average_datastore_totalReadLatency_millisecond	p_average_datastore_numberWriteAveraged_number	p_latest_datastore_maxTotalLatency_millisecond	storage_committed	storage_uncommitted	datastore_capacity	datastore_freespace
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	aggregated	20							0	5548026901	52626981399		
+vm-108	500a1fde-2115-724f-ed15-7ff91acaa2e8	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		5548026901	52626981399	122675003392	85451603968
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	aggregated	20							0	3392322365	13958644248		
+vm-96	500a50a3-6db3-7803-3fdd-1f925126dae6	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		3392322365	13958644248	122675003392	85451603968
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	6ead15c4-fce65468	20	0	0	0	0	0	0		847258	13958643712	536870912000	512687996928
+vm-20	50106d22-1d13-6701-5b52-52a65a18bef9	aggregated	20							0	847258	13958643712		
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	aggregated	20							0	5548218006	52626981399		
+vm-94	500a78b4-7ced-c9ba-e39d-1f8160289a41	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		5548218006	52626981399	122675003392	85451603968
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	aggregated	20							0	3392154455	13958644247		
+vm-110	500a560d-556f-64b7-5f30-43fffd2fd75f	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		3392154455	13958644247	122675003392	85451603968
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	aggregated	20							0	5548026893	52626981397		
+vm-100	500a4e46-2c56-868c-52d3-a0787c97d576	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		5548026893	52626981397	122675003392	85451603968
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	6ead15c4-fce65468	20	0	0	0	0	0	0		1054445090	52632657920	536870912000	512687996928
+vm-102	500a545b-eedc-a757-44c3-f4ab77e041d5	aggregated	20							0	1054445090	52632657920		
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	6ead15c4-fce65468	20	0	0	0	0	0	0		1054445090	52632657920	536870912000	512687996928
+vm-104	500ae759-b26f-4ede-74a2-e9321e20a359	aggregated	20							0	1054445090	52632657920		
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	aggregated	20							0	3392154459	13958644248		
+vm-106	500a0cec-1025-f432-77a5-7094b548605d	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		3392154459	13958644248	122675003392	85451603968
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	aggregated	20							0	5548239537	52626981397		
+vm-98	500a4f89-d278-ca6f-d364-db96f8f75119	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		5548239537	52626981397	122675003392	85451603968
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	6ead15c4-fce65468	20	0	0	0	0	0	0		1055143064	52632657920	536870912000	512687996928
+vm-19	5010f840-9726-0ab8-525d-fc7142fdde17	aggregated	20							0	1055143064	52632657920		
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	aggregated	20							0	5555067405	52626981399		
+vm-18	50105786-5b68-04c5-2059-49343d3c73f5	5294d8a9-9dbca4b8-2cee-002590d3fca1	20	0	0	0	0	0	0		5555067405	52626981399	122675003392	85451603968
+vm-16	5010d5e0-116d-cc1b-93ad-c1926428df1d	aggregated	20							0	0	192053248		","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:VirtualMachine","vmware:perf:datastore","2016-06-20 03:23:40.000000 PDT"

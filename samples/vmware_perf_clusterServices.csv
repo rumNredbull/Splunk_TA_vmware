@@ -1,0 +1,23 @@
+"_raw",host,index,source,sourcetype,time
+"moid	instance	samp_int	p_average_clusterServices_effectivecpu_megaHertz	p_average_clusterServices_effectivemem_megaBytes
+domain-c7	aggregated	300	87180	374755","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:ClusterComputeResource","vmware:perf:clusterServices","2016-06-17 07:25:00.000000 PDT"
+"moid	instance	samp_int	p_average_clusterServices_effectivecpu_megaHertz	p_average_clusterServices_effectivemem_megaBytes
+domain-c7	aggregated	300	87180	374755","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:ClusterComputeResource","vmware:perf:clusterServices","2016-06-17 07:20:00.000000 PDT"
+"moid	instance	samp_int	p_average_clusterServices_effectivecpu_megaHertz	p_average_clusterServices_effectivemem_megaBytes
+domain-c7	aggregated	300	87180	374755","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:ClusterComputeResource","vmware:perf:clusterServices","2016-06-17 07:15:00.000000 PDT"
+"moid	instance	samp_int	p_average_clusterServices_effectivecpu_megaHertz	p_average_clusterServices_effectivemem_megaBytes
+domain-c7	aggregated	300	87180	374755","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:ClusterComputeResource","vmware:perf:clusterServices","2016-06-17 07:10:00.000000 PDT"
+"moid	instance	samp_int	p_average_clusterServices_effectivecpu_megaHertz	p_average_clusterServices_effectivemem_megaBytes
+domain-c7	aggregated	300	87180	374755","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:ClusterComputeResource","vmware:perf:clusterServices","2016-06-17 07:05:00.000000 PDT"
+"moid	instance	samp_int	p_average_clusterServices_effectivecpu_megaHertz	p_average_clusterServices_effectivemem_megaBytes
+domain-c7	aggregated	300	84120	372358","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:ClusterComputeResource","vmware:perf:clusterServices","2016-06-17 07:05:00.000000 PDT"
+"moid	instance	samp_int	p_average_clusterServices_effectivecpu_megaHertz	p_average_clusterServices_effectivemem_megaBytes
+domain-c7	aggregated	300	87180	374755","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:ClusterComputeResource","vmware:perf:clusterServices","2016-06-17 07:00:00.000000 PDT"
+"moid	instance	samp_int	p_average_clusterServices_effectivecpu_megaHertz	p_average_clusterServices_effectivemem_megaBytes
+domain-c7	aggregated	300	84120	372360","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:ClusterComputeResource","vmware:perf:clusterServices","2016-06-17 07:00:00.000000 PDT"
+"moid	instance	samp_int	p_average_clusterServices_effectivecpu_megaHertz	p_average_clusterServices_effectivemem_megaBytes
+domain-c7	aggregated	300	87180	374755","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:ClusterComputeResource","vmware:perf:clusterServices","2016-06-17 06:55:00.000000 PDT"
+"moid	instance	samp_int	p_average_clusterServices_effectivecpu_megaHertz	p_average_clusterServices_effectivemem_megaBytes
+domain-c7	aggregated	300	84120	372360","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:ClusterComputeResource","vmware:perf:clusterServices","2016-06-17 06:55:00.000000 PDT"
+"moid	instance	samp_int	p_average_clusterServices_effectivemem_megaBytes	p_average_clusterServices_effectivecpu_megaHertz
+domain-c7	aggregated	300	374755	87180","sv3-app-vctr60.sv.splunk.com","vmware-perf","VMPerf:ClusterComputeResource","vmware:perf:clusterServices","2016-06-17 06:50:00.000000 PDT"
